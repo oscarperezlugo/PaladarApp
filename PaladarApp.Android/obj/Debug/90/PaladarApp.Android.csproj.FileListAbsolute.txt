@@ -445,3 +445,4 @@ C:\Users\oscar\source\repos\PaladarApp\PaladarApp.Android\obj\Debug\90\android\s
 C:\Users\oscar\source\repos\PaladarApp\PaladarApp.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\ViewCellRenderer_ViewCellContainer_TapGestureListener.java
 C:\Users\oscar\source\repos\PaladarApp\PaladarApp.Android\obj\Debug\90\res\drawable\launcher.png
 C:\Users\oscar\source\repos\PaladarApp\PaladarApp.Android\obj\Debug\90\android\src\crc649079c9a61a0dcdd6\SplashActivity.java
+C:\Users\oscar\source\repos\PaladarApp\PaladarApp.Android\obj\Debug\90\res\drawable\splash_screen.xml

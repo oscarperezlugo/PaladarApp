@@ -1,6 +1,5 @@
 C:\Users\oscar\source\repos\PaladarApp\PaladarApp\bin\Debug\netstandard2.0\PaladarApp.deps.json
 C:\Users\oscar\source\repos\PaladarApp\PaladarApp\bin\Debug\netstandard2.0\PaladarApp.dll
-C:\Users\oscar\source\repos\PaladarApp\PaladarApp\obj\Debug\netstandard2.0\PaladarApp.csprojAssemblyReference.cache
 C:\Users\oscar\source\repos\PaladarApp\PaladarApp\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\oscar\source\repos\PaladarApp\PaladarApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\oscar\source\repos\PaladarApp\PaladarApp\obj\Debug\netstandard2.0\PaladarApp.AssemblyInfoInputs.cache
@@ -12,3 +11,4 @@ C:\Users\oscar\source\repos\PaladarApp\PaladarApp\obj\Debug\netstandard2.0\ref\P
 C:\Users\oscar\source\repos\PaladarApp\PaladarApp\obj\Debug\netstandard2.0\PaladarApp.pdb
 C:\Users\oscar\source\repos\PaladarApp\PaladarApp\obj\Debug\netstandard2.0\PaladarApp.csproj.CoreCompileInputs.cache
 C:\Users\oscar\source\repos\PaladarApp\PaladarApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\oscar\source\repos\PaladarApp\PaladarApp\obj\Debug\netstandard2.0\PaladarApp.csprojAssemblyReference.cache

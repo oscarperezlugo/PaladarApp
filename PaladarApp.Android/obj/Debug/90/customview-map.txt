@@ -22,7 +22,9 @@ attr;C:\Users\oscar\source\repos\PaladarApp\PaladarApp.Android\obj\Debug\90\lp\1
 attr;C:\Users\oscar\source\repos\PaladarApp\PaladarApp.Android\obj\Debug\90\lp\41\jl\res\values\attrs.xml
 background;obj\Debug\90\res\mipmap-anydpi-v26\icon.xml
 background;obj\Debug\90\res\mipmap-anydpi-v26\icon_round.xml
+bitmap;obj\Debug\90\res\drawable\splash_screen.xml
 cache-path;C:\Users\oscar\source\repos\PaladarApp\PaladarApp.Android\obj\Debug\90\lp\40\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+color;obj\Debug\90\res\drawable\splash_screen.xml
 color;obj\Debug\90\res\values\colors.xml
 corners;C:\Users\oscar\source\repos\PaladarApp\PaladarApp.Android\obj\Debug\90\lp\1\jl\res\drawable\roundedbg.xml
 corners;C:\Users\oscar\source\repos\PaladarApp\PaladarApp.Android\obj\Debug\90\lp\1\jl\res\drawable\roundedbgdark.xml
@@ -37,7 +39,9 @@ gradient;C:\Users\oscar\source\repos\PaladarApp\PaladarApp.Android\obj\Debug\90\
 gradient;C:\Users\oscar\source\repos\PaladarApp\PaladarApp.Android\obj\Debug\90\lp\1\jl\res\drawable\roundedbgdark.xml
 ImageView;C:\Users\oscar\source\repos\PaladarApp\PaladarApp.Android\obj\Debug\90\lp\1\jl\res\layout\loadingimage.xml
 item;C:\Users\oscar\source\repos\PaladarApp\PaladarApp.Android\obj\Debug\90\lp\41\jl\res\values\styles.xml
+item;obj\Debug\90\res\drawable\splash_screen.xml
 item;obj\Debug\90\res\values\styles.xml
+layer-list;obj\Debug\90\res\drawable\splash_screen.xml
 LinearLayout;C:\Users\oscar\source\repos\PaladarApp\PaladarApp.Android\obj\Debug\90\lp\41\jl\res\layout\bottomtablayout.xml
 paths;C:\Users\oscar\source\repos\PaladarApp\PaladarApp.Android\obj\Debug\90\lp\40\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 ProgressBar;C:\Users\oscar\source\repos\PaladarApp\PaladarApp.Android\obj\Debug\90\lp\1\jl\res\layout\loading.xml
