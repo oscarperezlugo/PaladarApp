@@ -50,6 +50,7 @@ namespace PaladarApp.Datos
     {
         public string Producto { get; set; }
         public Nullable<double> Cantidad { get; set; }
+        
         public Nullable<decimal> Precio { get; set; }
         public Nullable<System.Guid> iDVenta { get; set; }
         public int Row { get; set; }

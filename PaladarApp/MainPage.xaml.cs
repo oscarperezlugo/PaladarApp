@@ -19,7 +19,8 @@ namespace PaladarApp
     [DesignTimeVisible(false)]
     public partial class MainPage : CarouselPage
     {
-        int N;        
+        int N;
+        int M;
         double totalfinal;
         double totalfinal2;
         IUserDialogs Dialogs = UserDialogs.Instance;        
@@ -126,14 +127,13 @@ namespace PaladarApp
                         {
 
                             await SecureStorage.SetAsync("id", userlogin.iD.ToString());
-                            CurrentPage = ListaBolivares;
+                            
                         }
                         catch (Exception ex)
                         {
-                            Dialogs.ShowLoading("Error " + ex + "");
-                            await Task.Delay(2000);
-                            Dialogs.HideLoading();
+                            
                         }
+                        CurrentPage = ListaBolivares;
                     }
                     else
                     {
@@ -146,7 +146,7 @@ namespace PaladarApp
 
                 catch (Exception ex)
                 {
-                    await DisplayAlert("Login Error", ex.Message, "Intente de nuevo mas tarde");
+                    
 
                 }
             }
@@ -238,8 +238,8 @@ namespace PaladarApp
             double totalsum2 = double.Parse(preciod.ToString());
             totalfinal = totalfinal + totalsum;
             totalfinal2 = totalfinal2 + totalsum2;
-            string montoind = totalfinal.ToString();
-            string montoind2 = totalfinal2.ToString();
+            string montoind = totalfinal.ToString("0.00");
+            string montoind2 = totalfinal2.ToString("0.00");
             totalcuatro.Text = "" + montoind + "";
             totalcinco.Text = montoind2.ToString();
             N = N + 1;                                
@@ -265,15 +265,32 @@ namespace PaladarApp
             catch
             {
             }
-            var linea = new Lineas()
-            {
+            var linea = new Lineas()            
+            {                
                 Dolares = preciod,
                 Row = lineaid,
                 Cantidad = 1,
                 Producto = id,
                 Precio = precio
             };
-            Lineas.Add(linea);
+            var item = Lineas.FirstOrDefault(i => i.Producto == linea.Producto);
+            if (item != null)
+            {
+                item.Cantidad  = item.Cantidad + linea.Cantidad;
+                item.Precio = item.Precio + linea.Precio;
+                item.Dolares = linea.Dolares + item.Dolares;
+                linea.Dolares = item.Dolares;
+                linea.Cantidad = item.Cantidad;
+                linea.Precio = item.Precio;
+                linea.Producto = item.Producto;
+                linea.Row = linea.Row;
+                Lineas.Add(linea);
+                Lineas.Remove(item);
+            }
+            else
+            {
+                Lineas.Add(linea);
+            }                         
             FacturaFinal.ItemsSource = Lineas;
             Dialogs.ShowLoading("Producto Agregado");
             await Task.Delay(1000);

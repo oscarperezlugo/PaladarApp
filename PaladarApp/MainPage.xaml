@@ -212,9 +212,9 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
                 <Image Source="Paladar.png" Grid.Column="0" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Center"/>
-                <Entry x:Name="correos" Placeholder="CORREO" Grid.Column="0" Grid.Row="1" VerticalOptions="Center" HorizontalOptions="Fill" Margin="2,2,2,2" PlaceholderColor="Gray" />
+                <Entry x:Name="correos" Placeholder="CORREO" Grid.Column="0" Grid.Row="1" VerticalOptions="Center" HorizontalOptions="Fill" Margin="2,2,2,2" PlaceholderColor="Gray" Keyboard="Email"/>
                 <Entry x:Name="contrasenas" Placeholder="CONTRASEÑA" Grid.Column="0" Grid.Row="2" VerticalOptions="Center" HorizontalOptions="Fill" Margin="2,2,2,2" PlaceholderColor="Gray" IsPassword="True"/>
-                <Button Text="INICIAR SESIÓN" Grid.Row="3" Grid.Column="0" TextColor="White" HorizontalOptions="Fill" FontAttributes="Bold" FontSize="Small" VerticalOptions="Center"  BackgroundColor="Black" Margin="2,2,2,2" CornerRadius="5" Clicked="Login_Clicked"/>
+                <Button Text="INICIAR SESIÓN" Grid.Row="3" Grid.Column="0" TextColor="White" HorizontalOptions="Fill" FontAttributes="Bold" FontSize="Small" VerticalOptions="Center"  BackgroundColor="Black" Margin="2,2,2,2" CornerRadius="5" Clicked="Login_Clicked" />
                 <Button Text="¿No tienes cuenta?¿Registrate Aquí?" Grid.Row="4" Grid.Column="0" TextColor="Blue" HorizontalOptions="Fill" FontAttributes="Bold" FontSize="Micro" VerticalOptions="Center"  BackgroundColor="White" Margin="2,2,2,2" CornerRadius="5" Clicked="RegistroClicked"/>
             </Grid>
         </StackLayout>
