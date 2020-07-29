@@ -2141,39 +2141,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\oscar\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/Users/oscarperez/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\oscar\\source\\repos\\PaladarApp\\PaladarApp.Android\\PaladarApp.Android.csproj",
+      "projectUniqueName": "/Users/oscarperez/Projects/PaladarApp/PaladarApp.Android/PaladarApp.Android.csproj",
       "projectName": "PaladarApp.Android",
-      "projectPath": "C:\\Users\\oscar\\source\\repos\\PaladarApp\\PaladarApp.Android\\PaladarApp.Android.csproj",
-      "packagesPath": "C:\\Users\\oscar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\oscar\\source\\repos\\PaladarApp\\PaladarApp.Android\\obj\\",
+      "projectPath": "/Users/oscarperez/Projects/PaladarApp/PaladarApp.Android/PaladarApp.Android.csproj",
+      "packagesPath": "/Users/oscarperez/.nuget/packages/",
+      "outputPath": "/Users/oscarperez/Projects/PaladarApp/PaladarApp.Android/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\oscar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/oscarperez/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "monoandroid90"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\oscar\\source\\repos\\PaladarApp\\PaladarApp\\PaladarApp.csproj": {
-              "projectPath": "C:\\Users\\oscar\\source\\repos\\PaladarApp\\PaladarApp\\PaladarApp.csproj"
+            "/Users/oscarperez/Projects/PaladarApp/PaladarApp/PaladarApp.csproj": {
+              "projectPath": "/Users/oscarperez/Projects/PaladarApp/PaladarApp/PaladarApp.csproj"
             }
           }
         }
