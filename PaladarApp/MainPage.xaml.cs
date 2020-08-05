@@ -48,7 +48,35 @@ namespace PaladarApp
             ListaProductos2.ItemsSource = listaproducto;
             ListaCategorias.ItemsSource = listacategoria;
             fechafactura.Text = DateTime.Now.ToString();
+            
 
+        }
+        protected async override void OnAppearing() 
+        {
+            
+            try 
+            { 
+                var verif = await SecureStorage.GetAsync("id");
+                if (verif != null)
+                {
+                    await SecureStorage.GetAsync("id");
+                    var idcliente = await SecureStorage.GetAsync("idcliente");
+                    IDCLIENTE = Guid.Parse(idcliente);
+                    DIRECCIONLOG = await SecureStorage.GetAsync("direccionlog");
+                    NOMBRE = await SecureStorage.GetAsync("nombre");
+                    string usuariodef = await SecureStorage.GetAsync("usuario");
+                    FECHA = DateTime.Now;
+                    usuario.Text = usuariodef;
+                    usuario2.Text = usuariodef;
+                    usuario3.Text = usuariodef;
+                    clientefactura.Text = usuariodef;
+                }
+            }
+            catch { };
+            
+            
+                
+            
         }
         private void DolarClicked(object sender, EventArgs e)
         {
@@ -127,7 +155,12 @@ namespace PaladarApp
                         {
 
                             await SecureStorage.SetAsync("id", userlogin.iD.ToString());
-                            
+                            await SecureStorage.SetAsync("idcliente", userlogin.guid.ToString());
+                            await SecureStorage.SetAsync("direccionlog", userlogin.direccion.ToString());
+                            await SecureStorage.SetAsync("nombre", userlogin.nombre.ToString());
+                            await SecureStorage.SetAsync("usuario", ""+userlogin.nombre+" "+userlogin.apellido+"");
+
+
                         }
                         catch (Exception ex)
                         {
@@ -227,13 +260,18 @@ namespace PaladarApp
                 return _linea ?? (_linea = new ObservableCollection<Lineas>());
             }
         }
-        private async void ItemClicked(object s, SelectedItemChangedEventArgs e)
+        private async void ItemClicked(object sender, SelectedItemChangedEventArgs e)
         {
-            
+
+            string cantfin;
+            int cant;
             var obj = (Producto)e.SelectedItem;
+            cantfin = obj.SelectItem;
+            if (cantfin == null) { cant = 1; }
+            else { cant = Int16.Parse(cantfin);  }            
             string id = obj.Producto1.ToString();
-            decimal? precio = obj.Precio;
-            decimal? preciod = obj.PrecioD;            
+            decimal? precio = obj.Precio * cant;
+            decimal? preciod = obj.PrecioD * cant;            
             double totalsum = double.Parse(precio.ToString());
             double totalsum2 = double.Parse(preciod.ToString());
             totalfinal = totalfinal + totalsum;
@@ -242,7 +280,7 @@ namespace PaladarApp
             string montoind2 = totalfinal2.ToString("0.00");
             totalcuatro.Text = "" + montoind + "";
             totalcinco.Text = montoind2.ToString();
-            N = N + 1;                                
+            N = N + 1;                        
             Repositorio repositorio = new Repositorio();
             if (N == 1)
             {
@@ -253,7 +291,7 @@ namespace PaladarApp
             Lineas lineas = new Lineas();            
             lineas.Producto = id;
             lineas.Precio = Decimal.Parse(totalsum.ToString());
-            lineas.Cantidad = 1;
+            lineas.Cantidad = cant;
             lineas.iDVenta = VENTA;
             try
             {
@@ -269,7 +307,7 @@ namespace PaladarApp
             {                
                 Dolares = preciod,
                 Row = lineaid,
-                Cantidad = 1,
+                Cantidad = cant,
                 Producto = id,
                 Precio = precio
             };
@@ -285,12 +323,15 @@ namespace PaladarApp
                 linea.Producto = item.Producto;
                 linea.Row = linea.Row;
                 Lineas.Add(linea);
-                Lineas.Remove(item);
+                Lineas.Remove(item);                
             }
             else
             {
+                M = M + 1;
                 Lineas.Add(linea);
-            }                         
+            }
+            indicador.Text = " " + M + " ";
+            indicador2.Text = " " + M + " ";
             FacturaFinal.ItemsSource = Lineas;
             Dialogs.ShowLoading("Producto Agregado");
             await Task.Delay(1000);
@@ -302,7 +343,7 @@ namespace PaladarApp
             string metodo = await DisplayActionSheet("SELECCIONES METODO DE PAGO", "Cancelar", null, "PAGO MOVIL", "ZELLE", "PAYPAL", "EN LOCAL");
             if (metodo == "ZELLE") 
             {
-                string resultado = await DisplayPromptAsync("INSERTE EL CORREO AFILIADO", "CORREO");
+                string resultado = await DisplayPromptAsync("INSERTE EL NOMBRE AFILIADO", "CORREO");
                 RESULTADO = resultado;
                 if (resultado != null)
                 {
@@ -313,7 +354,7 @@ namespace PaladarApp
                     TIPOVENTA = tipoventa;
                     if (tipoventa == "DELIVERY" )
                     {
-                        bool answer = await DisplayAlert("¿Esta es la direccion de entraga?", "" + DIRECCIONLOG + "", "SI", "NO");
+                        bool answer = await DisplayAlert("¿Esta es la direccion de entrega?", "" + DIRECCIONLOG + "", "SI", "NO");
                         if (answer == true) 
                         {
                             DIRECCION = DIRECCIONLOG;
@@ -344,7 +385,7 @@ namespace PaladarApp
                     TIPOVENTA = tipoventa;
                     if (tipoventa == "DELIVERY")
                     {
-                        bool answer = await DisplayAlert("¿Esta es la direccion de entraga?", "" + DIRECCIONLOG + "", "SI", "NO");
+                        bool answer = await DisplayAlert("¿Esta es la direccion de entrega?", "" + DIRECCIONLOG + "", "SI", "NO");
                         if (answer == true)
                         {
                             DIRECCION = DIRECCIONLOG;
@@ -374,7 +415,7 @@ namespace PaladarApp
                     TIPOVENTA = tipoventa;
                     if (tipoventa == "DELIVERY")
                     {
-                        bool answer = await DisplayAlert("¿Esta es la direccion de entraga?", "" + DIRECCIONLOG + "", "SI", "NO");
+                        bool answer = await DisplayAlert("¿Esta es la direccion de entrega?", "" + DIRECCIONLOG + "", "SI", "NO");
                         if (answer == true)
                         {
                             DIRECCION = DIRECCIONLOG;

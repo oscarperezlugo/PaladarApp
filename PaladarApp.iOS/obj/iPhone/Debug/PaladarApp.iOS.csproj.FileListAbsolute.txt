@@ -55,26 +55,6 @@ C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\bin\iPhone\Debug\Xamarin.F
 C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
 C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
 C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
-C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\Contents.json.ResolveUTIs.stamp
-C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\bodegon paladar-01.png.ResolveUTIs.stamp
-C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\bodegon paladar-011.png.ResolveUTIs.stamp
-C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\bodegon paladar-012.png.ResolveUTIs.stamp
-C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\Launcher.png.ResolveUTIs.stamp
-C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\Launcher1.png.ResolveUTIs.stamp
-C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\Launcher2.png.ResolveUTIs.stamp
-C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\Icon1024.png.ResolveUTIs.stamp
-C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\Icon180.png.ResolveUTIs.stamp
-C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\Icon167.png.ResolveUTIs.stamp
-C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\Icon152.png.ResolveUTIs.stamp
-C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\Icon120.png.ResolveUTIs.stamp
-C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\Icon87.png.ResolveUTIs.stamp
-C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\Icon80.png.ResolveUTIs.stamp
-C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\Icon76.png.ResolveUTIs.stamp
-C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\Icon60.png.ResolveUTIs.stamp
-C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\Icon58.png.ResolveUTIs.stamp
-C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\Icon40.png.ResolveUTIs.stamp
-C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\Icon29.png.ResolveUTIs.stamp
-C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\Icon20.png.ResolveUTIs.stamp
 C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
 C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
 C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\optimized\
@@ -84,26 +64,3 @@ C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\XamlC.sta
 C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\PaladarApp.iOS.csproj.CopyComplete
 C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\PaladarApp.iOS.exe
 C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\PaladarApp.iOS.pdb
-C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\CopyFilesToMac\Acr.UserDialogs.dll.ReferenceCopyLocalPaths.stamp
-C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\CopyFilesToMac\Acr.UserDialogs.pdb.ReferenceCopyLocalPaths.stamp
-C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\CopyFilesToMac\BTProgressHUD.dll.ReferenceCopyLocalPaths.stamp
-C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\CopyFilesToMac\BTProgressHUD.pdb.ReferenceCopyLocalPaths.stamp
-C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\CopyFilesToMac\Newtonsoft.Json.dll.ReferenceCopyLocalPaths.stamp
-C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\CopyFilesToMac\System.Net.Http.dll.ReferenceCopyLocalPaths.stamp
-C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\CopyFilesToMac\Xamarin.Essentials.dll.ReferenceCopyLocalPaths.stamp
-C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\CopyFilesToMac\Xamarin.Essentials.pdb.ReferenceCopyLocalPaths.stamp
-C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\CopyFilesToMac\Xamarin.Forms.Core.dll.ReferenceCopyLocalPaths.stamp
-C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\CopyFilesToMac\Xamarin.Forms.Core.pdb.ReferenceCopyLocalPaths.stamp
-C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\CopyFilesToMac\Xamarin.Forms.Platform.dll.ReferenceCopyLocalPaths.stamp
-C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\CopyFilesToMac\Xamarin.Forms.Xaml.dll.ReferenceCopyLocalPaths.stamp
-C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\CopyFilesToMac\Xamarin.Forms.Xaml.pdb.ReferenceCopyLocalPaths.stamp
-C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\CopyFilesToMac\Xamarin.Forms.Platform.iOS.resources.dll.ReferenceCopyLocalPaths.stamp
-C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\CopyFilesToMac\Xamarin.Forms.OpenWhatsApp.dll.ReferenceCopyLocalPaths.stamp
-C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\CopyFilesToMac\PaladarApp.dll.ReferenceCopyLocalPaths.stamp
-C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\CopyFilesToMac\Xamarin.Forms.Platform.iOS.dll.ReferenceCopyLocalPaths.stamp
-C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\CopyFilesToMac\PaladarApp.pdb.ReferenceCopyLocalPaths.stamp
-C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\CopyFilesToMac\Xamarin.Forms.Platform.iOS.pdb.ReferenceCopyLocalPaths.stamp
-C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\CopyFilesToMac\PaladarApp.iOS.exe.mdb.ReferenceCopyLocalPaths.stamp
-C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\CopyFilesToMac\PaladarApp.iOS.pdb.DebugSymbolsProjectOutputGroupOutput.stamp
-C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\CopyFilesToMac\Entitlements.plist.NoneOutput.stamp
-C:\Users\oscar\source\repos\PaladarApp\PaladarApp.iOS\obj\iPhone\Debug\CopyFilesToMac\Info.plist.NoneOutput.stamp

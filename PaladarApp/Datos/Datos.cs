@@ -55,6 +55,8 @@ namespace PaladarApp.Datos
         public Nullable<System.Guid> iDVenta { get; set; }
         public int Row { get; set; }
         public decimal? Dolares { get; set; }
+        
+
     }
     public partial class Producto
     {
@@ -68,6 +70,7 @@ namespace PaladarApp.Datos
         public int Cantidad { get; set; }
         public string Impuesto { get; set; }
         public string Descuento { get; set; }
+        public string SelectItem { get; set; }
     }
     public partial class Categorias
     {

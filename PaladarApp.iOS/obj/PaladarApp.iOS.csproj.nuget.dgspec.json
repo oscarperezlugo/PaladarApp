@@ -1,33 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "/Users/oscarperez/Projects/PaladarApp/PaladarApp.iOS/PaladarApp.iOS.csproj": {}
+    "C:\\Users\\oscar\\source\\repos\\PaladarApp\\PaladarApp.iOS\\PaladarApp.iOS.csproj": {}
   },
   "projects": {
-    "/Users/oscarperez/Projects/PaladarApp/PaladarApp.iOS/PaladarApp.iOS.csproj": {
+    "C:\\Users\\oscar\\source\\repos\\PaladarApp\\PaladarApp.iOS\\PaladarApp.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/oscarperez/Projects/PaladarApp/PaladarApp.iOS/PaladarApp.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\oscar\\source\\repos\\PaladarApp\\PaladarApp.iOS\\PaladarApp.iOS.csproj",
         "projectName": "PaladarApp.iOS",
-        "projectPath": "/Users/oscarperez/Projects/PaladarApp/PaladarApp.iOS/PaladarApp.iOS.csproj",
-        "packagesPath": "/Users/oscarperez/.nuget/packages/",
-        "outputPath": "/Users/oscarperez/Projects/PaladarApp/PaladarApp.iOS/obj/",
+        "projectPath": "C:\\Users\\oscar\\source\\repos\\PaladarApp\\PaladarApp.iOS\\PaladarApp.iOS.csproj",
+        "packagesPath": "C:\\Users\\oscar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\oscar\\source\\repos\\PaladarApp\\PaladarApp.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/oscarperez/.config/NuGet/NuGet.Config"
+          "C:\\Users\\oscar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "xamarinios10"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "/Users/oscarperez/Projects/PaladarApp/PaladarApp/PaladarApp.csproj": {
-                "projectPath": "/Users/oscarperez/Projects/PaladarApp/PaladarApp/PaladarApp.csproj"
+              "C:\\Users\\oscar\\source\\repos\\PaladarApp\\PaladarApp\\PaladarApp.csproj": {
+                "projectPath": "C:\\Users\\oscar\\source\\repos\\PaladarApp\\PaladarApp\\PaladarApp.csproj"
               }
             }
           }
@@ -63,22 +69,28 @@
         }
       }
     },
-    "/Users/oscarperez/Projects/PaladarApp/PaladarApp/PaladarApp.csproj": {
+    "C:\\Users\\oscar\\source\\repos\\PaladarApp\\PaladarApp\\PaladarApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/oscarperez/Projects/PaladarApp/PaladarApp/PaladarApp.csproj",
+        "projectUniqueName": "C:\\Users\\oscar\\source\\repos\\PaladarApp\\PaladarApp\\PaladarApp.csproj",
         "projectName": "PaladarApp",
-        "projectPath": "/Users/oscarperez/Projects/PaladarApp/PaladarApp/PaladarApp.csproj",
-        "packagesPath": "/Users/oscarperez/.nuget/packages/",
-        "outputPath": "/Users/oscarperez/Projects/PaladarApp/PaladarApp/obj/",
+        "projectPath": "C:\\Users\\oscar\\source\\repos\\PaladarApp\\PaladarApp\\PaladarApp.csproj",
+        "packagesPath": "C:\\Users\\oscar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\oscar\\source\\repos\\PaladarApp\\PaladarApp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/oscarperez/.config/NuGet/NuGet.Config"
+          "C:\\Users\\oscar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -136,7 +148,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
