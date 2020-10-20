@@ -26,8 +26,8 @@
                 <Image Source="Paladar.png" Grid.Column="0" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Start"/>
                 <Button Text="&#xf07a;" Grid.Row="0" Grid.Column="2" TextColor="Black" HorizontalOptions="End" VerticalOptions="Center" FontFamily="{StaticResource FontAwesomeSolid}" BackgroundColor="Transparent" Clicked="CarritoClicked"/>
                 <Label x:Name="indicador2" Grid.Row="0" Grid.Column="2" TextColor="White" FontAttributes="Bold" FontSize="Micro" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Red" TranslationX="10"/>
-                <Button x:Name="usuario2" Grid.Row="0" Grid.Column="1" FontSize="Small" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Transparent"/>
-                <SearchBar x:Name="SearchBar2" Placeholder="Hoy estoy buscando..."  PlaceholderColor="Gray" BackgroundColor="White" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="1" />
+                <Button x:Name="usuario2" Grid.Row="0" Grid.Column="1" FontSize="Small" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Transparent" FontAttributes="Bold"/>
+                <SearchBar x:Name="SearchBar2" Placeholder="Hoy estoy buscando..."  PlaceholderColor="Gray" BackgroundColor="White" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="1" TextChanged="Handle_SearchButtonPressedDos"/>
             </Grid>
             <ScrollView>
                 <Grid>
@@ -46,27 +46,12 @@
                                             <RowDefinition Height="30"/>
                                             <RowDefinition Height="30"/>
                                             <RowDefinition Height="30"/>
-                                            <RowDefinition Height="50"/>
                                         </Grid.RowDefinitions>
                                         <Grid.ColumnDefinitions>
                                             <ColumnDefinition Width="2*"/>
                                             <ColumnDefinition Width="2*"/>
                                             <ColumnDefinition Width="2*"/>
                                         </Grid.ColumnDefinitions>
-                                        <Label Text="&#xf151;" TranslationX="20" FontSize="Small" VerticalOptions="Center" FontFamily="{StaticResource FontAwesomeSolid}" HorizontalOptions="Start" Grid.Row="3" Grid.Column="1"  TextColor="Green"/>
-                                        <Picker x:Name="cantidadcliente" Title="1" Grid.Row="3" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center" TextColor="Black" FontSize="Medium" SelectedItem="{Binding SelectItem ,Mode=OneWayToSource}">
-                                            <Picker.Items>
-                                                <x:String>1</x:String>
-                                                <x:String>2</x:String>
-                                                <x:String>3</x:String>
-                                                <x:String>4</x:String>
-                                                <x:String>5</x:String>
-                                                <x:String>6</x:String>
-                                                <x:String>7</x:String>
-                                                <x:String>8</x:String>
-                                                <x:String>9</x:String>
-                                            </Picker.Items>
-                                        </Picker>
                                         <Label Text="{Binding Producto1}"  Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" HorizontalOptions="Center" VerticalOptions="Center"   TextColor="DarkGray" FontSize="Large" FontAttributes="Bold"  />
                                         <Label Text="{Binding Categoria}"  Grid.Row="1" Grid.Column="1"  HorizontalOptions="Center" VerticalOptions="Center"   TextColor="Blue" FontSize="Small" FontAttributes="Italic"  />
                                         <Label Text="{Binding Cantidad}"  Grid.Row="1" Grid.Column="2"  HorizontalOptions="Center" VerticalOptions="End"   TextColor="Gray" FontSize="Micro" FontAttributes="Bold"  />
@@ -74,8 +59,7 @@
                                         <Label Text="{Binding PrecioD, StringFormat='{0:F2}'}"  Grid.Row="2" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center"   TextColor="Red" FontSize="Medium" FontAttributes="Bold" />
                                         <Label Text="$"  Grid.Row="2" Grid.Column="1" HorizontalOptions="Start" VerticalOptions="Center"   TextColor="Red" FontSize="Medium" FontAttributes="Bold" />
                                         <Label Text="{Binding Impuesto}"  Grid.Row="2" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center"   TextColor="Gray" FontSize="Small" FontAttributes="Bold" />
-                                        <Image Source="{Binding Foto, Converter={StaticResource Base64ToImageConverter}}"  Aspect="AspectFill" Grid.Row="0" Grid.Column="0" Grid.RowSpan="4" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand" />
-                                        <Label Text=" AGREGAR " Grid.Row="3" Grid.Column="2" BackgroundColor="Green" TextColor="White" FontSize="Small" FontAttributes="Bold"  VerticalOptions="Center" HorizontalOptions="Center" />
+                                        <Image Source="{Binding Foto, Converter={StaticResource Base64ToImageConverter}}"  Aspect="AspectFill" Grid.Row="0" Grid.Column="0" Grid.RowSpan="3" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand" />
                                     </Grid>
                                 </ViewCell>
                             </DataTemplate>
@@ -131,7 +115,7 @@
                 <Button Text="&#xf07a;" Grid.Row="0" Grid.Column="2" TextColor="Black" HorizontalOptions="End" VerticalOptions="Center" FontFamily="{StaticResource FontAwesomeSolid}" BackgroundColor="Transparent" Clicked="CarritoClicked"/>
                 <Label x:Name="indicador" Grid.Row="0" Grid.Column="2" TextColor="White" FontAttributes="Bold" FontSize="Micro" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Red" TranslationX="10"/>
                 <Button x:Name="usuario" Grid.Row="0" Grid.Column="1" FontSize="Small" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Transparent"/>
-                <SearchBar x:Name="SearchBar" Placeholder="Hoy estoy buscando..."  PlaceholderColor="Gray" BackgroundColor="White" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="1" />
+                <SearchBar x:Name="SearchBar" Placeholder="Hoy estoy buscando..."  PlaceholderColor="Gray" BackgroundColor="White" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="1" TextChanged="Handle_SearchButtonPressed"/>
             </Grid>
             <ScrollView>
                 <Grid>
@@ -150,36 +134,20 @@
                                             <RowDefinition Height="30"/>
                                             <RowDefinition Height="30"/>
                                             <RowDefinition Height="30"/>
-                                            <RowDefinition Height="50"/>
                                         </Grid.RowDefinitions>
                                         <Grid.ColumnDefinitions>
                                             <ColumnDefinition Width="2*"/>
                                             <ColumnDefinition Width="2*"/>
                                             <ColumnDefinition Width="2*"/>
                                         </Grid.ColumnDefinitions>
-                                        <Label Text="&#xf151;" TranslationX="20" FontSize="Small" VerticalOptions="Center" FontFamily="{StaticResource FontAwesomeSolid}" HorizontalOptions="Start" Grid.Row="3" Grid.Column="1"  TextColor="Green"/>
-                                        <Picker x:Name="cantidadcliente" Title="1" Grid.Row="3" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center" TextColor="Black" FontSize="Medium" SelectedItem="{Binding SelectItem ,Mode=OneWayToSource}">
-                                            <Picker.Items>
-                                                <x:String>1</x:String>
-                                                <x:String>2</x:String>
-                                                <x:String>3</x:String>
-                                                <x:String>4</x:String>
-                                                <x:String>5</x:String>
-                                                <x:String>6</x:String>
-                                                <x:String>7</x:String>
-                                                <x:String>8</x:String>
-                                                <x:String>9</x:String>
-                                            </Picker.Items>
-                                        </Picker>
                                         <Label Text="{Binding Producto1}"  Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" HorizontalOptions="Center" VerticalOptions="Center"   TextColor="DarkGray" FontSize="Large" FontAttributes="Bold"  />
                                         <Label Text="{Binding Categoria}"  Grid.Row="1" Grid.Column="1"  HorizontalOptions="Center" VerticalOptions="Center"   TextColor="Blue" FontSize="Small" FontAttributes="Italic"  />
                                         <Label Text="{Binding Cantidad}"  Grid.Row="1" Grid.Column="2"  HorizontalOptions="Center" VerticalOptions="End"   TextColor="Gray" FontSize="Micro" FontAttributes="Bold"  />
                                         <Label Text= "Cantidad Disponible"  Grid.Row="1" Grid.Column="2"  HorizontalOptions="Center" VerticalOptions="Start"   TextColor="Gray" FontSize="Micro"   />
-                                        <Label Text="{Binding Precio, StringFormat='{0:F2}'}"  Grid.Row="2" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center"   TextColor="Red" FontSize="Medium" FontAttributes="Bold" />
+                                        <Label Text="{Binding Precio, StringFormat='{0:F2}'}"  Grid.Row="2" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center"   TextColor="Red" FontSize="Micro" FontAttributes="Bold" />
                                         <Label Text="Bs"  Grid.Row="2" Grid.Column="1" HorizontalOptions="Start" VerticalOptions="Center"   TextColor="Red" FontSize="Medium" FontAttributes="Bold" />
                                         <Label Text="{Binding Impuesto}"  Grid.Row="2" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center"   TextColor="Gray" FontSize="Small" FontAttributes="Bold" />
-                                        <Image Source="{Binding Foto, Converter={StaticResource Base64ToImageConverter}}"  Aspect="AspectFill" Grid.Row="0" Grid.Column="0" Grid.RowSpan="4" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand" />
-                                        <Label Text=" AGREGAR " Grid.Row="3" Grid.Column="2" BackgroundColor="Green" TextColor="White" FontSize="Small" FontAttributes="Bold"  VerticalOptions="Center" HorizontalOptions="Center" />
+                                        <Image Source="{Binding Foto, Converter={StaticResource Base64ToImageConverter}}"  Aspect="AspectFill" Grid.Row="0" Grid.Column="0" Grid.RowSpan="3" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand" />
                                     </Grid>
                                 </ViewCell>
                             </DataTemplate>
@@ -246,7 +214,7 @@
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
-                    <ListView Grid.Row="0" x:Name="FacturaFinal" SeparatorColor="White" IsPullToRefreshEnabled="true" ItemSelected="FacturaFinal_ItemSelected" >
+                    <ListView Grid.Row="0" x:Name="FacturaFinal" SeparatorColor="White" ItemSelected="FacturaFinal_ItemSelected" >
                         <ListView.Header>
                             <StackLayout >
                                 <Grid>
@@ -254,25 +222,24 @@
                                         <RowDefinition Height="30"/>
                                     </Grid.RowDefinitions>
                                     <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="40"/>
                                         <ColumnDefinition Width="*"/>
                                         <ColumnDefinition Width="*"/>
                                         <ColumnDefinition Width="*"/>
                                     </Grid.ColumnDefinitions>
-                                    <Label Text="CANTIDAD" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="0"/>
-                                    <Label Text="PRODUCTO" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="1"/>
-                                    <Label Text="PRECIO" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="2"/>
+                                    <Label Text="CANTIDAD" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="1"/>
+                                    <Label Text="PRODUCTO" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="2"/>
+                                    <Label Text="PRECIO" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="3"/>
                                 </Grid>
                             </StackLayout>
                         </ListView.Header>
                         <ListView.ItemTemplate>
                             <DataTemplate>
                                 <ViewCell>
-                                    <ViewCell.ContextActions>
-                                        <MenuItem Clicked="DeleteClicked" Text="Retirar" IsDestructive="True"  />
-                                    </ViewCell.ContextActions>
                                     <StackLayout Margin="1">
                                         <Grid>
                                             <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="40"/>
                                                 <ColumnDefinition Width="*"/>
                                                 <ColumnDefinition Width="*"/>
                                                 <ColumnDefinition Width="*"/>
@@ -280,9 +247,10 @@
                                             <Grid.RowDefinitions>
                                                 <RowDefinition Height="*"/>
                                             </Grid.RowDefinitions>
-                                            <Label Text="{Binding Cantidad}" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center"/>
-                                            <Label Text="{Binding Producto}" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center"/>
-                                            <Label Text="{Binding Precio, StringFormat='{0:F2}'}" Grid.Column="2" VerticalOptions="Center" HorizontalOptions="End"/>
+                                            <Label Text="&#xf056;" FontFamily="{StaticResource FontAwesomeSolid}"  TextColor="Red"/>
+                                            <Label Text="{Binding Cantidad}" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center"/>
+                                            <Label Text="{Binding Producto}" Grid.Column="2" VerticalOptions="Center" HorizontalOptions="Center"/>
+                                            <Label Text="{Binding Dolares, StringFormat='{0:F2}'}" Grid.Column="3" VerticalOptions="Center" HorizontalOptions="End"/>
                                         </Grid>
                                     </StackLayout>
                                 </ViewCell>
@@ -411,10 +379,10 @@
             <Grid BackgroundColor="White">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="300"/>
-                    <RowDefinition Height="60"/>
-                    <RowDefinition Height="60"/>
-                    <RowDefinition Height="60"/>
-                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="55"/>
+                    <RowDefinition Height="55"/>
+                    <RowDefinition Height="55"/>
+                    <RowDefinition Height="55"/>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
@@ -434,6 +402,7 @@
             </ResourceDictionary>
         </ContentPage.Resources>
         <StackLayout>
+            
             <Grid BackgroundColor="WhiteSmoke" >
                 <Grid.RowDefinitions>
                     <RowDefinition Height="60"/>
@@ -450,14 +419,14 @@
             <Grid BackgroundColor="White" Margin="2,0,2,0">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="130"/>
-                    <RowDefinition Height="50"/>
-                    <RowDefinition Height="50"/>
-                    <RowDefinition Height="50"/>
-                    <RowDefinition Height="50"/>
-                    <RowDefinition Height="50"/>
-                    <RowDefinition Height="50"/>
-                    <RowDefinition Height="50"/>
-                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="45"/>
+                    <RowDefinition Height="45"/>
+                    <RowDefinition Height="45"/>
+                    <RowDefinition Height="45"/>
+                    <RowDefinition Height="45"/>
+                    <RowDefinition Height="45"/>
+                    <RowDefinition Height="45"/>
+                    <RowDefinition Height="45 "/>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
@@ -490,6 +459,7 @@
                 <Entry x:Name="ConContra" Placeholder=" CONFIRMAR CONTRASEÑA" Grid.Column="0" Grid.Row="7" VerticalOptions="Center" HorizontalOptions="Fill" Margin="2,2,2,2" PlaceholderColor="Gray" IsPassword="True" Grid.ColumnSpan="2"/>
                 <Button Text="REGISTRARME" Grid.Row="8" Grid.Column="0" TextColor="White" HorizontalOptions="Fill" FontAttributes="Bold" FontSize="Small" VerticalOptions="Center"  BackgroundColor="Black" Margin="2,2,2,2" CornerRadius="5" Clicked="Registro_Clicked" Grid.ColumnSpan="2"/>
             </Grid>
+           
         </StackLayout>
     </ContentPage>
 </CarouselPage>

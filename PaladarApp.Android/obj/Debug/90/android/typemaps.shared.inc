@@ -5096,8 +5096,8 @@
 	.section	.rodata.java_type_name.849,"aMS",@progbits,1
 	.type	.L.java_type_name.849, @object
 .L.java_type_name.849:
-	.asciz	"java/io/OutputStream"
-	.size	.L.java_type_name.849, 21
+	.asciz	"java/io/InterruptedIOException"
+	.size	.L.java_type_name.849, 31
 
 	.section	.rodata.java_type_name.850,"aMS",@progbits,1
 	.type	.L.java_type_name.850, @object
@@ -5108,14 +5108,14 @@
 	.section	.rodata.java_type_name.851,"aMS",@progbits,1
 	.type	.L.java_type_name.851, @object
 .L.java_type_name.851:
-	.asciz	"java/io/PrintWriter"
-	.size	.L.java_type_name.851, 20
+	.asciz	"java/io/OutputStream"
+	.size	.L.java_type_name.851, 21
 
 	.section	.rodata.java_type_name.852,"aMS",@progbits,1
 	.type	.L.java_type_name.852, @object
 .L.java_type_name.852:
-	.asciz	"java/io/Reader"
-	.size	.L.java_type_name.852, 15
+	.asciz	"java/io/PrintWriter"
+	.size	.L.java_type_name.852, 20
 
 	.section	.rodata.java_type_name.853,"aMS",@progbits,1
 	.type	.L.java_type_name.853, @object
@@ -5126,20 +5126,20 @@
 	.section	.rodata.java_type_name.854,"aMS",@progbits,1
 	.type	.L.java_type_name.854, @object
 .L.java_type_name.854:
-	.asciz	"java/io/Serializable"
-	.size	.L.java_type_name.854, 21
+	.asciz	"java/io/Reader"
+	.size	.L.java_type_name.854, 15
 
 	.section	.rodata.java_type_name.855,"aMS",@progbits,1
 	.type	.L.java_type_name.855, @object
 .L.java_type_name.855:
-	.asciz	"java/io/StringWriter"
+	.asciz	"java/io/Serializable"
 	.size	.L.java_type_name.855, 21
 
 	.section	.rodata.java_type_name.856,"aMS",@progbits,1
 	.type	.L.java_type_name.856, @object
 .L.java_type_name.856:
-	.asciz	"java/io/Writer"
-	.size	.L.java_type_name.856, 15
+	.asciz	"java/io/StringWriter"
+	.size	.L.java_type_name.856, 21
 
 	.section	.rodata.java_type_name.857,"aMS",@progbits,1
 	.type	.L.java_type_name.857, @object
@@ -5150,62 +5150,62 @@
 	.section	.rodata.java_type_name.858,"aMS",@progbits,1
 	.type	.L.java_type_name.858, @object
 .L.java_type_name.858:
-	.asciz	"java/lang/AbstractMethodError"
-	.size	.L.java_type_name.858, 30
+	.asciz	"java/io/Writer"
+	.size	.L.java_type_name.858, 15
 
 	.section	.rodata.java_type_name.859,"aMS",@progbits,1
 	.type	.L.java_type_name.859, @object
 .L.java_type_name.859:
-	.asciz	"java/lang/Appendable"
-	.size	.L.java_type_name.859, 21
+	.asciz	"java/lang/AbstractMethodError"
+	.size	.L.java_type_name.859, 30
 
 	.section	.rodata.java_type_name.860,"aMS",@progbits,1
 	.type	.L.java_type_name.860, @object
 .L.java_type_name.860:
-	.asciz	"java/lang/AutoCloseable"
-	.size	.L.java_type_name.860, 24
+	.asciz	"java/lang/Appendable"
+	.size	.L.java_type_name.860, 21
 
 	.section	.rodata.java_type_name.861,"aMS",@progbits,1
 	.type	.L.java_type_name.861, @object
 .L.java_type_name.861:
-	.asciz	"java/lang/Boolean"
-	.size	.L.java_type_name.861, 18
+	.asciz	"java/lang/AutoCloseable"
+	.size	.L.java_type_name.861, 24
 
 	.section	.rodata.java_type_name.862,"aMS",@progbits,1
 	.type	.L.java_type_name.862, @object
 .L.java_type_name.862:
-	.asciz	"java/lang/Byte"
-	.size	.L.java_type_name.862, 15
+	.asciz	"java/lang/Boolean"
+	.size	.L.java_type_name.862, 18
 
 	.section	.rodata.java_type_name.863,"aMS",@progbits,1
 	.type	.L.java_type_name.863, @object
 .L.java_type_name.863:
-	.asciz	"java/lang/CharSequence"
-	.size	.L.java_type_name.863, 23
+	.asciz	"java/lang/Byte"
+	.size	.L.java_type_name.863, 15
 
 	.section	.rodata.java_type_name.864,"aMS",@progbits,1
 	.type	.L.java_type_name.864, @object
 .L.java_type_name.864:
-	.asciz	"java/lang/Character"
-	.size	.L.java_type_name.864, 20
+	.asciz	"java/lang/CharSequence"
+	.size	.L.java_type_name.864, 23
 
 	.section	.rodata.java_type_name.865,"aMS",@progbits,1
 	.type	.L.java_type_name.865, @object
 .L.java_type_name.865:
-	.asciz	"java/lang/Class"
-	.size	.L.java_type_name.865, 16
+	.asciz	"java/lang/Character"
+	.size	.L.java_type_name.865, 20
 
 	.section	.rodata.java_type_name.866,"aMS",@progbits,1
 	.type	.L.java_type_name.866, @object
 .L.java_type_name.866:
-	.asciz	"java/lang/ClassCastException"
-	.size	.L.java_type_name.866, 29
+	.asciz	"java/lang/Class"
+	.size	.L.java_type_name.866, 16
 
 	.section	.rodata.java_type_name.867,"aMS",@progbits,1
 	.type	.L.java_type_name.867, @object
 .L.java_type_name.867:
-	.asciz	"java/lang/ClassLoader"
-	.size	.L.java_type_name.867, 22
+	.asciz	"java/lang/ClassCastException"
+	.size	.L.java_type_name.867, 29
 
 	.section	.rodata.java_type_name.868,"aMS",@progbits,1
 	.type	.L.java_type_name.868, @object
@@ -5216,32 +5216,32 @@
 	.section	.rodata.java_type_name.869,"aMS",@progbits,1
 	.type	.L.java_type_name.869, @object
 .L.java_type_name.869:
-	.asciz	"java/lang/ClassNotFoundException"
-	.size	.L.java_type_name.869, 33
+	.asciz	"java/lang/ClassLoader"
+	.size	.L.java_type_name.869, 22
 
 	.section	.rodata.java_type_name.870,"aMS",@progbits,1
 	.type	.L.java_type_name.870, @object
 .L.java_type_name.870:
-	.asciz	"java/lang/Cloneable"
-	.size	.L.java_type_name.870, 20
+	.asciz	"java/lang/ClassNotFoundException"
+	.size	.L.java_type_name.870, 33
 
 	.section	.rodata.java_type_name.871,"aMS",@progbits,1
 	.type	.L.java_type_name.871, @object
 .L.java_type_name.871:
-	.asciz	"java/lang/Comparable"
-	.size	.L.java_type_name.871, 21
+	.asciz	"java/lang/Cloneable"
+	.size	.L.java_type_name.871, 20
 
 	.section	.rodata.java_type_name.872,"aMS",@progbits,1
 	.type	.L.java_type_name.872, @object
 .L.java_type_name.872:
-	.asciz	"java/lang/Double"
-	.size	.L.java_type_name.872, 17
+	.asciz	"java/lang/Comparable"
+	.size	.L.java_type_name.872, 21
 
 	.section	.rodata.java_type_name.873,"aMS",@progbits,1
 	.type	.L.java_type_name.873, @object
 .L.java_type_name.873:
-	.asciz	"java/lang/Enum"
-	.size	.L.java_type_name.873, 15
+	.asciz	"java/lang/Double"
+	.size	.L.java_type_name.873, 17
 
 	.section	.rodata.java_type_name.874,"aMS",@progbits,1
 	.type	.L.java_type_name.874, @object
@@ -5252,86 +5252,86 @@
 	.section	.rodata.java_type_name.875,"aMS",@progbits,1
 	.type	.L.java_type_name.875, @object
 .L.java_type_name.875:
-	.asciz	"java/lang/Error"
-	.size	.L.java_type_name.875, 16
+	.asciz	"java/lang/Enum"
+	.size	.L.java_type_name.875, 15
 
 	.section	.rodata.java_type_name.876,"aMS",@progbits,1
 	.type	.L.java_type_name.876, @object
 .L.java_type_name.876:
-	.asciz	"java/lang/Exception"
-	.size	.L.java_type_name.876, 20
+	.asciz	"java/lang/Error"
+	.size	.L.java_type_name.876, 16
 
 	.section	.rodata.java_type_name.877,"aMS",@progbits,1
 	.type	.L.java_type_name.877, @object
 .L.java_type_name.877:
-	.asciz	"java/lang/Float"
-	.size	.L.java_type_name.877, 16
+	.asciz	"java/lang/Exception"
+	.size	.L.java_type_name.877, 20
 
 	.section	.rodata.java_type_name.878,"aMS",@progbits,1
 	.type	.L.java_type_name.878, @object
 .L.java_type_name.878:
-	.asciz	"java/lang/IllegalArgumentException"
-	.size	.L.java_type_name.878, 35
+	.asciz	"java/lang/Float"
+	.size	.L.java_type_name.878, 16
 
 	.section	.rodata.java_type_name.879,"aMS",@progbits,1
 	.type	.L.java_type_name.879, @object
 .L.java_type_name.879:
-	.asciz	"java/lang/IllegalStateException"
-	.size	.L.java_type_name.879, 32
+	.asciz	"java/lang/IllegalArgumentException"
+	.size	.L.java_type_name.879, 35
 
 	.section	.rodata.java_type_name.880,"aMS",@progbits,1
 	.type	.L.java_type_name.880, @object
 .L.java_type_name.880:
-	.asciz	"java/lang/IncompatibleClassChangeError"
-	.size	.L.java_type_name.880, 39
+	.asciz	"java/lang/IllegalStateException"
+	.size	.L.java_type_name.880, 32
 
 	.section	.rodata.java_type_name.881,"aMS",@progbits,1
 	.type	.L.java_type_name.881, @object
 .L.java_type_name.881:
-	.asciz	"java/lang/IndexOutOfBoundsException"
-	.size	.L.java_type_name.881, 36
+	.asciz	"java/lang/IncompatibleClassChangeError"
+	.size	.L.java_type_name.881, 39
 
 	.section	.rodata.java_type_name.882,"aMS",@progbits,1
 	.type	.L.java_type_name.882, @object
 .L.java_type_name.882:
-	.asciz	"java/lang/Integer"
-	.size	.L.java_type_name.882, 18
+	.asciz	"java/lang/IndexOutOfBoundsException"
+	.size	.L.java_type_name.882, 36
 
 	.section	.rodata.java_type_name.883,"aMS",@progbits,1
 	.type	.L.java_type_name.883, @object
 .L.java_type_name.883:
-	.asciz	"java/lang/Iterable"
-	.size	.L.java_type_name.883, 19
+	.asciz	"java/lang/Integer"
+	.size	.L.java_type_name.883, 18
 
 	.section	.rodata.java_type_name.884,"aMS",@progbits,1
 	.type	.L.java_type_name.884, @object
 .L.java_type_name.884:
-	.asciz	"java/lang/LinkageError"
-	.size	.L.java_type_name.884, 23
+	.asciz	"java/lang/Iterable"
+	.size	.L.java_type_name.884, 19
 
 	.section	.rodata.java_type_name.885,"aMS",@progbits,1
 	.type	.L.java_type_name.885, @object
 .L.java_type_name.885:
-	.asciz	"java/lang/Long"
-	.size	.L.java_type_name.885, 15
+	.asciz	"java/lang/LinkageError"
+	.size	.L.java_type_name.885, 23
 
 	.section	.rodata.java_type_name.886,"aMS",@progbits,1
 	.type	.L.java_type_name.886, @object
 .L.java_type_name.886:
-	.asciz	"java/lang/NoClassDefFoundError"
-	.size	.L.java_type_name.886, 31
+	.asciz	"java/lang/Long"
+	.size	.L.java_type_name.886, 15
 
 	.section	.rodata.java_type_name.887,"aMS",@progbits,1
 	.type	.L.java_type_name.887, @object
 .L.java_type_name.887:
-	.asciz	"java/lang/NullPointerException"
+	.asciz	"java/lang/NoClassDefFoundError"
 	.size	.L.java_type_name.887, 31
 
 	.section	.rodata.java_type_name.888,"aMS",@progbits,1
 	.type	.L.java_type_name.888, @object
 .L.java_type_name.888:
-	.asciz	"java/lang/Number"
-	.size	.L.java_type_name.888, 17
+	.asciz	"java/lang/NullPointerException"
+	.size	.L.java_type_name.888, 31
 
 	.section	.rodata.java_type_name.889,"aMS",@progbits,1
 	.type	.L.java_type_name.889, @object
@@ -5342,1094 +5342,1124 @@
 	.section	.rodata.java_type_name.890,"aMS",@progbits,1
 	.type	.L.java_type_name.890, @object
 .L.java_type_name.890:
-	.asciz	"java/lang/Object"
+	.asciz	"java/lang/Number"
 	.size	.L.java_type_name.890, 17
 
 	.section	.rodata.java_type_name.891,"aMS",@progbits,1
 	.type	.L.java_type_name.891, @object
 .L.java_type_name.891:
-	.asciz	"java/lang/Readable"
-	.size	.L.java_type_name.891, 19
+	.asciz	"java/lang/Object"
+	.size	.L.java_type_name.891, 17
 
 	.section	.rodata.java_type_name.892,"aMS",@progbits,1
 	.type	.L.java_type_name.892, @object
 .L.java_type_name.892:
-	.asciz	"java/lang/ReflectiveOperationException"
-	.size	.L.java_type_name.892, 39
+	.asciz	"java/lang/Readable"
+	.size	.L.java_type_name.892, 19
 
 	.section	.rodata.java_type_name.893,"aMS",@progbits,1
 	.type	.L.java_type_name.893, @object
 .L.java_type_name.893:
-	.asciz	"java/lang/Runnable"
-	.size	.L.java_type_name.893, 19
+	.asciz	"java/lang/ReflectiveOperationException"
+	.size	.L.java_type_name.893, 39
 
 	.section	.rodata.java_type_name.894,"aMS",@progbits,1
 	.type	.L.java_type_name.894, @object
 .L.java_type_name.894:
-	.asciz	"java/lang/Runtime"
-	.size	.L.java_type_name.894, 18
+	.asciz	"java/lang/Runnable"
+	.size	.L.java_type_name.894, 19
 
 	.section	.rodata.java_type_name.895,"aMS",@progbits,1
 	.type	.L.java_type_name.895, @object
 .L.java_type_name.895:
-	.asciz	"java/lang/RuntimeException"
-	.size	.L.java_type_name.895, 27
+	.asciz	"java/lang/Runtime"
+	.size	.L.java_type_name.895, 18
 
 	.section	.rodata.java_type_name.896,"aMS",@progbits,1
 	.type	.L.java_type_name.896, @object
 .L.java_type_name.896:
-	.asciz	"java/lang/Short"
-	.size	.L.java_type_name.896, 16
+	.asciz	"java/lang/RuntimeException"
+	.size	.L.java_type_name.896, 27
 
 	.section	.rodata.java_type_name.897,"aMS",@progbits,1
 	.type	.L.java_type_name.897, @object
 .L.java_type_name.897:
-	.asciz	"java/lang/String"
-	.size	.L.java_type_name.897, 17
+	.asciz	"java/lang/SecurityException"
+	.size	.L.java_type_name.897, 28
 
 	.section	.rodata.java_type_name.898,"aMS",@progbits,1
 	.type	.L.java_type_name.898, @object
 .L.java_type_name.898:
-	.asciz	"java/lang/Thread"
-	.size	.L.java_type_name.898, 17
+	.asciz	"java/lang/Short"
+	.size	.L.java_type_name.898, 16
 
 	.section	.rodata.java_type_name.899,"aMS",@progbits,1
 	.type	.L.java_type_name.899, @object
 .L.java_type_name.899:
-	.asciz	"java/lang/Throwable"
-	.size	.L.java_type_name.899, 20
+	.asciz	"java/lang/String"
+	.size	.L.java_type_name.899, 17
 
 	.section	.rodata.java_type_name.900,"aMS",@progbits,1
 	.type	.L.java_type_name.900, @object
 .L.java_type_name.900:
-	.asciz	"java/lang/UnsupportedOperationException"
-	.size	.L.java_type_name.900, 40
+	.asciz	"java/lang/Thread"
+	.size	.L.java_type_name.900, 17
 
 	.section	.rodata.java_type_name.901,"aMS",@progbits,1
 	.type	.L.java_type_name.901, @object
 .L.java_type_name.901:
-	.asciz	"java/lang/annotation/Annotation"
-	.size	.L.java_type_name.901, 32
+	.asciz	"java/lang/Throwable"
+	.size	.L.java_type_name.901, 20
 
 	.section	.rodata.java_type_name.902,"aMS",@progbits,1
 	.type	.L.java_type_name.902, @object
 .L.java_type_name.902:
-	.asciz	"java/lang/reflect/AccessibleObject"
-	.size	.L.java_type_name.902, 35
+	.asciz	"java/lang/UnsupportedOperationException"
+	.size	.L.java_type_name.902, 40
 
 	.section	.rodata.java_type_name.903,"aMS",@progbits,1
 	.type	.L.java_type_name.903, @object
 .L.java_type_name.903:
-	.asciz	"java/lang/reflect/AnnotatedElement"
-	.size	.L.java_type_name.903, 35
+	.asciz	"java/lang/annotation/Annotation"
+	.size	.L.java_type_name.903, 32
 
 	.section	.rodata.java_type_name.904,"aMS",@progbits,1
 	.type	.L.java_type_name.904, @object
 .L.java_type_name.904:
-	.asciz	"java/lang/reflect/Executable"
-	.size	.L.java_type_name.904, 29
+	.asciz	"java/lang/reflect/AccessibleObject"
+	.size	.L.java_type_name.904, 35
 
 	.section	.rodata.java_type_name.905,"aMS",@progbits,1
 	.type	.L.java_type_name.905, @object
 .L.java_type_name.905:
-	.asciz	"java/lang/reflect/Executable"
-	.size	.L.java_type_name.905, 29
+	.asciz	"java/lang/reflect/AnnotatedElement"
+	.size	.L.java_type_name.905, 35
 
 	.section	.rodata.java_type_name.906,"aMS",@progbits,1
 	.type	.L.java_type_name.906, @object
 .L.java_type_name.906:
-	.asciz	"java/lang/reflect/GenericDeclaration"
-	.size	.L.java_type_name.906, 37
+	.asciz	"java/lang/reflect/Executable"
+	.size	.L.java_type_name.906, 29
 
 	.section	.rodata.java_type_name.907,"aMS",@progbits,1
 	.type	.L.java_type_name.907, @object
 .L.java_type_name.907:
-	.asciz	"java/lang/reflect/Member"
-	.size	.L.java_type_name.907, 25
+	.asciz	"java/lang/reflect/Executable"
+	.size	.L.java_type_name.907, 29
 
 	.section	.rodata.java_type_name.908,"aMS",@progbits,1
 	.type	.L.java_type_name.908, @object
 .L.java_type_name.908:
-	.asciz	"java/lang/reflect/Method"
-	.size	.L.java_type_name.908, 25
+	.asciz	"java/lang/reflect/GenericDeclaration"
+	.size	.L.java_type_name.908, 37
 
 	.section	.rodata.java_type_name.909,"aMS",@progbits,1
 	.type	.L.java_type_name.909, @object
 .L.java_type_name.909:
-	.asciz	"java/lang/reflect/Type"
-	.size	.L.java_type_name.909, 23
+	.asciz	"java/lang/reflect/Member"
+	.size	.L.java_type_name.909, 25
 
 	.section	.rodata.java_type_name.910,"aMS",@progbits,1
 	.type	.L.java_type_name.910, @object
 .L.java_type_name.910:
-	.asciz	"java/lang/reflect/TypeVariable"
-	.size	.L.java_type_name.910, 31
+	.asciz	"java/lang/reflect/Method"
+	.size	.L.java_type_name.910, 25
 
 	.section	.rodata.java_type_name.911,"aMS",@progbits,1
 	.type	.L.java_type_name.911, @object
 .L.java_type_name.911:
-	.asciz	"java/math/BigInteger"
-	.size	.L.java_type_name.911, 21
+	.asciz	"java/lang/reflect/Type"
+	.size	.L.java_type_name.911, 23
 
 	.section	.rodata.java_type_name.912,"aMS",@progbits,1
 	.type	.L.java_type_name.912, @object
 .L.java_type_name.912:
-	.asciz	"java/net/ConnectException"
-	.size	.L.java_type_name.912, 26
+	.asciz	"java/lang/reflect/TypeVariable"
+	.size	.L.java_type_name.912, 31
 
 	.section	.rodata.java_type_name.913,"aMS",@progbits,1
 	.type	.L.java_type_name.913, @object
 .L.java_type_name.913:
-	.asciz	"java/net/HttpURLConnection"
-	.size	.L.java_type_name.913, 27
+	.asciz	"java/math/BigInteger"
+	.size	.L.java_type_name.913, 21
 
 	.section	.rodata.java_type_name.914,"aMS",@progbits,1
 	.type	.L.java_type_name.914, @object
 .L.java_type_name.914:
-	.asciz	"java/net/HttpURLConnection"
-	.size	.L.java_type_name.914, 27
+	.asciz	"java/net/ConnectException"
+	.size	.L.java_type_name.914, 26
 
 	.section	.rodata.java_type_name.915,"aMS",@progbits,1
 	.type	.L.java_type_name.915, @object
 .L.java_type_name.915:
-	.asciz	"java/net/InetSocketAddress"
+	.asciz	"java/net/HttpURLConnection"
 	.size	.L.java_type_name.915, 27
 
 	.section	.rodata.java_type_name.916,"aMS",@progbits,1
 	.type	.L.java_type_name.916, @object
 .L.java_type_name.916:
-	.asciz	"java/net/Proxy"
-	.size	.L.java_type_name.916, 15
+	.asciz	"java/net/HttpURLConnection"
+	.size	.L.java_type_name.916, 27
 
 	.section	.rodata.java_type_name.917,"aMS",@progbits,1
 	.type	.L.java_type_name.917, @object
 .L.java_type_name.917:
-	.asciz	"java/net/Proxy$Type"
-	.size	.L.java_type_name.917, 20
+	.asciz	"java/net/InetSocketAddress"
+	.size	.L.java_type_name.917, 27
 
 	.section	.rodata.java_type_name.918,"aMS",@progbits,1
 	.type	.L.java_type_name.918, @object
 .L.java_type_name.918:
-	.asciz	"java/net/ProxySelector"
-	.size	.L.java_type_name.918, 23
+	.asciz	"java/net/ProtocolException"
+	.size	.L.java_type_name.918, 27
 
 	.section	.rodata.java_type_name.919,"aMS",@progbits,1
 	.type	.L.java_type_name.919, @object
 .L.java_type_name.919:
-	.asciz	"java/net/ProxySelector"
-	.size	.L.java_type_name.919, 23
+	.asciz	"java/net/Proxy"
+	.size	.L.java_type_name.919, 15
 
 	.section	.rodata.java_type_name.920,"aMS",@progbits,1
 	.type	.L.java_type_name.920, @object
 .L.java_type_name.920:
-	.asciz	"java/net/SocketAddress"
-	.size	.L.java_type_name.920, 23
+	.asciz	"java/net/Proxy$Type"
+	.size	.L.java_type_name.920, 20
 
 	.section	.rodata.java_type_name.921,"aMS",@progbits,1
 	.type	.L.java_type_name.921, @object
 .L.java_type_name.921:
-	.asciz	"java/net/SocketAddress"
+	.asciz	"java/net/ProxySelector"
 	.size	.L.java_type_name.921, 23
 
 	.section	.rodata.java_type_name.922,"aMS",@progbits,1
 	.type	.L.java_type_name.922, @object
 .L.java_type_name.922:
-	.asciz	"java/net/SocketException"
-	.size	.L.java_type_name.922, 25
+	.asciz	"java/net/ProxySelector"
+	.size	.L.java_type_name.922, 23
 
 	.section	.rodata.java_type_name.923,"aMS",@progbits,1
 	.type	.L.java_type_name.923, @object
 .L.java_type_name.923:
-	.asciz	"java/net/URI"
-	.size	.L.java_type_name.923, 13
+	.asciz	"java/net/SocketAddress"
+	.size	.L.java_type_name.923, 23
 
 	.section	.rodata.java_type_name.924,"aMS",@progbits,1
 	.type	.L.java_type_name.924, @object
 .L.java_type_name.924:
-	.asciz	"java/net/URL"
-	.size	.L.java_type_name.924, 13
+	.asciz	"java/net/SocketAddress"
+	.size	.L.java_type_name.924, 23
 
 	.section	.rodata.java_type_name.925,"aMS",@progbits,1
 	.type	.L.java_type_name.925, @object
 .L.java_type_name.925:
-	.asciz	"java/net/URLConnection"
-	.size	.L.java_type_name.925, 23
+	.asciz	"java/net/SocketException"
+	.size	.L.java_type_name.925, 25
 
 	.section	.rodata.java_type_name.926,"aMS",@progbits,1
 	.type	.L.java_type_name.926, @object
 .L.java_type_name.926:
-	.asciz	"java/net/URLConnection"
-	.size	.L.java_type_name.926, 23
+	.asciz	"java/net/SocketTimeoutException"
+	.size	.L.java_type_name.926, 32
 
 	.section	.rodata.java_type_name.927,"aMS",@progbits,1
 	.type	.L.java_type_name.927, @object
 .L.java_type_name.927:
-	.asciz	"java/nio/Buffer"
-	.size	.L.java_type_name.927, 16
+	.asciz	"java/net/URI"
+	.size	.L.java_type_name.927, 13
 
 	.section	.rodata.java_type_name.928,"aMS",@progbits,1
 	.type	.L.java_type_name.928, @object
 .L.java_type_name.928:
-	.asciz	"java/nio/Buffer"
-	.size	.L.java_type_name.928, 16
+	.asciz	"java/net/URL"
+	.size	.L.java_type_name.928, 13
 
 	.section	.rodata.java_type_name.929,"aMS",@progbits,1
 	.type	.L.java_type_name.929, @object
 .L.java_type_name.929:
-	.asciz	"java/nio/ByteBuffer"
-	.size	.L.java_type_name.929, 20
+	.asciz	"java/net/URLConnection"
+	.size	.L.java_type_name.929, 23
 
 	.section	.rodata.java_type_name.930,"aMS",@progbits,1
 	.type	.L.java_type_name.930, @object
 .L.java_type_name.930:
-	.asciz	"java/nio/ByteBuffer"
-	.size	.L.java_type_name.930, 20
+	.asciz	"java/net/URLConnection"
+	.size	.L.java_type_name.930, 23
 
 	.section	.rodata.java_type_name.931,"aMS",@progbits,1
 	.type	.L.java_type_name.931, @object
 .L.java_type_name.931:
-	.asciz	"java/nio/CharBuffer"
-	.size	.L.java_type_name.931, 20
+	.asciz	"java/net/UnknownServiceException"
+	.size	.L.java_type_name.931, 33
 
 	.section	.rodata.java_type_name.932,"aMS",@progbits,1
 	.type	.L.java_type_name.932, @object
 .L.java_type_name.932:
-	.asciz	"java/nio/CharBuffer"
-	.size	.L.java_type_name.932, 20
+	.asciz	"java/nio/Buffer"
+	.size	.L.java_type_name.932, 16
 
 	.section	.rodata.java_type_name.933,"aMS",@progbits,1
 	.type	.L.java_type_name.933, @object
 .L.java_type_name.933:
-	.asciz	"java/nio/FloatBuffer"
-	.size	.L.java_type_name.933, 21
+	.asciz	"java/nio/Buffer"
+	.size	.L.java_type_name.933, 16
 
 	.section	.rodata.java_type_name.934,"aMS",@progbits,1
 	.type	.L.java_type_name.934, @object
 .L.java_type_name.934:
-	.asciz	"java/nio/FloatBuffer"
-	.size	.L.java_type_name.934, 21
+	.asciz	"java/nio/ByteBuffer"
+	.size	.L.java_type_name.934, 20
 
 	.section	.rodata.java_type_name.935,"aMS",@progbits,1
 	.type	.L.java_type_name.935, @object
 .L.java_type_name.935:
-	.asciz	"java/nio/IntBuffer"
-	.size	.L.java_type_name.935, 19
+	.asciz	"java/nio/ByteBuffer"
+	.size	.L.java_type_name.935, 20
 
 	.section	.rodata.java_type_name.936,"aMS",@progbits,1
 	.type	.L.java_type_name.936, @object
 .L.java_type_name.936:
-	.asciz	"java/nio/IntBuffer"
-	.size	.L.java_type_name.936, 19
+	.asciz	"java/nio/CharBuffer"
+	.size	.L.java_type_name.936, 20
 
 	.section	.rodata.java_type_name.937,"aMS",@progbits,1
 	.type	.L.java_type_name.937, @object
 .L.java_type_name.937:
-	.asciz	"java/nio/channels/ByteChannel"
-	.size	.L.java_type_name.937, 30
+	.asciz	"java/nio/CharBuffer"
+	.size	.L.java_type_name.937, 20
 
 	.section	.rodata.java_type_name.938,"aMS",@progbits,1
 	.type	.L.java_type_name.938, @object
 .L.java_type_name.938:
-	.asciz	"java/nio/channels/Channel"
-	.size	.L.java_type_name.938, 26
+	.asciz	"java/nio/FloatBuffer"
+	.size	.L.java_type_name.938, 21
 
 	.section	.rodata.java_type_name.939,"aMS",@progbits,1
 	.type	.L.java_type_name.939, @object
 .L.java_type_name.939:
-	.asciz	"java/nio/channels/FileChannel"
-	.size	.L.java_type_name.939, 30
+	.asciz	"java/nio/FloatBuffer"
+	.size	.L.java_type_name.939, 21
 
 	.section	.rodata.java_type_name.940,"aMS",@progbits,1
 	.type	.L.java_type_name.940, @object
 .L.java_type_name.940:
-	.asciz	"java/nio/channels/FileChannel"
-	.size	.L.java_type_name.940, 30
+	.asciz	"java/nio/IntBuffer"
+	.size	.L.java_type_name.940, 19
 
 	.section	.rodata.java_type_name.941,"aMS",@progbits,1
 	.type	.L.java_type_name.941, @object
 .L.java_type_name.941:
-	.asciz	"java/nio/channels/GatheringByteChannel"
-	.size	.L.java_type_name.941, 39
+	.asciz	"java/nio/IntBuffer"
+	.size	.L.java_type_name.941, 19
 
 	.section	.rodata.java_type_name.942,"aMS",@progbits,1
 	.type	.L.java_type_name.942, @object
 .L.java_type_name.942:
-	.asciz	"java/nio/channels/InterruptibleChannel"
-	.size	.L.java_type_name.942, 39
+	.asciz	"java/nio/channels/ByteChannel"
+	.size	.L.java_type_name.942, 30
 
 	.section	.rodata.java_type_name.943,"aMS",@progbits,1
 	.type	.L.java_type_name.943, @object
 .L.java_type_name.943:
-	.asciz	"java/nio/channels/ReadableByteChannel"
-	.size	.L.java_type_name.943, 38
+	.asciz	"java/nio/channels/Channel"
+	.size	.L.java_type_name.943, 26
 
 	.section	.rodata.java_type_name.944,"aMS",@progbits,1
 	.type	.L.java_type_name.944, @object
 .L.java_type_name.944:
-	.asciz	"java/nio/channels/ScatteringByteChannel"
-	.size	.L.java_type_name.944, 40
+	.asciz	"java/nio/channels/FileChannel"
+	.size	.L.java_type_name.944, 30
 
 	.section	.rodata.java_type_name.945,"aMS",@progbits,1
 	.type	.L.java_type_name.945, @object
 .L.java_type_name.945:
-	.asciz	"java/nio/channels/SeekableByteChannel"
-	.size	.L.java_type_name.945, 38
+	.asciz	"java/nio/channels/FileChannel"
+	.size	.L.java_type_name.945, 30
 
 	.section	.rodata.java_type_name.946,"aMS",@progbits,1
 	.type	.L.java_type_name.946, @object
 .L.java_type_name.946:
-	.asciz	"java/nio/channels/WritableByteChannel"
-	.size	.L.java_type_name.946, 38
+	.asciz	"java/nio/channels/GatheringByteChannel"
+	.size	.L.java_type_name.946, 39
 
 	.section	.rodata.java_type_name.947,"aMS",@progbits,1
 	.type	.L.java_type_name.947, @object
 .L.java_type_name.947:
-	.asciz	"java/nio/channels/spi/AbstractInterruptibleChannel"
-	.size	.L.java_type_name.947, 51
+	.asciz	"java/nio/channels/InterruptibleChannel"
+	.size	.L.java_type_name.947, 39
 
 	.section	.rodata.java_type_name.948,"aMS",@progbits,1
 	.type	.L.java_type_name.948, @object
 .L.java_type_name.948:
-	.asciz	"java/nio/channels/spi/AbstractInterruptibleChannel"
-	.size	.L.java_type_name.948, 51
+	.asciz	"java/nio/channels/ReadableByteChannel"
+	.size	.L.java_type_name.948, 38
 
 	.section	.rodata.java_type_name.949,"aMS",@progbits,1
 	.type	.L.java_type_name.949, @object
 .L.java_type_name.949:
-	.asciz	"java/security/GeneralSecurityException"
-	.size	.L.java_type_name.949, 39
+	.asciz	"java/nio/channels/ScatteringByteChannel"
+	.size	.L.java_type_name.949, 40
 
 	.section	.rodata.java_type_name.950,"aMS",@progbits,1
 	.type	.L.java_type_name.950, @object
 .L.java_type_name.950:
-	.asciz	"java/security/InvalidAlgorithmParameterException"
-	.size	.L.java_type_name.950, 49
+	.asciz	"java/nio/channels/SeekableByteChannel"
+	.size	.L.java_type_name.950, 38
 
 	.section	.rodata.java_type_name.951,"aMS",@progbits,1
 	.type	.L.java_type_name.951, @object
 .L.java_type_name.951:
-	.asciz	"java/security/InvalidKeyException"
-	.size	.L.java_type_name.951, 34
+	.asciz	"java/nio/channels/WritableByteChannel"
+	.size	.L.java_type_name.951, 38
 
 	.section	.rodata.java_type_name.952,"aMS",@progbits,1
 	.type	.L.java_type_name.952, @object
 .L.java_type_name.952:
-	.asciz	"java/security/Key"
-	.size	.L.java_type_name.952, 18
+	.asciz	"java/nio/channels/spi/AbstractInterruptibleChannel"
+	.size	.L.java_type_name.952, 51
 
 	.section	.rodata.java_type_name.953,"aMS",@progbits,1
 	.type	.L.java_type_name.953, @object
 .L.java_type_name.953:
-	.asciz	"java/security/KeyException"
-	.size	.L.java_type_name.953, 27
+	.asciz	"java/nio/channels/spi/AbstractInterruptibleChannel"
+	.size	.L.java_type_name.953, 51
 
 	.section	.rodata.java_type_name.954,"aMS",@progbits,1
 	.type	.L.java_type_name.954, @object
 .L.java_type_name.954:
-	.asciz	"java/security/KeyPair"
-	.size	.L.java_type_name.954, 22
+	.asciz	"java/security/GeneralSecurityException"
+	.size	.L.java_type_name.954, 39
 
 	.section	.rodata.java_type_name.955,"aMS",@progbits,1
 	.type	.L.java_type_name.955, @object
 .L.java_type_name.955:
-	.asciz	"java/security/KeyPairGenerator"
-	.size	.L.java_type_name.955, 31
+	.asciz	"java/security/InvalidAlgorithmParameterException"
+	.size	.L.java_type_name.955, 49
 
 	.section	.rodata.java_type_name.956,"aMS",@progbits,1
 	.type	.L.java_type_name.956, @object
 .L.java_type_name.956:
-	.asciz	"java/security/KeyPairGenerator"
-	.size	.L.java_type_name.956, 31
+	.asciz	"java/security/InvalidKeyException"
+	.size	.L.java_type_name.956, 34
 
 	.section	.rodata.java_type_name.957,"aMS",@progbits,1
 	.type	.L.java_type_name.957, @object
 .L.java_type_name.957:
-	.asciz	"java/security/KeyPairGeneratorSpi"
-	.size	.L.java_type_name.957, 34
+	.asciz	"java/security/Key"
+	.size	.L.java_type_name.957, 18
 
 	.section	.rodata.java_type_name.958,"aMS",@progbits,1
 	.type	.L.java_type_name.958, @object
 .L.java_type_name.958:
-	.asciz	"java/security/KeyPairGeneratorSpi"
-	.size	.L.java_type_name.958, 34
+	.asciz	"java/security/KeyException"
+	.size	.L.java_type_name.958, 27
 
 	.section	.rodata.java_type_name.959,"aMS",@progbits,1
 	.type	.L.java_type_name.959, @object
 .L.java_type_name.959:
-	.asciz	"java/security/KeyStore"
-	.size	.L.java_type_name.959, 23
+	.asciz	"java/security/KeyPair"
+	.size	.L.java_type_name.959, 22
 
 	.section	.rodata.java_type_name.960,"aMS",@progbits,1
 	.type	.L.java_type_name.960, @object
 .L.java_type_name.960:
-	.asciz	"java/security/KeyStore$LoadStoreParameter"
-	.size	.L.java_type_name.960, 42
+	.asciz	"java/security/KeyPairGenerator"
+	.size	.L.java_type_name.960, 31
 
 	.section	.rodata.java_type_name.961,"aMS",@progbits,1
 	.type	.L.java_type_name.961, @object
 .L.java_type_name.961:
-	.asciz	"java/security/KeyStore$ProtectionParameter"
-	.size	.L.java_type_name.961, 43
+	.asciz	"java/security/KeyPairGenerator"
+	.size	.L.java_type_name.961, 31
 
 	.section	.rodata.java_type_name.962,"aMS",@progbits,1
 	.type	.L.java_type_name.962, @object
 .L.java_type_name.962:
-	.asciz	"java/security/Principal"
-	.size	.L.java_type_name.962, 24
+	.asciz	"java/security/KeyPairGeneratorSpi"
+	.size	.L.java_type_name.962, 34
 
 	.section	.rodata.java_type_name.963,"aMS",@progbits,1
 	.type	.L.java_type_name.963, @object
 .L.java_type_name.963:
-	.asciz	"java/security/PrivateKey"
-	.size	.L.java_type_name.963, 25
+	.asciz	"java/security/KeyPairGeneratorSpi"
+	.size	.L.java_type_name.963, 34
 
 	.section	.rodata.java_type_name.964,"aMS",@progbits,1
 	.type	.L.java_type_name.964, @object
 .L.java_type_name.964:
-	.asciz	"java/security/PublicKey"
-	.size	.L.java_type_name.964, 24
+	.asciz	"java/security/KeyStore"
+	.size	.L.java_type_name.964, 23
 
 	.section	.rodata.java_type_name.965,"aMS",@progbits,1
 	.type	.L.java_type_name.965, @object
 .L.java_type_name.965:
-	.asciz	"java/security/SecureRandom"
-	.size	.L.java_type_name.965, 27
+	.asciz	"java/security/KeyStore$LoadStoreParameter"
+	.size	.L.java_type_name.965, 42
 
 	.section	.rodata.java_type_name.966,"aMS",@progbits,1
 	.type	.L.java_type_name.966, @object
 .L.java_type_name.966:
-	.asciz	"java/security/cert/Certificate"
-	.size	.L.java_type_name.966, 31
+	.asciz	"java/security/KeyStore$ProtectionParameter"
+	.size	.L.java_type_name.966, 43
 
 	.section	.rodata.java_type_name.967,"aMS",@progbits,1
 	.type	.L.java_type_name.967, @object
 .L.java_type_name.967:
-	.asciz	"java/security/cert/Certificate"
-	.size	.L.java_type_name.967, 31
+	.asciz	"java/security/Principal"
+	.size	.L.java_type_name.967, 24
 
 	.section	.rodata.java_type_name.968,"aMS",@progbits,1
 	.type	.L.java_type_name.968, @object
 .L.java_type_name.968:
-	.asciz	"java/security/cert/CertificateFactory"
-	.size	.L.java_type_name.968, 38
+	.asciz	"java/security/PrivateKey"
+	.size	.L.java_type_name.968, 25
 
 	.section	.rodata.java_type_name.969,"aMS",@progbits,1
 	.type	.L.java_type_name.969, @object
 .L.java_type_name.969:
-	.asciz	"java/security/cert/X509Certificate"
-	.size	.L.java_type_name.969, 35
+	.asciz	"java/security/PublicKey"
+	.size	.L.java_type_name.969, 24
 
 	.section	.rodata.java_type_name.970,"aMS",@progbits,1
 	.type	.L.java_type_name.970, @object
 .L.java_type_name.970:
-	.asciz	"java/security/cert/X509Certificate"
-	.size	.L.java_type_name.970, 35
+	.asciz	"java/security/SecureRandom"
+	.size	.L.java_type_name.970, 27
 
 	.section	.rodata.java_type_name.971,"aMS",@progbits,1
 	.type	.L.java_type_name.971, @object
 .L.java_type_name.971:
-	.asciz	"java/security/cert/X509Extension"
-	.size	.L.java_type_name.971, 33
+	.asciz	"java/security/cert/Certificate"
+	.size	.L.java_type_name.971, 31
 
 	.section	.rodata.java_type_name.972,"aMS",@progbits,1
 	.type	.L.java_type_name.972, @object
 .L.java_type_name.972:
-	.asciz	"java/security/spec/AlgorithmParameterSpec"
-	.size	.L.java_type_name.972, 42
+	.asciz	"java/security/cert/Certificate"
+	.size	.L.java_type_name.972, 31
 
 	.section	.rodata.java_type_name.973,"aMS",@progbits,1
 	.type	.L.java_type_name.973, @object
 .L.java_type_name.973:
-	.asciz	"java/text/DecimalFormat"
-	.size	.L.java_type_name.973, 24
+	.asciz	"java/security/cert/CertificateFactory"
+	.size	.L.java_type_name.973, 38
 
 	.section	.rodata.java_type_name.974,"aMS",@progbits,1
 	.type	.L.java_type_name.974, @object
 .L.java_type_name.974:
-	.asciz	"java/text/DecimalFormatSymbols"
-	.size	.L.java_type_name.974, 31
+	.asciz	"java/security/cert/X509Certificate"
+	.size	.L.java_type_name.974, 35
 
 	.section	.rodata.java_type_name.975,"aMS",@progbits,1
 	.type	.L.java_type_name.975, @object
 .L.java_type_name.975:
-	.asciz	"java/text/Format"
-	.size	.L.java_type_name.975, 17
+	.asciz	"java/security/cert/X509Certificate"
+	.size	.L.java_type_name.975, 35
 
 	.section	.rodata.java_type_name.976,"aMS",@progbits,1
 	.type	.L.java_type_name.976, @object
 .L.java_type_name.976:
-	.asciz	"java/text/Format"
-	.size	.L.java_type_name.976, 17
+	.asciz	"java/security/cert/X509Extension"
+	.size	.L.java_type_name.976, 33
 
 	.section	.rodata.java_type_name.977,"aMS",@progbits,1
 	.type	.L.java_type_name.977, @object
 .L.java_type_name.977:
-	.asciz	"java/text/NumberFormat"
-	.size	.L.java_type_name.977, 23
+	.asciz	"java/security/spec/AlgorithmParameterSpec"
+	.size	.L.java_type_name.977, 42
 
 	.section	.rodata.java_type_name.978,"aMS",@progbits,1
 	.type	.L.java_type_name.978, @object
 .L.java_type_name.978:
-	.asciz	"java/text/NumberFormat"
-	.size	.L.java_type_name.978, 23
+	.asciz	"java/text/DecimalFormat"
+	.size	.L.java_type_name.978, 24
 
 	.section	.rodata.java_type_name.979,"aMS",@progbits,1
 	.type	.L.java_type_name.979, @object
 .L.java_type_name.979:
-	.asciz	"java/util/ArrayList"
-	.size	.L.java_type_name.979, 20
+	.asciz	"java/text/DecimalFormatSymbols"
+	.size	.L.java_type_name.979, 31
 
 	.section	.rodata.java_type_name.980,"aMS",@progbits,1
 	.type	.L.java_type_name.980, @object
 .L.java_type_name.980:
-	.asciz	"java/util/ArrayList"
-	.size	.L.java_type_name.980, 20
+	.asciz	"java/text/Format"
+	.size	.L.java_type_name.980, 17
 
 	.section	.rodata.java_type_name.981,"aMS",@progbits,1
 	.type	.L.java_type_name.981, @object
 .L.java_type_name.981:
-	.asciz	"java/util/Collection"
-	.size	.L.java_type_name.981, 21
+	.asciz	"java/text/Format"
+	.size	.L.java_type_name.981, 17
 
 	.section	.rodata.java_type_name.982,"aMS",@progbits,1
 	.type	.L.java_type_name.982, @object
 .L.java_type_name.982:
-	.asciz	"java/util/Collection"
-	.size	.L.java_type_name.982, 21
+	.asciz	"java/text/NumberFormat"
+	.size	.L.java_type_name.982, 23
 
 	.section	.rodata.java_type_name.983,"aMS",@progbits,1
 	.type	.L.java_type_name.983, @object
 .L.java_type_name.983:
-	.asciz	"java/util/Date"
-	.size	.L.java_type_name.983, 15
+	.asciz	"java/text/NumberFormat"
+	.size	.L.java_type_name.983, 23
 
 	.section	.rodata.java_type_name.984,"aMS",@progbits,1
 	.type	.L.java_type_name.984, @object
 .L.java_type_name.984:
-	.asciz	"java/util/Enumeration"
-	.size	.L.java_type_name.984, 22
+	.asciz	"java/util/ArrayList"
+	.size	.L.java_type_name.984, 20
 
 	.section	.rodata.java_type_name.985,"aMS",@progbits,1
 	.type	.L.java_type_name.985, @object
 .L.java_type_name.985:
-	.asciz	"java/util/HashMap"
-	.size	.L.java_type_name.985, 18
+	.asciz	"java/util/ArrayList"
+	.size	.L.java_type_name.985, 20
 
 	.section	.rodata.java_type_name.986,"aMS",@progbits,1
 	.type	.L.java_type_name.986, @object
 .L.java_type_name.986:
-	.asciz	"java/util/HashMap"
-	.size	.L.java_type_name.986, 18
+	.asciz	"java/util/Collection"
+	.size	.L.java_type_name.986, 21
 
 	.section	.rodata.java_type_name.987,"aMS",@progbits,1
 	.type	.L.java_type_name.987, @object
 .L.java_type_name.987:
-	.asciz	"java/util/HashSet"
-	.size	.L.java_type_name.987, 18
+	.asciz	"java/util/Collection"
+	.size	.L.java_type_name.987, 21
 
 	.section	.rodata.java_type_name.988,"aMS",@progbits,1
 	.type	.L.java_type_name.988, @object
 .L.java_type_name.988:
-	.asciz	"java/util/HashSet"
-	.size	.L.java_type_name.988, 18
+	.asciz	"java/util/Date"
+	.size	.L.java_type_name.988, 15
 
 	.section	.rodata.java_type_name.989,"aMS",@progbits,1
 	.type	.L.java_type_name.989, @object
 .L.java_type_name.989:
-	.asciz	"java/util/Iterator"
-	.size	.L.java_type_name.989, 19
+	.asciz	"java/util/Enumeration"
+	.size	.L.java_type_name.989, 22
 
 	.section	.rodata.java_type_name.990,"aMS",@progbits,1
 	.type	.L.java_type_name.990, @object
 .L.java_type_name.990:
-	.asciz	"java/util/Locale"
-	.size	.L.java_type_name.990, 17
+	.asciz	"java/util/HashMap"
+	.size	.L.java_type_name.990, 18
 
 	.section	.rodata.java_type_name.991,"aMS",@progbits,1
 	.type	.L.java_type_name.991, @object
 .L.java_type_name.991:
-	.asciz	"java/util/Random"
-	.size	.L.java_type_name.991, 17
+	.asciz	"java/util/HashMap"
+	.size	.L.java_type_name.991, 18
 
 	.section	.rodata.java_type_name.992,"aMS",@progbits,1
 	.type	.L.java_type_name.992, @object
 .L.java_type_name.992:
-	.asciz	"java/util/concurrent/Executor"
-	.size	.L.java_type_name.992, 30
+	.asciz	"java/util/HashSet"
+	.size	.L.java_type_name.992, 18
 
 	.section	.rodata.java_type_name.993,"aMS",@progbits,1
 	.type	.L.java_type_name.993, @object
 .L.java_type_name.993:
-	.asciz	"java/util/concurrent/Future"
-	.size	.L.java_type_name.993, 28
+	.asciz	"java/util/HashSet"
+	.size	.L.java_type_name.993, 18
 
 	.section	.rodata.java_type_name.994,"aMS",@progbits,1
 	.type	.L.java_type_name.994, @object
 .L.java_type_name.994:
-	.asciz	"java/util/concurrent/TimeUnit"
-	.size	.L.java_type_name.994, 30
+	.asciz	"java/util/Iterator"
+	.size	.L.java_type_name.994, 19
 
 	.section	.rodata.java_type_name.995,"aMS",@progbits,1
 	.type	.L.java_type_name.995, @object
 .L.java_type_name.995:
-	.asciz	"javax/crypto/AEADBadTagException"
-	.size	.L.java_type_name.995, 33
+	.asciz	"java/util/Locale"
+	.size	.L.java_type_name.995, 17
 
 	.section	.rodata.java_type_name.996,"aMS",@progbits,1
 	.type	.L.java_type_name.996, @object
 .L.java_type_name.996:
-	.asciz	"javax/crypto/BadPaddingException"
-	.size	.L.java_type_name.996, 33
+	.asciz	"java/util/Random"
+	.size	.L.java_type_name.996, 17
 
 	.section	.rodata.java_type_name.997,"aMS",@progbits,1
 	.type	.L.java_type_name.997, @object
 .L.java_type_name.997:
-	.asciz	"javax/crypto/Cipher"
-	.size	.L.java_type_name.997, 20
+	.asciz	"java/util/concurrent/Executor"
+	.size	.L.java_type_name.997, 30
 
 	.section	.rodata.java_type_name.998,"aMS",@progbits,1
 	.type	.L.java_type_name.998, @object
 .L.java_type_name.998:
-	.asciz	"javax/crypto/IllegalBlockSizeException"
-	.size	.L.java_type_name.998, 39
+	.asciz	"java/util/concurrent/Future"
+	.size	.L.java_type_name.998, 28
 
 	.section	.rodata.java_type_name.999,"aMS",@progbits,1
 	.type	.L.java_type_name.999, @object
 .L.java_type_name.999:
-	.asciz	"javax/crypto/KeyGenerator"
-	.size	.L.java_type_name.999, 26
+	.asciz	"java/util/concurrent/TimeUnit"
+	.size	.L.java_type_name.999, 30
 
 	.section	.rodata.java_type_name.1000,"aMS",@progbits,1
 	.type	.L.java_type_name.1000, @object
 .L.java_type_name.1000:
-	.asciz	"javax/crypto/SecretKey"
-	.size	.L.java_type_name.1000, 23
+	.asciz	"javax/crypto/AEADBadTagException"
+	.size	.L.java_type_name.1000, 33
 
 	.section	.rodata.java_type_name.1001,"aMS",@progbits,1
 	.type	.L.java_type_name.1001, @object
 .L.java_type_name.1001:
-	.asciz	"javax/crypto/spec/GCMParameterSpec"
-	.size	.L.java_type_name.1001, 35
+	.asciz	"javax/crypto/BadPaddingException"
+	.size	.L.java_type_name.1001, 33
 
 	.section	.rodata.java_type_name.1002,"aMS",@progbits,1
 	.type	.L.java_type_name.1002, @object
 .L.java_type_name.1002:
-	.asciz	"javax/crypto/spec/IvParameterSpec"
-	.size	.L.java_type_name.1002, 34
+	.asciz	"javax/crypto/Cipher"
+	.size	.L.java_type_name.1002, 20
 
 	.section	.rodata.java_type_name.1003,"aMS",@progbits,1
 	.type	.L.java_type_name.1003, @object
 .L.java_type_name.1003:
-	.asciz	"javax/microedition/khronos/egl/EGLConfig"
-	.size	.L.java_type_name.1003, 41
+	.asciz	"javax/crypto/IllegalBlockSizeException"
+	.size	.L.java_type_name.1003, 39
 
 	.section	.rodata.java_type_name.1004,"aMS",@progbits,1
 	.type	.L.java_type_name.1004, @object
 .L.java_type_name.1004:
-	.asciz	"javax/microedition/khronos/egl/EGLConfig"
-	.size	.L.java_type_name.1004, 41
+	.asciz	"javax/crypto/KeyGenerator"
+	.size	.L.java_type_name.1004, 26
 
 	.section	.rodata.java_type_name.1005,"aMS",@progbits,1
 	.type	.L.java_type_name.1005, @object
 .L.java_type_name.1005:
-	.asciz	"javax/microedition/khronos/opengles/GL"
-	.size	.L.java_type_name.1005, 39
+	.asciz	"javax/crypto/SecretKey"
+	.size	.L.java_type_name.1005, 23
 
 	.section	.rodata.java_type_name.1006,"aMS",@progbits,1
 	.type	.L.java_type_name.1006, @object
 .L.java_type_name.1006:
-	.asciz	"javax/microedition/khronos/opengles/GL10"
-	.size	.L.java_type_name.1006, 41
+	.asciz	"javax/crypto/spec/GCMParameterSpec"
+	.size	.L.java_type_name.1006, 35
 
 	.section	.rodata.java_type_name.1007,"aMS",@progbits,1
 	.type	.L.java_type_name.1007, @object
 .L.java_type_name.1007:
-	.asciz	"javax/net/SocketFactory"
-	.size	.L.java_type_name.1007, 24
+	.asciz	"javax/crypto/spec/IvParameterSpec"
+	.size	.L.java_type_name.1007, 34
 
 	.section	.rodata.java_type_name.1008,"aMS",@progbits,1
 	.type	.L.java_type_name.1008, @object
 .L.java_type_name.1008:
-	.asciz	"javax/net/SocketFactory"
-	.size	.L.java_type_name.1008, 24
+	.asciz	"javax/microedition/khronos/egl/EGLConfig"
+	.size	.L.java_type_name.1008, 41
 
 	.section	.rodata.java_type_name.1009,"aMS",@progbits,1
 	.type	.L.java_type_name.1009, @object
 .L.java_type_name.1009:
-	.asciz	"javax/net/ssl/HostnameVerifier"
-	.size	.L.java_type_name.1009, 31
+	.asciz	"javax/microedition/khronos/egl/EGLConfig"
+	.size	.L.java_type_name.1009, 41
 
 	.section	.rodata.java_type_name.1010,"aMS",@progbits,1
 	.type	.L.java_type_name.1010, @object
 .L.java_type_name.1010:
-	.asciz	"javax/net/ssl/HttpsURLConnection"
-	.size	.L.java_type_name.1010, 33
+	.asciz	"javax/microedition/khronos/opengles/GL"
+	.size	.L.java_type_name.1010, 39
 
 	.section	.rodata.java_type_name.1011,"aMS",@progbits,1
 	.type	.L.java_type_name.1011, @object
 .L.java_type_name.1011:
-	.asciz	"javax/net/ssl/HttpsURLConnection"
-	.size	.L.java_type_name.1011, 33
+	.asciz	"javax/microedition/khronos/opengles/GL10"
+	.size	.L.java_type_name.1011, 41
 
 	.section	.rodata.java_type_name.1012,"aMS",@progbits,1
 	.type	.L.java_type_name.1012, @object
 .L.java_type_name.1012:
-	.asciz	"javax/net/ssl/KeyManager"
-	.size	.L.java_type_name.1012, 25
+	.asciz	"javax/net/SocketFactory"
+	.size	.L.java_type_name.1012, 24
 
 	.section	.rodata.java_type_name.1013,"aMS",@progbits,1
 	.type	.L.java_type_name.1013, @object
 .L.java_type_name.1013:
-	.asciz	"javax/net/ssl/KeyManagerFactory"
-	.size	.L.java_type_name.1013, 32
+	.asciz	"javax/net/SocketFactory"
+	.size	.L.java_type_name.1013, 24
 
 	.section	.rodata.java_type_name.1014,"aMS",@progbits,1
 	.type	.L.java_type_name.1014, @object
 .L.java_type_name.1014:
-	.asciz	"javax/net/ssl/SSLContext"
-	.size	.L.java_type_name.1014, 25
+	.asciz	"javax/net/ssl/HostnameVerifier"
+	.size	.L.java_type_name.1014, 31
 
 	.section	.rodata.java_type_name.1015,"aMS",@progbits,1
 	.type	.L.java_type_name.1015, @object
 .L.java_type_name.1015:
-	.asciz	"javax/net/ssl/SSLSession"
-	.size	.L.java_type_name.1015, 25
+	.asciz	"javax/net/ssl/HttpsURLConnection"
+	.size	.L.java_type_name.1015, 33
 
 	.section	.rodata.java_type_name.1016,"aMS",@progbits,1
 	.type	.L.java_type_name.1016, @object
 .L.java_type_name.1016:
-	.asciz	"javax/net/ssl/SSLSessionContext"
-	.size	.L.java_type_name.1016, 32
+	.asciz	"javax/net/ssl/HttpsURLConnection"
+	.size	.L.java_type_name.1016, 33
 
 	.section	.rodata.java_type_name.1017,"aMS",@progbits,1
 	.type	.L.java_type_name.1017, @object
 .L.java_type_name.1017:
-	.asciz	"javax/net/ssl/SSLSocketFactory"
-	.size	.L.java_type_name.1017, 31
+	.asciz	"javax/net/ssl/KeyManager"
+	.size	.L.java_type_name.1017, 25
 
 	.section	.rodata.java_type_name.1018,"aMS",@progbits,1
 	.type	.L.java_type_name.1018, @object
 .L.java_type_name.1018:
-	.asciz	"javax/net/ssl/SSLSocketFactory"
-	.size	.L.java_type_name.1018, 31
+	.asciz	"javax/net/ssl/KeyManagerFactory"
+	.size	.L.java_type_name.1018, 32
 
 	.section	.rodata.java_type_name.1019,"aMS",@progbits,1
 	.type	.L.java_type_name.1019, @object
 .L.java_type_name.1019:
-	.asciz	"javax/net/ssl/TrustManager"
-	.size	.L.java_type_name.1019, 27
+	.asciz	"javax/net/ssl/SSLContext"
+	.size	.L.java_type_name.1019, 25
 
 	.section	.rodata.java_type_name.1020,"aMS",@progbits,1
 	.type	.L.java_type_name.1020, @object
 .L.java_type_name.1020:
-	.asciz	"javax/net/ssl/TrustManagerFactory"
-	.size	.L.java_type_name.1020, 34
+	.asciz	"javax/net/ssl/SSLSession"
+	.size	.L.java_type_name.1020, 25
 
 	.section	.rodata.java_type_name.1021,"aMS",@progbits,1
 	.type	.L.java_type_name.1021, @object
 .L.java_type_name.1021:
-	.asciz	"javax/net/ssl/X509TrustManager"
-	.size	.L.java_type_name.1021, 31
+	.asciz	"javax/net/ssl/SSLSessionContext"
+	.size	.L.java_type_name.1021, 32
 
 	.section	.rodata.java_type_name.1022,"aMS",@progbits,1
 	.type	.L.java_type_name.1022, @object
 .L.java_type_name.1022:
-	.asciz	"javax/security/auth/x500/X500Principal"
-	.size	.L.java_type_name.1022, 39
+	.asciz	"javax/net/ssl/SSLSocketFactory"
+	.size	.L.java_type_name.1022, 31
 
 	.section	.rodata.java_type_name.1023,"aMS",@progbits,1
 	.type	.L.java_type_name.1023, @object
 .L.java_type_name.1023:
-	.asciz	"javax/security/cert/Certificate"
-	.size	.L.java_type_name.1023, 32
+	.asciz	"javax/net/ssl/SSLSocketFactory"
+	.size	.L.java_type_name.1023, 31
 
 	.section	.rodata.java_type_name.1024,"aMS",@progbits,1
 	.type	.L.java_type_name.1024, @object
 .L.java_type_name.1024:
-	.asciz	"javax/security/cert/Certificate"
-	.size	.L.java_type_name.1024, 32
+	.asciz	"javax/net/ssl/TrustManager"
+	.size	.L.java_type_name.1024, 27
 
 	.section	.rodata.java_type_name.1025,"aMS",@progbits,1
 	.type	.L.java_type_name.1025, @object
 .L.java_type_name.1025:
-	.asciz	"javax/security/cert/X509Certificate"
-	.size	.L.java_type_name.1025, 36
+	.asciz	"javax/net/ssl/TrustManagerFactory"
+	.size	.L.java_type_name.1025, 34
 
 	.section	.rodata.java_type_name.1026,"aMS",@progbits,1
 	.type	.L.java_type_name.1026, @object
 .L.java_type_name.1026:
-	.asciz	"javax/security/cert/X509Certificate"
-	.size	.L.java_type_name.1026, 36
+	.asciz	"javax/net/ssl/X509TrustManager"
+	.size	.L.java_type_name.1026, 31
 
 	.section	.rodata.java_type_name.1027,"aMS",@progbits,1
 	.type	.L.java_type_name.1027, @object
 .L.java_type_name.1027:
-	.asciz	"mono/android/TypeManager"
-	.size	.L.java_type_name.1027, 25
+	.asciz	"javax/security/auth/x500/X500Principal"
+	.size	.L.java_type_name.1027, 39
 
 	.section	.rodata.java_type_name.1028,"aMS",@progbits,1
 	.type	.L.java_type_name.1028, @object
 .L.java_type_name.1028:
-	.asciz	"mono/android/animation/AnimatorEventDispatcher"
-	.size	.L.java_type_name.1028, 47
+	.asciz	"javax/security/cert/Certificate"
+	.size	.L.java_type_name.1028, 32
 
 	.section	.rodata.java_type_name.1029,"aMS",@progbits,1
 	.type	.L.java_type_name.1029, @object
 .L.java_type_name.1029:
-	.asciz	"mono/android/animation/ValueAnimator_AnimatorUpdateListenerImplementor"
-	.size	.L.java_type_name.1029, 71
+	.asciz	"javax/security/cert/Certificate"
+	.size	.L.java_type_name.1029, 32
 
 	.section	.rodata.java_type_name.1030,"aMS",@progbits,1
 	.type	.L.java_type_name.1030, @object
 .L.java_type_name.1030:
-	.asciz	"mono/android/app/DatePickerDialog_OnDateSetListenerImplementor"
-	.size	.L.java_type_name.1030, 63
+	.asciz	"javax/security/cert/X509Certificate"
+	.size	.L.java_type_name.1030, 36
 
 	.section	.rodata.java_type_name.1031,"aMS",@progbits,1
 	.type	.L.java_type_name.1031, @object
 .L.java_type_name.1031:
-	.asciz	"mono/android/app/TabEventDispatcher"
+	.asciz	"javax/security/cert/X509Certificate"
 	.size	.L.java_type_name.1031, 36
 
 	.section	.rodata.java_type_name.1032,"aMS",@progbits,1
 	.type	.L.java_type_name.1032, @object
 .L.java_type_name.1032:
-	.asciz	"mono/android/content/DialogInterface_OnCancelListenerImplementor"
-	.size	.L.java_type_name.1032, 65
+	.asciz	"mono/android/TypeManager"
+	.size	.L.java_type_name.1032, 25
 
 	.section	.rodata.java_type_name.1033,"aMS",@progbits,1
 	.type	.L.java_type_name.1033, @object
 .L.java_type_name.1033:
-	.asciz	"mono/android/content/DialogInterface_OnClickListenerImplementor"
-	.size	.L.java_type_name.1033, 64
+	.asciz	"mono/android/animation/AnimatorEventDispatcher"
+	.size	.L.java_type_name.1033, 47
 
 	.section	.rodata.java_type_name.1034,"aMS",@progbits,1
 	.type	.L.java_type_name.1034, @object
 .L.java_type_name.1034:
-	.asciz	"mono/android/content/DialogInterface_OnDismissListenerImplementor"
-	.size	.L.java_type_name.1034, 66
+	.asciz	"mono/android/animation/ValueAnimator_AnimatorUpdateListenerImplementor"
+	.size	.L.java_type_name.1034, 71
 
 	.section	.rodata.java_type_name.1035,"aMS",@progbits,1
 	.type	.L.java_type_name.1035, @object
 .L.java_type_name.1035:
-	.asciz	"mono/android/content/DialogInterface_OnKeyListenerImplementor"
-	.size	.L.java_type_name.1035, 62
+	.asciz	"mono/android/app/DatePickerDialog_OnDateSetListenerImplementor"
+	.size	.L.java_type_name.1035, 63
 
 	.section	.rodata.java_type_name.1036,"aMS",@progbits,1
 	.type	.L.java_type_name.1036, @object
 .L.java_type_name.1036:
-	.asciz	"mono/android/content/DialogInterface_OnShowListenerImplementor"
-	.size	.L.java_type_name.1036, 63
+	.asciz	"mono/android/app/TabEventDispatcher"
+	.size	.L.java_type_name.1036, 36
 
 	.section	.rodata.java_type_name.1037,"aMS",@progbits,1
 	.type	.L.java_type_name.1037, @object
 .L.java_type_name.1037:
-	.asciz	"mono/android/media/MediaPlayer_OnBufferingUpdateListenerImplementor"
-	.size	.L.java_type_name.1037, 68
+	.asciz	"mono/android/content/DialogInterface_OnCancelListenerImplementor"
+	.size	.L.java_type_name.1037, 65
 
 	.section	.rodata.java_type_name.1038,"aMS",@progbits,1
 	.type	.L.java_type_name.1038, @object
 .L.java_type_name.1038:
-	.asciz	"mono/android/runtime/InputStreamAdapter"
-	.size	.L.java_type_name.1038, 40
+	.asciz	"mono/android/content/DialogInterface_OnClickListenerImplementor"
+	.size	.L.java_type_name.1038, 64
 
 	.section	.rodata.java_type_name.1039,"aMS",@progbits,1
 	.type	.L.java_type_name.1039, @object
 .L.java_type_name.1039:
-	.asciz	"mono/android/runtime/JavaArray"
-	.size	.L.java_type_name.1039, 31
+	.asciz	"mono/android/content/DialogInterface_OnDismissListenerImplementor"
+	.size	.L.java_type_name.1039, 66
 
 	.section	.rodata.java_type_name.1040,"aMS",@progbits,1
 	.type	.L.java_type_name.1040, @object
 .L.java_type_name.1040:
-	.asciz	"mono/android/runtime/JavaObject"
-	.size	.L.java_type_name.1040, 32
+	.asciz	"mono/android/content/DialogInterface_OnKeyListenerImplementor"
+	.size	.L.java_type_name.1040, 62
 
 	.section	.rodata.java_type_name.1041,"aMS",@progbits,1
 	.type	.L.java_type_name.1041, @object
 .L.java_type_name.1041:
-	.asciz	"mono/android/runtime/OutputStreamAdapter"
-	.size	.L.java_type_name.1041, 41
+	.asciz	"mono/android/content/DialogInterface_OnShowListenerImplementor"
+	.size	.L.java_type_name.1041, 63
 
 	.section	.rodata.java_type_name.1042,"aMS",@progbits,1
 	.type	.L.java_type_name.1042, @object
 .L.java_type_name.1042:
-	.asciz	"mono/android/support/design/widget/AppBarLayout_OnOffsetChangedListenerImplementor"
-	.size	.L.java_type_name.1042, 83
+	.asciz	"mono/android/media/MediaPlayer_OnBufferingUpdateListenerImplementor"
+	.size	.L.java_type_name.1042, 68
 
 	.section	.rodata.java_type_name.1043,"aMS",@progbits,1
 	.type	.L.java_type_name.1043, @object
 .L.java_type_name.1043:
-	.asciz	"mono/android/support/design/widget/BottomNavigationView_OnNavigationItemReselectedListenerImplementor"
-	.size	.L.java_type_name.1043, 102
+	.asciz	"mono/android/runtime/InputStreamAdapter"
+	.size	.L.java_type_name.1043, 40
 
 	.section	.rodata.java_type_name.1044,"aMS",@progbits,1
 	.type	.L.java_type_name.1044, @object
 .L.java_type_name.1044:
-	.asciz	"mono/android/support/design/widget/BottomNavigationView_OnNavigationItemSelectedListenerImplementor"
-	.size	.L.java_type_name.1044, 100
+	.asciz	"mono/android/runtime/JavaArray"
+	.size	.L.java_type_name.1044, 31
 
 	.section	.rodata.java_type_name.1045,"aMS",@progbits,1
 	.type	.L.java_type_name.1045, @object
 .L.java_type_name.1045:
-	.asciz	"mono/android/support/design/widget/SwipeDismissBehavior_OnDismissListenerImplementor"
-	.size	.L.java_type_name.1045, 85
+	.asciz	"mono/android/runtime/JavaObject"
+	.size	.L.java_type_name.1045, 32
 
 	.section	.rodata.java_type_name.1046,"aMS",@progbits,1
 	.type	.L.java_type_name.1046, @object
 .L.java_type_name.1046:
-	.asciz	"mono/android/support/design/widget/TabLayout_BaseOnTabSelectedListenerImplementor"
-	.size	.L.java_type_name.1046, 82
+	.asciz	"mono/android/runtime/OutputStreamAdapter"
+	.size	.L.java_type_name.1046, 41
 
 	.section	.rodata.java_type_name.1047,"aMS",@progbits,1
 	.type	.L.java_type_name.1047, @object
 .L.java_type_name.1047:
-	.asciz	"mono/android/support/v4/app/FragmentManager_OnBackStackChangedListenerImplementor"
-	.size	.L.java_type_name.1047, 82
+	.asciz	"mono/android/support/design/widget/AppBarLayout_OnOffsetChangedListenerImplementor"
+	.size	.L.java_type_name.1047, 83
 
 	.section	.rodata.java_type_name.1048,"aMS",@progbits,1
 	.type	.L.java_type_name.1048, @object
 .L.java_type_name.1048:
-	.asciz	"mono/android/support/v4/view/ActionProvider_SubUiVisibilityListenerImplementor"
-	.size	.L.java_type_name.1048, 79
+	.asciz	"mono/android/support/design/widget/BottomNavigationView_OnNavigationItemReselectedListenerImplementor"
+	.size	.L.java_type_name.1048, 102
 
 	.section	.rodata.java_type_name.1049,"aMS",@progbits,1
 	.type	.L.java_type_name.1049, @object
 .L.java_type_name.1049:
-	.asciz	"mono/android/support/v4/view/ActionProvider_VisibilityListenerImplementor"
-	.size	.L.java_type_name.1049, 74
+	.asciz	"mono/android/support/design/widget/BottomNavigationView_OnNavigationItemSelectedListenerImplementor"
+	.size	.L.java_type_name.1049, 100
 
 	.section	.rodata.java_type_name.1050,"aMS",@progbits,1
 	.type	.L.java_type_name.1050, @object
 .L.java_type_name.1050:
-	.asciz	"mono/android/support/v4/view/ViewPager_OnAdapterChangeListenerImplementor"
-	.size	.L.java_type_name.1050, 74
+	.asciz	"mono/android/support/design/widget/SwipeDismissBehavior_OnDismissListenerImplementor"
+	.size	.L.java_type_name.1050, 85
 
 	.section	.rodata.java_type_name.1051,"aMS",@progbits,1
 	.type	.L.java_type_name.1051, @object
 .L.java_type_name.1051:
-	.asciz	"mono/android/support/v4/view/ViewPager_OnPageChangeListenerImplementor"
-	.size	.L.java_type_name.1051, 71
+	.asciz	"mono/android/support/design/widget/TabLayout_BaseOnTabSelectedListenerImplementor"
+	.size	.L.java_type_name.1051, 82
 
 	.section	.rodata.java_type_name.1052,"aMS",@progbits,1
 	.type	.L.java_type_name.1052, @object
 .L.java_type_name.1052:
-	.asciz	"mono/android/support/v4/widget/DrawerLayout_DrawerListenerImplementor"
-	.size	.L.java_type_name.1052, 70
+	.asciz	"mono/android/support/v4/app/FragmentManager_OnBackStackChangedListenerImplementor"
+	.size	.L.java_type_name.1052, 82
 
 	.section	.rodata.java_type_name.1053,"aMS",@progbits,1
 	.type	.L.java_type_name.1053, @object
 .L.java_type_name.1053:
-	.asciz	"mono/android/support/v4/widget/NestedScrollView_OnScrollChangeListenerImplementor"
-	.size	.L.java_type_name.1053, 82
+	.asciz	"mono/android/support/v4/view/ActionProvider_SubUiVisibilityListenerImplementor"
+	.size	.L.java_type_name.1053, 79
 
 	.section	.rodata.java_type_name.1054,"aMS",@progbits,1
 	.type	.L.java_type_name.1054, @object
 .L.java_type_name.1054:
-	.asciz	"mono/android/support/v4/widget/SwipeRefreshLayout_OnRefreshListenerImplementor"
-	.size	.L.java_type_name.1054, 79
+	.asciz	"mono/android/support/v4/view/ActionProvider_VisibilityListenerImplementor"
+	.size	.L.java_type_name.1054, 74
 
 	.section	.rodata.java_type_name.1055,"aMS",@progbits,1
 	.type	.L.java_type_name.1055, @object
 .L.java_type_name.1055:
-	.asciz	"mono/android/support/v7/app/ActionBar_OnMenuVisibilityListenerImplementor"
+	.asciz	"mono/android/support/v4/view/ViewPager_OnAdapterChangeListenerImplementor"
 	.size	.L.java_type_name.1055, 74
 
 	.section	.rodata.java_type_name.1056,"aMS",@progbits,1
 	.type	.L.java_type_name.1056, @object
 .L.java_type_name.1056:
-	.asciz	"mono/android/support/v7/widget/RecyclerView_OnChildAttachStateChangeListenerImplementor"
-	.size	.L.java_type_name.1056, 88
+	.asciz	"mono/android/support/v4/view/ViewPager_OnPageChangeListenerImplementor"
+	.size	.L.java_type_name.1056, 71
 
 	.section	.rodata.java_type_name.1057,"aMS",@progbits,1
 	.type	.L.java_type_name.1057, @object
 .L.java_type_name.1057:
-	.asciz	"mono/android/support/v7/widget/RecyclerView_OnItemTouchListenerImplementor"
-	.size	.L.java_type_name.1057, 75
+	.asciz	"mono/android/support/v4/widget/DrawerLayout_DrawerListenerImplementor"
+	.size	.L.java_type_name.1057, 70
 
 	.section	.rodata.java_type_name.1058,"aMS",@progbits,1
 	.type	.L.java_type_name.1058, @object
 .L.java_type_name.1058:
-	.asciz	"mono/android/support/v7/widget/RecyclerView_RecyclerListenerImplementor"
-	.size	.L.java_type_name.1058, 72
+	.asciz	"mono/android/support/v4/widget/NestedScrollView_OnScrollChangeListenerImplementor"
+	.size	.L.java_type_name.1058, 82
 
 	.section	.rodata.java_type_name.1059,"aMS",@progbits,1
 	.type	.L.java_type_name.1059, @object
 .L.java_type_name.1059:
-	.asciz	"mono/android/support/v7/widget/Toolbar_OnMenuItemClickListenerImplementor"
-	.size	.L.java_type_name.1059, 74
+	.asciz	"mono/android/support/v4/widget/SwipeRefreshLayout_OnRefreshListenerImplementor"
+	.size	.L.java_type_name.1059, 79
 
 	.section	.rodata.java_type_name.1060,"aMS",@progbits,1
 	.type	.L.java_type_name.1060, @object
 .L.java_type_name.1060:
-	.asciz	"mono/android/text/TextWatcherImplementor"
-	.size	.L.java_type_name.1060, 41
+	.asciz	"mono/android/support/v7/app/ActionBar_OnMenuVisibilityListenerImplementor"
+	.size	.L.java_type_name.1060, 74
 
 	.section	.rodata.java_type_name.1061,"aMS",@progbits,1
 	.type	.L.java_type_name.1061, @object
 .L.java_type_name.1061:
-	.asciz	"mono/android/view/View_OnAttachStateChangeListenerImplementor"
-	.size	.L.java_type_name.1061, 62
+	.asciz	"mono/android/support/v7/widget/RecyclerView_OnChildAttachStateChangeListenerImplementor"
+	.size	.L.java_type_name.1061, 88
 
 	.section	.rodata.java_type_name.1062,"aMS",@progbits,1
 	.type	.L.java_type_name.1062, @object
 .L.java_type_name.1062:
-	.asciz	"mono/android/view/View_OnClickListenerImplementor"
-	.size	.L.java_type_name.1062, 50
+	.asciz	"mono/android/support/v7/widget/RecyclerView_OnItemTouchListenerImplementor"
+	.size	.L.java_type_name.1062, 75
 
 	.section	.rodata.java_type_name.1063,"aMS",@progbits,1
 	.type	.L.java_type_name.1063, @object
 .L.java_type_name.1063:
-	.asciz	"mono/android/view/View_OnKeyListenerImplementor"
-	.size	.L.java_type_name.1063, 48
+	.asciz	"mono/android/support/v7/widget/RecyclerView_RecyclerListenerImplementor"
+	.size	.L.java_type_name.1063, 72
 
 	.section	.rodata.java_type_name.1064,"aMS",@progbits,1
 	.type	.L.java_type_name.1064, @object
 .L.java_type_name.1064:
-	.asciz	"mono/android/view/View_OnLayoutChangeListenerImplementor"
-	.size	.L.java_type_name.1064, 57
+	.asciz	"mono/android/support/v7/widget/Toolbar_OnMenuItemClickListenerImplementor"
+	.size	.L.java_type_name.1064, 74
 
 	.section	.rodata.java_type_name.1065,"aMS",@progbits,1
 	.type	.L.java_type_name.1065, @object
 .L.java_type_name.1065:
-	.asciz	"mono/android/view/View_OnTouchListenerImplementor"
-	.size	.L.java_type_name.1065, 50
+	.asciz	"mono/android/text/TextWatcherImplementor"
+	.size	.L.java_type_name.1065, 41
 
 	.section	.rodata.java_type_name.1066,"aMS",@progbits,1
 	.type	.L.java_type_name.1066, @object
 .L.java_type_name.1066:
-	.asciz	"mono/android/widget/AdapterView_OnItemClickListenerImplementor"
-	.size	.L.java_type_name.1066, 63
+	.asciz	"mono/android/view/View_OnAttachStateChangeListenerImplementor"
+	.size	.L.java_type_name.1066, 62
 
 	.section	.rodata.java_type_name.1067,"aMS",@progbits,1
 	.type	.L.java_type_name.1067, @object
 .L.java_type_name.1067:
-	.asciz	"mono/java/lang/Runnable"
-	.size	.L.java_type_name.1067, 24
+	.asciz	"mono/android/view/View_OnClickListenerImplementor"
+	.size	.L.java_type_name.1067, 50
 
 	.section	.rodata.java_type_name.1068,"aMS",@progbits,1
 	.type	.L.java_type_name.1068, @object
 .L.java_type_name.1068:
-	.asciz	"mono/java/lang/RunnableImplementor"
-	.size	.L.java_type_name.1068, 35
+	.asciz	"mono/android/view/View_OnKeyListenerImplementor"
+	.size	.L.java_type_name.1068, 48
 
 	.section	.rodata.java_type_name.1069,"aMS",@progbits,1
 	.type	.L.java_type_name.1069, @object
 .L.java_type_name.1069:
-	.asciz	"org/xmlpull/v1/XmlPullParser"
-	.size	.L.java_type_name.1069, 29
+	.asciz	"mono/android/view/View_OnLayoutChangeListenerImplementor"
+	.size	.L.java_type_name.1069, 57
 
 	.section	.rodata.java_type_name.1070,"aMS",@progbits,1
 	.type	.L.java_type_name.1070, @object
 .L.java_type_name.1070:
-	.asciz	"org/xmlpull/v1/XmlPullParserException"
-	.size	.L.java_type_name.1070, 38
+	.asciz	"mono/android/view/View_OnTouchListenerImplementor"
+	.size	.L.java_type_name.1070, 50
 
 	.section	.rodata.java_type_name.1071,"aMS",@progbits,1
 	.type	.L.java_type_name.1071, @object
 .L.java_type_name.1071:
+	.asciz	"mono/android/widget/AdapterView_OnItemClickListenerImplementor"
+	.size	.L.java_type_name.1071, 63
+
+	.section	.rodata.java_type_name.1072,"aMS",@progbits,1
+	.type	.L.java_type_name.1072, @object
+.L.java_type_name.1072:
+	.asciz	"mono/java/lang/Runnable"
+	.size	.L.java_type_name.1072, 24
+
+	.section	.rodata.java_type_name.1073,"aMS",@progbits,1
+	.type	.L.java_type_name.1073, @object
+.L.java_type_name.1073:
+	.asciz	"mono/java/lang/RunnableImplementor"
+	.size	.L.java_type_name.1073, 35
+
+	.section	.rodata.java_type_name.1074,"aMS",@progbits,1
+	.type	.L.java_type_name.1074, @object
+.L.java_type_name.1074:
+	.asciz	"org/xmlpull/v1/XmlPullParser"
+	.size	.L.java_type_name.1074, 29
+
+	.section	.rodata.java_type_name.1075,"aMS",@progbits,1
+	.type	.L.java_type_name.1075, @object
+.L.java_type_name.1075:
+	.asciz	"org/xmlpull/v1/XmlPullParserException"
+	.size	.L.java_type_name.1075, 38
+
+	.section	.rodata.java_type_name.1076,"aMS",@progbits,1
+	.type	.L.java_type_name.1076, @object
+.L.java_type_name.1076:
 	.asciz	"xamarin/android/net/OldAndroidSSLSocketFactory"
-	.size	.L.java_type_name.1071, 47
+	.size	.L.java_type_name.1076, 47
 
 	/* Java type names: END */
 
@@ -9872,8 +9902,8 @@
 	.section	.rodata.managed_type_name.687,"aMS",@progbits,1
 	.type	.L.managed_type_name.687, @object
 .L.managed_type_name.687:
-	.asciz	"Java.IO.OutputStream, Mono.Android"
-	.size	.L.managed_type_name.687, 35
+	.asciz	"Java.IO.InterruptedIOException, Mono.Android"
+	.size	.L.managed_type_name.687, 45
 	.section	.rodata.managed_type_name.688,"aMS",@progbits,1
 	.type	.L.managed_type_name.688, @object
 .L.managed_type_name.688:
@@ -9882,13 +9912,13 @@
 	.section	.rodata.managed_type_name.689,"aMS",@progbits,1
 	.type	.L.managed_type_name.689, @object
 .L.managed_type_name.689:
-	.asciz	"Java.IO.PrintWriter, Mono.Android"
-	.size	.L.managed_type_name.689, 34
+	.asciz	"Java.IO.OutputStream, Mono.Android"
+	.size	.L.managed_type_name.689, 35
 	.section	.rodata.managed_type_name.690,"aMS",@progbits,1
 	.type	.L.managed_type_name.690, @object
 .L.managed_type_name.690:
-	.asciz	"Java.IO.Reader, Mono.Android"
-	.size	.L.managed_type_name.690, 29
+	.asciz	"Java.IO.PrintWriter, Mono.Android"
+	.size	.L.managed_type_name.690, 34
 	.section	.rodata.managed_type_name.691,"aMS",@progbits,1
 	.type	.L.managed_type_name.691, @object
 .L.managed_type_name.691:
@@ -9897,13 +9927,13 @@
 	.section	.rodata.managed_type_name.692,"aMS",@progbits,1
 	.type	.L.managed_type_name.692, @object
 .L.managed_type_name.692:
-	.asciz	"Java.IO.StringWriter, Mono.Android"
-	.size	.L.managed_type_name.692, 35
+	.asciz	"Java.IO.Reader, Mono.Android"
+	.size	.L.managed_type_name.692, 29
 	.section	.rodata.managed_type_name.693,"aMS",@progbits,1
 	.type	.L.managed_type_name.693, @object
 .L.managed_type_name.693:
-	.asciz	"Java.IO.Writer, Mono.Android"
-	.size	.L.managed_type_name.693, 29
+	.asciz	"Java.IO.StringWriter, Mono.Android"
+	.size	.L.managed_type_name.693, 35
 	.section	.rodata.managed_type_name.694,"aMS",@progbits,1
 	.type	.L.managed_type_name.694, @object
 .L.managed_type_name.694:
@@ -9912,48 +9942,48 @@
 	.section	.rodata.managed_type_name.695,"aMS",@progbits,1
 	.type	.L.managed_type_name.695, @object
 .L.managed_type_name.695:
-	.asciz	"Java.Interop.TypeManager+JavaTypeManager, Mono.Android"
-	.size	.L.managed_type_name.695, 55
+	.asciz	"Java.IO.Writer, Mono.Android"
+	.size	.L.managed_type_name.695, 29
 	.section	.rodata.managed_type_name.696,"aMS",@progbits,1
 	.type	.L.managed_type_name.696, @object
 .L.managed_type_name.696:
-	.asciz	"Java.Lang.AbstractMethodError, Mono.Android"
-	.size	.L.managed_type_name.696, 44
+	.asciz	"Java.Interop.TypeManager+JavaTypeManager, Mono.Android"
+	.size	.L.managed_type_name.696, 55
 	.section	.rodata.managed_type_name.697,"aMS",@progbits,1
 	.type	.L.managed_type_name.697, @object
 .L.managed_type_name.697:
-	.asciz	"Java.Lang.Annotation.IAnnotationInvoker, Mono.Android"
-	.size	.L.managed_type_name.697, 54
+	.asciz	"Java.Lang.AbstractMethodError, Mono.Android"
+	.size	.L.managed_type_name.697, 44
 	.section	.rodata.managed_type_name.698,"aMS",@progbits,1
 	.type	.L.managed_type_name.698, @object
 .L.managed_type_name.698:
-	.asciz	"Java.Lang.Boolean, Mono.Android"
-	.size	.L.managed_type_name.698, 32
+	.asciz	"Java.Lang.Annotation.IAnnotationInvoker, Mono.Android"
+	.size	.L.managed_type_name.698, 54
 	.section	.rodata.managed_type_name.699,"aMS",@progbits,1
 	.type	.L.managed_type_name.699, @object
 .L.managed_type_name.699:
-	.asciz	"Java.Lang.Byte, Mono.Android"
-	.size	.L.managed_type_name.699, 29
+	.asciz	"Java.Lang.Boolean, Mono.Android"
+	.size	.L.managed_type_name.699, 32
 	.section	.rodata.managed_type_name.700,"aMS",@progbits,1
 	.type	.L.managed_type_name.700, @object
 .L.managed_type_name.700:
-	.asciz	"Java.Lang.Character, Mono.Android"
-	.size	.L.managed_type_name.700, 34
+	.asciz	"Java.Lang.Byte, Mono.Android"
+	.size	.L.managed_type_name.700, 29
 	.section	.rodata.managed_type_name.701,"aMS",@progbits,1
 	.type	.L.managed_type_name.701, @object
 .L.managed_type_name.701:
-	.asciz	"Java.Lang.Class, Mono.Android"
-	.size	.L.managed_type_name.701, 30
+	.asciz	"Java.Lang.Character, Mono.Android"
+	.size	.L.managed_type_name.701, 34
 	.section	.rodata.managed_type_name.702,"aMS",@progbits,1
 	.type	.L.managed_type_name.702, @object
 .L.managed_type_name.702:
-	.asciz	"Java.Lang.ClassCastException, Mono.Android"
-	.size	.L.managed_type_name.702, 43
+	.asciz	"Java.Lang.Class, Mono.Android"
+	.size	.L.managed_type_name.702, 30
 	.section	.rodata.managed_type_name.703,"aMS",@progbits,1
 	.type	.L.managed_type_name.703, @object
 .L.managed_type_name.703:
-	.asciz	"Java.Lang.ClassLoader, Mono.Android"
-	.size	.L.managed_type_name.703, 36
+	.asciz	"Java.Lang.ClassCastException, Mono.Android"
+	.size	.L.managed_type_name.703, 43
 	.section	.rodata.managed_type_name.704,"aMS",@progbits,1
 	.type	.L.managed_type_name.704, @object
 .L.managed_type_name.704:
@@ -9962,18 +9992,18 @@
 	.section	.rodata.managed_type_name.705,"aMS",@progbits,1
 	.type	.L.managed_type_name.705, @object
 .L.managed_type_name.705:
-	.asciz	"Java.Lang.ClassNotFoundException, Mono.Android"
-	.size	.L.managed_type_name.705, 47
+	.asciz	"Java.Lang.ClassLoader, Mono.Android"
+	.size	.L.managed_type_name.705, 36
 	.section	.rodata.managed_type_name.706,"aMS",@progbits,1
 	.type	.L.managed_type_name.706, @object
 .L.managed_type_name.706:
-	.asciz	"Java.Lang.Double, Mono.Android"
-	.size	.L.managed_type_name.706, 31
+	.asciz	"Java.Lang.ClassNotFoundException, Mono.Android"
+	.size	.L.managed_type_name.706, 47
 	.section	.rodata.managed_type_name.707,"aMS",@progbits,1
 	.type	.L.managed_type_name.707, @object
 .L.managed_type_name.707:
-	.asciz	"Java.Lang.Enum, Mono.Android"
-	.size	.L.managed_type_name.707, 29
+	.asciz	"Java.Lang.Double, Mono.Android"
+	.size	.L.managed_type_name.707, 31
 	.section	.rodata.managed_type_name.708,"aMS",@progbits,1
 	.type	.L.managed_type_name.708, @object
 .L.managed_type_name.708:
@@ -9982,108 +10012,108 @@
 	.section	.rodata.managed_type_name.709,"aMS",@progbits,1
 	.type	.L.managed_type_name.709, @object
 .L.managed_type_name.709:
-	.asciz	"Java.Lang.Error, Mono.Android"
-	.size	.L.managed_type_name.709, 30
+	.asciz	"Java.Lang.Enum, Mono.Android"
+	.size	.L.managed_type_name.709, 29
 	.section	.rodata.managed_type_name.710,"aMS",@progbits,1
 	.type	.L.managed_type_name.710, @object
 .L.managed_type_name.710:
-	.asciz	"Java.Lang.Exception, Mono.Android"
-	.size	.L.managed_type_name.710, 34
+	.asciz	"Java.Lang.Error, Mono.Android"
+	.size	.L.managed_type_name.710, 30
 	.section	.rodata.managed_type_name.711,"aMS",@progbits,1
 	.type	.L.managed_type_name.711, @object
 .L.managed_type_name.711:
-	.asciz	"Java.Lang.Float, Mono.Android"
-	.size	.L.managed_type_name.711, 30
+	.asciz	"Java.Lang.Exception, Mono.Android"
+	.size	.L.managed_type_name.711, 34
 	.section	.rodata.managed_type_name.712,"aMS",@progbits,1
 	.type	.L.managed_type_name.712, @object
 .L.managed_type_name.712:
-	.asciz	"Java.Lang.IAppendableInvoker, Mono.Android"
-	.size	.L.managed_type_name.712, 43
+	.asciz	"Java.Lang.Float, Mono.Android"
+	.size	.L.managed_type_name.712, 30
 	.section	.rodata.managed_type_name.713,"aMS",@progbits,1
 	.type	.L.managed_type_name.713, @object
 .L.managed_type_name.713:
-	.asciz	"Java.Lang.IAutoCloseableInvoker, Mono.Android"
-	.size	.L.managed_type_name.713, 46
+	.asciz	"Java.Lang.IAppendableInvoker, Mono.Android"
+	.size	.L.managed_type_name.713, 43
 	.section	.rodata.managed_type_name.714,"aMS",@progbits,1
 	.type	.L.managed_type_name.714, @object
 .L.managed_type_name.714:
-	.asciz	"Java.Lang.ICharSequenceInvoker, Mono.Android"
-	.size	.L.managed_type_name.714, 45
+	.asciz	"Java.Lang.IAutoCloseableInvoker, Mono.Android"
+	.size	.L.managed_type_name.714, 46
 	.section	.rodata.managed_type_name.715,"aMS",@progbits,1
 	.type	.L.managed_type_name.715, @object
 .L.managed_type_name.715:
-	.asciz	"Java.Lang.ICloneableInvoker, Mono.Android"
-	.size	.L.managed_type_name.715, 42
+	.asciz	"Java.Lang.ICharSequenceInvoker, Mono.Android"
+	.size	.L.managed_type_name.715, 45
 	.section	.rodata.managed_type_name.716,"aMS",@progbits,1
 	.type	.L.managed_type_name.716, @object
 .L.managed_type_name.716:
-	.asciz	"Java.Lang.IComparableInvoker, Mono.Android"
-	.size	.L.managed_type_name.716, 43
+	.asciz	"Java.Lang.ICloneableInvoker, Mono.Android"
+	.size	.L.managed_type_name.716, 42
 	.section	.rodata.managed_type_name.717,"aMS",@progbits,1
 	.type	.L.managed_type_name.717, @object
 .L.managed_type_name.717:
-	.asciz	"Java.Lang.IIterableInvoker, Mono.Android"
-	.size	.L.managed_type_name.717, 41
+	.asciz	"Java.Lang.IComparableInvoker, Mono.Android"
+	.size	.L.managed_type_name.717, 43
 	.section	.rodata.managed_type_name.718,"aMS",@progbits,1
 	.type	.L.managed_type_name.718, @object
 .L.managed_type_name.718:
-	.asciz	"Java.Lang.IReadableInvoker, Mono.Android"
+	.asciz	"Java.Lang.IIterableInvoker, Mono.Android"
 	.size	.L.managed_type_name.718, 41
 	.section	.rodata.managed_type_name.719,"aMS",@progbits,1
 	.type	.L.managed_type_name.719, @object
 .L.managed_type_name.719:
-	.asciz	"Java.Lang.IRunnableInvoker, Mono.Android"
+	.asciz	"Java.Lang.IReadableInvoker, Mono.Android"
 	.size	.L.managed_type_name.719, 41
 	.section	.rodata.managed_type_name.720,"aMS",@progbits,1
 	.type	.L.managed_type_name.720, @object
 .L.managed_type_name.720:
-	.asciz	"Java.Lang.IllegalArgumentException, Mono.Android"
-	.size	.L.managed_type_name.720, 49
+	.asciz	"Java.Lang.IRunnableInvoker, Mono.Android"
+	.size	.L.managed_type_name.720, 41
 	.section	.rodata.managed_type_name.721,"aMS",@progbits,1
 	.type	.L.managed_type_name.721, @object
 .L.managed_type_name.721:
-	.asciz	"Java.Lang.IllegalStateException, Mono.Android"
-	.size	.L.managed_type_name.721, 46
+	.asciz	"Java.Lang.IllegalArgumentException, Mono.Android"
+	.size	.L.managed_type_name.721, 49
 	.section	.rodata.managed_type_name.722,"aMS",@progbits,1
 	.type	.L.managed_type_name.722, @object
 .L.managed_type_name.722:
-	.asciz	"Java.Lang.IncompatibleClassChangeError, Mono.Android"
-	.size	.L.managed_type_name.722, 53
+	.asciz	"Java.Lang.IllegalStateException, Mono.Android"
+	.size	.L.managed_type_name.722, 46
 	.section	.rodata.managed_type_name.723,"aMS",@progbits,1
 	.type	.L.managed_type_name.723, @object
 .L.managed_type_name.723:
-	.asciz	"Java.Lang.IndexOutOfBoundsException, Mono.Android"
-	.size	.L.managed_type_name.723, 50
+	.asciz	"Java.Lang.IncompatibleClassChangeError, Mono.Android"
+	.size	.L.managed_type_name.723, 53
 	.section	.rodata.managed_type_name.724,"aMS",@progbits,1
 	.type	.L.managed_type_name.724, @object
 .L.managed_type_name.724:
-	.asciz	"Java.Lang.Integer, Mono.Android"
-	.size	.L.managed_type_name.724, 32
+	.asciz	"Java.Lang.IndexOutOfBoundsException, Mono.Android"
+	.size	.L.managed_type_name.724, 50
 	.section	.rodata.managed_type_name.725,"aMS",@progbits,1
 	.type	.L.managed_type_name.725, @object
 .L.managed_type_name.725:
-	.asciz	"Java.Lang.LinkageError, Mono.Android"
-	.size	.L.managed_type_name.725, 37
+	.asciz	"Java.Lang.Integer, Mono.Android"
+	.size	.L.managed_type_name.725, 32
 	.section	.rodata.managed_type_name.726,"aMS",@progbits,1
 	.type	.L.managed_type_name.726, @object
 .L.managed_type_name.726:
-	.asciz	"Java.Lang.Long, Mono.Android"
-	.size	.L.managed_type_name.726, 29
+	.asciz	"Java.Lang.LinkageError, Mono.Android"
+	.size	.L.managed_type_name.726, 37
 	.section	.rodata.managed_type_name.727,"aMS",@progbits,1
 	.type	.L.managed_type_name.727, @object
 .L.managed_type_name.727:
-	.asciz	"Java.Lang.NoClassDefFoundError, Mono.Android"
-	.size	.L.managed_type_name.727, 45
+	.asciz	"Java.Lang.Long, Mono.Android"
+	.size	.L.managed_type_name.727, 29
 	.section	.rodata.managed_type_name.728,"aMS",@progbits,1
 	.type	.L.managed_type_name.728, @object
 .L.managed_type_name.728:
-	.asciz	"Java.Lang.NullPointerException, Mono.Android"
+	.asciz	"Java.Lang.NoClassDefFoundError, Mono.Android"
 	.size	.L.managed_type_name.728, 45
 	.section	.rodata.managed_type_name.729,"aMS",@progbits,1
 	.type	.L.managed_type_name.729, @object
 .L.managed_type_name.729:
-	.asciz	"Java.Lang.Number, Mono.Android"
-	.size	.L.managed_type_name.729, 31
+	.asciz	"Java.Lang.NullPointerException, Mono.Android"
+	.size	.L.managed_type_name.729, 45
 	.section	.rodata.managed_type_name.730,"aMS",@progbits,1
 	.type	.L.managed_type_name.730, @object
 .L.managed_type_name.730:
@@ -10092,18 +10122,18 @@
 	.section	.rodata.managed_type_name.731,"aMS",@progbits,1
 	.type	.L.managed_type_name.731, @object
 .L.managed_type_name.731:
-	.asciz	"Java.Lang.Object, Mono.Android"
+	.asciz	"Java.Lang.Number, Mono.Android"
 	.size	.L.managed_type_name.731, 31
 	.section	.rodata.managed_type_name.732,"aMS",@progbits,1
 	.type	.L.managed_type_name.732, @object
 .L.managed_type_name.732:
-	.asciz	"Java.Lang.Reflect.AccessibleObject, Mono.Android"
-	.size	.L.managed_type_name.732, 49
+	.asciz	"Java.Lang.Object, Mono.Android"
+	.size	.L.managed_type_name.732, 31
 	.section	.rodata.managed_type_name.733,"aMS",@progbits,1
 	.type	.L.managed_type_name.733, @object
 .L.managed_type_name.733:
-	.asciz	"Java.Lang.Reflect.Executable, Mono.Android"
-	.size	.L.managed_type_name.733, 43
+	.asciz	"Java.Lang.Reflect.AccessibleObject, Mono.Android"
+	.size	.L.managed_type_name.733, 49
 	.section	.rodata.managed_type_name.734,"aMS",@progbits,1
 	.type	.L.managed_type_name.734, @object
 .L.managed_type_name.734:
@@ -10112,1686 +10142,1711 @@
 	.section	.rodata.managed_type_name.735,"aMS",@progbits,1
 	.type	.L.managed_type_name.735, @object
 .L.managed_type_name.735:
-	.asciz	"Java.Lang.Reflect.IAnnotatedElementInvoker, Mono.Android"
-	.size	.L.managed_type_name.735, 57
+	.asciz	"Java.Lang.Reflect.Executable, Mono.Android"
+	.size	.L.managed_type_name.735, 43
 	.section	.rodata.managed_type_name.736,"aMS",@progbits,1
 	.type	.L.managed_type_name.736, @object
 .L.managed_type_name.736:
-	.asciz	"Java.Lang.Reflect.IGenericDeclarationInvoker, Mono.Android"
-	.size	.L.managed_type_name.736, 59
+	.asciz	"Java.Lang.Reflect.IAnnotatedElementInvoker, Mono.Android"
+	.size	.L.managed_type_name.736, 57
 	.section	.rodata.managed_type_name.737,"aMS",@progbits,1
 	.type	.L.managed_type_name.737, @object
 .L.managed_type_name.737:
-	.asciz	"Java.Lang.Reflect.IMemberInvoker, Mono.Android"
-	.size	.L.managed_type_name.737, 47
+	.asciz	"Java.Lang.Reflect.IGenericDeclarationInvoker, Mono.Android"
+	.size	.L.managed_type_name.737, 59
 	.section	.rodata.managed_type_name.738,"aMS",@progbits,1
 	.type	.L.managed_type_name.738, @object
 .L.managed_type_name.738:
-	.asciz	"Java.Lang.Reflect.ITypeInvoker, Mono.Android"
-	.size	.L.managed_type_name.738, 45
+	.asciz	"Java.Lang.Reflect.IMemberInvoker, Mono.Android"
+	.size	.L.managed_type_name.738, 47
 	.section	.rodata.managed_type_name.739,"aMS",@progbits,1
 	.type	.L.managed_type_name.739, @object
 .L.managed_type_name.739:
-	.asciz	"Java.Lang.Reflect.ITypeVariableInvoker, Mono.Android"
-	.size	.L.managed_type_name.739, 53
+	.asciz	"Java.Lang.Reflect.ITypeInvoker, Mono.Android"
+	.size	.L.managed_type_name.739, 45
 	.section	.rodata.managed_type_name.740,"aMS",@progbits,1
 	.type	.L.managed_type_name.740, @object
 .L.managed_type_name.740:
-	.asciz	"Java.Lang.Reflect.Method, Mono.Android"
-	.size	.L.managed_type_name.740, 39
+	.asciz	"Java.Lang.Reflect.ITypeVariableInvoker, Mono.Android"
+	.size	.L.managed_type_name.740, 53
 	.section	.rodata.managed_type_name.741,"aMS",@progbits,1
 	.type	.L.managed_type_name.741, @object
 .L.managed_type_name.741:
-	.asciz	"Java.Lang.ReflectiveOperationException, Mono.Android"
-	.size	.L.managed_type_name.741, 53
+	.asciz	"Java.Lang.Reflect.Method, Mono.Android"
+	.size	.L.managed_type_name.741, 39
 	.section	.rodata.managed_type_name.742,"aMS",@progbits,1
 	.type	.L.managed_type_name.742, @object
 .L.managed_type_name.742:
-	.asciz	"Java.Lang.Runnable, Mono.Android"
-	.size	.L.managed_type_name.742, 33
+	.asciz	"Java.Lang.ReflectiveOperationException, Mono.Android"
+	.size	.L.managed_type_name.742, 53
 	.section	.rodata.managed_type_name.743,"aMS",@progbits,1
 	.type	.L.managed_type_name.743, @object
 .L.managed_type_name.743:
-	.asciz	"Java.Lang.Runtime, Mono.Android"
-	.size	.L.managed_type_name.743, 32
+	.asciz	"Java.Lang.Runnable, Mono.Android"
+	.size	.L.managed_type_name.743, 33
 	.section	.rodata.managed_type_name.744,"aMS",@progbits,1
 	.type	.L.managed_type_name.744, @object
 .L.managed_type_name.744:
-	.asciz	"Java.Lang.RuntimeException, Mono.Android"
-	.size	.L.managed_type_name.744, 41
+	.asciz	"Java.Lang.Runtime, Mono.Android"
+	.size	.L.managed_type_name.744, 32
 	.section	.rodata.managed_type_name.745,"aMS",@progbits,1
 	.type	.L.managed_type_name.745, @object
 .L.managed_type_name.745:
-	.asciz	"Java.Lang.Short, Mono.Android"
-	.size	.L.managed_type_name.745, 30
+	.asciz	"Java.Lang.RuntimeException, Mono.Android"
+	.size	.L.managed_type_name.745, 41
 	.section	.rodata.managed_type_name.746,"aMS",@progbits,1
 	.type	.L.managed_type_name.746, @object
 .L.managed_type_name.746:
-	.asciz	"Java.Lang.String, Mono.Android"
-	.size	.L.managed_type_name.746, 31
+	.asciz	"Java.Lang.SecurityException, Mono.Android"
+	.size	.L.managed_type_name.746, 42
 	.section	.rodata.managed_type_name.747,"aMS",@progbits,1
 	.type	.L.managed_type_name.747, @object
 .L.managed_type_name.747:
-	.asciz	"Java.Lang.Thread+RunnableImplementor, Mono.Android"
-	.size	.L.managed_type_name.747, 51
+	.asciz	"Java.Lang.Short, Mono.Android"
+	.size	.L.managed_type_name.747, 30
 	.section	.rodata.managed_type_name.748,"aMS",@progbits,1
 	.type	.L.managed_type_name.748, @object
 .L.managed_type_name.748:
-	.asciz	"Java.Lang.Thread, Mono.Android"
+	.asciz	"Java.Lang.String, Mono.Android"
 	.size	.L.managed_type_name.748, 31
 	.section	.rodata.managed_type_name.749,"aMS",@progbits,1
 	.type	.L.managed_type_name.749, @object
 .L.managed_type_name.749:
-	.asciz	"Java.Lang.Throwable, Mono.Android"
-	.size	.L.managed_type_name.749, 34
+	.asciz	"Java.Lang.Thread+RunnableImplementor, Mono.Android"
+	.size	.L.managed_type_name.749, 51
 	.section	.rodata.managed_type_name.750,"aMS",@progbits,1
 	.type	.L.managed_type_name.750, @object
 .L.managed_type_name.750:
-	.asciz	"Java.Lang.UnsupportedOperationException, Mono.Android"
-	.size	.L.managed_type_name.750, 54
+	.asciz	"Java.Lang.Thread, Mono.Android"
+	.size	.L.managed_type_name.750, 31
 	.section	.rodata.managed_type_name.751,"aMS",@progbits,1
 	.type	.L.managed_type_name.751, @object
 .L.managed_type_name.751:
-	.asciz	"Java.Math.BigInteger, Mono.Android"
-	.size	.L.managed_type_name.751, 35
+	.asciz	"Java.Lang.Throwable, Mono.Android"
+	.size	.L.managed_type_name.751, 34
 	.section	.rodata.managed_type_name.752,"aMS",@progbits,1
 	.type	.L.managed_type_name.752, @object
 .L.managed_type_name.752:
-	.asciz	"Java.Net.ConnectException, Mono.Android"
-	.size	.L.managed_type_name.752, 40
+	.asciz	"Java.Lang.UnsupportedOperationException, Mono.Android"
+	.size	.L.managed_type_name.752, 54
 	.section	.rodata.managed_type_name.753,"aMS",@progbits,1
 	.type	.L.managed_type_name.753, @object
 .L.managed_type_name.753:
-	.asciz	"Java.Net.HttpURLConnection, Mono.Android"
-	.size	.L.managed_type_name.753, 41
+	.asciz	"Java.Math.BigInteger, Mono.Android"
+	.size	.L.managed_type_name.753, 35
 	.section	.rodata.managed_type_name.754,"aMS",@progbits,1
 	.type	.L.managed_type_name.754, @object
 .L.managed_type_name.754:
-	.asciz	"Java.Net.HttpURLConnection, Mono.Android"
-	.size	.L.managed_type_name.754, 41
+	.asciz	"Java.Net.ConnectException, Mono.Android"
+	.size	.L.managed_type_name.754, 40
 	.section	.rodata.managed_type_name.755,"aMS",@progbits,1
 	.type	.L.managed_type_name.755, @object
 .L.managed_type_name.755:
-	.asciz	"Java.Net.InetSocketAddress, Mono.Android"
+	.asciz	"Java.Net.HttpURLConnection, Mono.Android"
 	.size	.L.managed_type_name.755, 41
 	.section	.rodata.managed_type_name.756,"aMS",@progbits,1
 	.type	.L.managed_type_name.756, @object
 .L.managed_type_name.756:
-	.asciz	"Java.Net.Proxy+Type, Mono.Android"
-	.size	.L.managed_type_name.756, 34
+	.asciz	"Java.Net.HttpURLConnection, Mono.Android"
+	.size	.L.managed_type_name.756, 41
 	.section	.rodata.managed_type_name.757,"aMS",@progbits,1
 	.type	.L.managed_type_name.757, @object
 .L.managed_type_name.757:
-	.asciz	"Java.Net.Proxy, Mono.Android"
-	.size	.L.managed_type_name.757, 29
+	.asciz	"Java.Net.InetSocketAddress, Mono.Android"
+	.size	.L.managed_type_name.757, 41
 	.section	.rodata.managed_type_name.758,"aMS",@progbits,1
 	.type	.L.managed_type_name.758, @object
 .L.managed_type_name.758:
-	.asciz	"Java.Net.ProxySelector, Mono.Android"
-	.size	.L.managed_type_name.758, 37
+	.asciz	"Java.Net.ProtocolException, Mono.Android"
+	.size	.L.managed_type_name.758, 41
 	.section	.rodata.managed_type_name.759,"aMS",@progbits,1
 	.type	.L.managed_type_name.759, @object
 .L.managed_type_name.759:
-	.asciz	"Java.Net.ProxySelector, Mono.Android"
-	.size	.L.managed_type_name.759, 37
+	.asciz	"Java.Net.Proxy+Type, Mono.Android"
+	.size	.L.managed_type_name.759, 34
 	.section	.rodata.managed_type_name.760,"aMS",@progbits,1
 	.type	.L.managed_type_name.760, @object
 .L.managed_type_name.760:
-	.asciz	"Java.Net.SocketAddress, Mono.Android"
-	.size	.L.managed_type_name.760, 37
+	.asciz	"Java.Net.Proxy, Mono.Android"
+	.size	.L.managed_type_name.760, 29
 	.section	.rodata.managed_type_name.761,"aMS",@progbits,1
 	.type	.L.managed_type_name.761, @object
 .L.managed_type_name.761:
-	.asciz	"Java.Net.SocketAddress, Mono.Android"
+	.asciz	"Java.Net.ProxySelector, Mono.Android"
 	.size	.L.managed_type_name.761, 37
 	.section	.rodata.managed_type_name.762,"aMS",@progbits,1
 	.type	.L.managed_type_name.762, @object
 .L.managed_type_name.762:
-	.asciz	"Java.Net.SocketException, Mono.Android"
-	.size	.L.managed_type_name.762, 39
+	.asciz	"Java.Net.ProxySelector, Mono.Android"
+	.size	.L.managed_type_name.762, 37
 	.section	.rodata.managed_type_name.763,"aMS",@progbits,1
 	.type	.L.managed_type_name.763, @object
 .L.managed_type_name.763:
-	.asciz	"Java.Net.URI, Mono.Android"
-	.size	.L.managed_type_name.763, 27
+	.asciz	"Java.Net.SocketAddress, Mono.Android"
+	.size	.L.managed_type_name.763, 37
 	.section	.rodata.managed_type_name.764,"aMS",@progbits,1
 	.type	.L.managed_type_name.764, @object
 .L.managed_type_name.764:
-	.asciz	"Java.Net.URL, Mono.Android"
-	.size	.L.managed_type_name.764, 27
+	.asciz	"Java.Net.SocketAddress, Mono.Android"
+	.size	.L.managed_type_name.764, 37
 	.section	.rodata.managed_type_name.765,"aMS",@progbits,1
 	.type	.L.managed_type_name.765, @object
 .L.managed_type_name.765:
-	.asciz	"Java.Net.URLConnection, Mono.Android"
-	.size	.L.managed_type_name.765, 37
+	.asciz	"Java.Net.SocketException, Mono.Android"
+	.size	.L.managed_type_name.765, 39
 	.section	.rodata.managed_type_name.766,"aMS",@progbits,1
 	.type	.L.managed_type_name.766, @object
 .L.managed_type_name.766:
-	.asciz	"Java.Net.URLConnection, Mono.Android"
-	.size	.L.managed_type_name.766, 37
+	.asciz	"Java.Net.SocketTimeoutException, Mono.Android"
+	.size	.L.managed_type_name.766, 46
 	.section	.rodata.managed_type_name.767,"aMS",@progbits,1
 	.type	.L.managed_type_name.767, @object
 .L.managed_type_name.767:
-	.asciz	"Java.Nio.Buffer, Mono.Android"
-	.size	.L.managed_type_name.767, 30
+	.asciz	"Java.Net.URI, Mono.Android"
+	.size	.L.managed_type_name.767, 27
 	.section	.rodata.managed_type_name.768,"aMS",@progbits,1
 	.type	.L.managed_type_name.768, @object
 .L.managed_type_name.768:
-	.asciz	"Java.Nio.Buffer, Mono.Android"
-	.size	.L.managed_type_name.768, 30
+	.asciz	"Java.Net.URL, Mono.Android"
+	.size	.L.managed_type_name.768, 27
 	.section	.rodata.managed_type_name.769,"aMS",@progbits,1
 	.type	.L.managed_type_name.769, @object
 .L.managed_type_name.769:
-	.asciz	"Java.Nio.ByteBuffer, Mono.Android"
-	.size	.L.managed_type_name.769, 34
+	.asciz	"Java.Net.URLConnection, Mono.Android"
+	.size	.L.managed_type_name.769, 37
 	.section	.rodata.managed_type_name.770,"aMS",@progbits,1
 	.type	.L.managed_type_name.770, @object
 .L.managed_type_name.770:
-	.asciz	"Java.Nio.ByteBuffer, Mono.Android"
-	.size	.L.managed_type_name.770, 34
+	.asciz	"Java.Net.URLConnection, Mono.Android"
+	.size	.L.managed_type_name.770, 37
 	.section	.rodata.managed_type_name.771,"aMS",@progbits,1
 	.type	.L.managed_type_name.771, @object
 .L.managed_type_name.771:
-	.asciz	"Java.Nio.Channels.FileChannel, Mono.Android"
-	.size	.L.managed_type_name.771, 44
+	.asciz	"Java.Net.UnknownServiceException, Mono.Android"
+	.size	.L.managed_type_name.771, 47
 	.section	.rodata.managed_type_name.772,"aMS",@progbits,1
 	.type	.L.managed_type_name.772, @object
 .L.managed_type_name.772:
-	.asciz	"Java.Nio.Channels.FileChannel, Mono.Android"
-	.size	.L.managed_type_name.772, 44
+	.asciz	"Java.Nio.Buffer, Mono.Android"
+	.size	.L.managed_type_name.772, 30
 	.section	.rodata.managed_type_name.773,"aMS",@progbits,1
 	.type	.L.managed_type_name.773, @object
 .L.managed_type_name.773:
-	.asciz	"Java.Nio.Channels.IByteChannelInvoker, Mono.Android"
-	.size	.L.managed_type_name.773, 52
+	.asciz	"Java.Nio.Buffer, Mono.Android"
+	.size	.L.managed_type_name.773, 30
 	.section	.rodata.managed_type_name.774,"aMS",@progbits,1
 	.type	.L.managed_type_name.774, @object
 .L.managed_type_name.774:
-	.asciz	"Java.Nio.Channels.IChannelInvoker, Mono.Android"
-	.size	.L.managed_type_name.774, 48
+	.asciz	"Java.Nio.ByteBuffer, Mono.Android"
+	.size	.L.managed_type_name.774, 34
 	.section	.rodata.managed_type_name.775,"aMS",@progbits,1
 	.type	.L.managed_type_name.775, @object
 .L.managed_type_name.775:
-	.asciz	"Java.Nio.Channels.IGatheringByteChannelInvoker, Mono.Android"
-	.size	.L.managed_type_name.775, 61
+	.asciz	"Java.Nio.ByteBuffer, Mono.Android"
+	.size	.L.managed_type_name.775, 34
 	.section	.rodata.managed_type_name.776,"aMS",@progbits,1
 	.type	.L.managed_type_name.776, @object
 .L.managed_type_name.776:
-	.asciz	"Java.Nio.Channels.IInterruptibleChannelInvoker, Mono.Android"
-	.size	.L.managed_type_name.776, 61
+	.asciz	"Java.Nio.Channels.FileChannel, Mono.Android"
+	.size	.L.managed_type_name.776, 44
 	.section	.rodata.managed_type_name.777,"aMS",@progbits,1
 	.type	.L.managed_type_name.777, @object
 .L.managed_type_name.777:
-	.asciz	"Java.Nio.Channels.IReadableByteChannelInvoker, Mono.Android"
-	.size	.L.managed_type_name.777, 60
+	.asciz	"Java.Nio.Channels.FileChannel, Mono.Android"
+	.size	.L.managed_type_name.777, 44
 	.section	.rodata.managed_type_name.778,"aMS",@progbits,1
 	.type	.L.managed_type_name.778, @object
 .L.managed_type_name.778:
-	.asciz	"Java.Nio.Channels.IScatteringByteChannelInvoker, Mono.Android"
-	.size	.L.managed_type_name.778, 62
+	.asciz	"Java.Nio.Channels.IByteChannelInvoker, Mono.Android"
+	.size	.L.managed_type_name.778, 52
 	.section	.rodata.managed_type_name.779,"aMS",@progbits,1
 	.type	.L.managed_type_name.779, @object
 .L.managed_type_name.779:
-	.asciz	"Java.Nio.Channels.ISeekableByteChannelInvoker, Mono.Android"
-	.size	.L.managed_type_name.779, 60
+	.asciz	"Java.Nio.Channels.IChannelInvoker, Mono.Android"
+	.size	.L.managed_type_name.779, 48
 	.section	.rodata.managed_type_name.780,"aMS",@progbits,1
 	.type	.L.managed_type_name.780, @object
 .L.managed_type_name.780:
-	.asciz	"Java.Nio.Channels.IWritableByteChannelInvoker, Mono.Android"
-	.size	.L.managed_type_name.780, 60
+	.asciz	"Java.Nio.Channels.IGatheringByteChannelInvoker, Mono.Android"
+	.size	.L.managed_type_name.780, 61
 	.section	.rodata.managed_type_name.781,"aMS",@progbits,1
 	.type	.L.managed_type_name.781, @object
 .L.managed_type_name.781:
-	.asciz	"Java.Nio.Channels.Spi.AbstractInterruptibleChannel, Mono.Android"
-	.size	.L.managed_type_name.781, 65
+	.asciz	"Java.Nio.Channels.IInterruptibleChannelInvoker, Mono.Android"
+	.size	.L.managed_type_name.781, 61
 	.section	.rodata.managed_type_name.782,"aMS",@progbits,1
 	.type	.L.managed_type_name.782, @object
 .L.managed_type_name.782:
-	.asciz	"Java.Nio.Channels.Spi.AbstractInterruptibleChannel, Mono.Android"
-	.size	.L.managed_type_name.782, 65
+	.asciz	"Java.Nio.Channels.IReadableByteChannelInvoker, Mono.Android"
+	.size	.L.managed_type_name.782, 60
 	.section	.rodata.managed_type_name.783,"aMS",@progbits,1
 	.type	.L.managed_type_name.783, @object
 .L.managed_type_name.783:
-	.asciz	"Java.Nio.CharBuffer, Mono.Android"
-	.size	.L.managed_type_name.783, 34
+	.asciz	"Java.Nio.Channels.IScatteringByteChannelInvoker, Mono.Android"
+	.size	.L.managed_type_name.783, 62
 	.section	.rodata.managed_type_name.784,"aMS",@progbits,1
 	.type	.L.managed_type_name.784, @object
 .L.managed_type_name.784:
-	.asciz	"Java.Nio.CharBuffer, Mono.Android"
-	.size	.L.managed_type_name.784, 34
+	.asciz	"Java.Nio.Channels.ISeekableByteChannelInvoker, Mono.Android"
+	.size	.L.managed_type_name.784, 60
 	.section	.rodata.managed_type_name.785,"aMS",@progbits,1
 	.type	.L.managed_type_name.785, @object
 .L.managed_type_name.785:
-	.asciz	"Java.Nio.FloatBuffer, Mono.Android"
-	.size	.L.managed_type_name.785, 35
+	.asciz	"Java.Nio.Channels.IWritableByteChannelInvoker, Mono.Android"
+	.size	.L.managed_type_name.785, 60
 	.section	.rodata.managed_type_name.786,"aMS",@progbits,1
 	.type	.L.managed_type_name.786, @object
 .L.managed_type_name.786:
-	.asciz	"Java.Nio.FloatBuffer, Mono.Android"
-	.size	.L.managed_type_name.786, 35
+	.asciz	"Java.Nio.Channels.Spi.AbstractInterruptibleChannel, Mono.Android"
+	.size	.L.managed_type_name.786, 65
 	.section	.rodata.managed_type_name.787,"aMS",@progbits,1
 	.type	.L.managed_type_name.787, @object
 .L.managed_type_name.787:
-	.asciz	"Java.Nio.IntBuffer, Mono.Android"
-	.size	.L.managed_type_name.787, 33
+	.asciz	"Java.Nio.Channels.Spi.AbstractInterruptibleChannel, Mono.Android"
+	.size	.L.managed_type_name.787, 65
 	.section	.rodata.managed_type_name.788,"aMS",@progbits,1
 	.type	.L.managed_type_name.788, @object
 .L.managed_type_name.788:
-	.asciz	"Java.Nio.IntBuffer, Mono.Android"
-	.size	.L.managed_type_name.788, 33
+	.asciz	"Java.Nio.CharBuffer, Mono.Android"
+	.size	.L.managed_type_name.788, 34
 	.section	.rodata.managed_type_name.789,"aMS",@progbits,1
 	.type	.L.managed_type_name.789, @object
 .L.managed_type_name.789:
-	.asciz	"Java.Security.Cert.Certificate, Mono.Android"
-	.size	.L.managed_type_name.789, 45
+	.asciz	"Java.Nio.CharBuffer, Mono.Android"
+	.size	.L.managed_type_name.789, 34
 	.section	.rodata.managed_type_name.790,"aMS",@progbits,1
 	.type	.L.managed_type_name.790, @object
 .L.managed_type_name.790:
-	.asciz	"Java.Security.Cert.Certificate, Mono.Android"
-	.size	.L.managed_type_name.790, 45
+	.asciz	"Java.Nio.FloatBuffer, Mono.Android"
+	.size	.L.managed_type_name.790, 35
 	.section	.rodata.managed_type_name.791,"aMS",@progbits,1
 	.type	.L.managed_type_name.791, @object
 .L.managed_type_name.791:
-	.asciz	"Java.Security.Cert.CertificateFactory, Mono.Android"
-	.size	.L.managed_type_name.791, 52
+	.asciz	"Java.Nio.FloatBuffer, Mono.Android"
+	.size	.L.managed_type_name.791, 35
 	.section	.rodata.managed_type_name.792,"aMS",@progbits,1
 	.type	.L.managed_type_name.792, @object
 .L.managed_type_name.792:
-	.asciz	"Java.Security.Cert.IX509ExtensionInvoker, Mono.Android"
-	.size	.L.managed_type_name.792, 55
+	.asciz	"Java.Nio.IntBuffer, Mono.Android"
+	.size	.L.managed_type_name.792, 33
 	.section	.rodata.managed_type_name.793,"aMS",@progbits,1
 	.type	.L.managed_type_name.793, @object
 .L.managed_type_name.793:
-	.asciz	"Java.Security.Cert.X509Certificate, Mono.Android"
-	.size	.L.managed_type_name.793, 49
+	.asciz	"Java.Nio.IntBuffer, Mono.Android"
+	.size	.L.managed_type_name.793, 33
 	.section	.rodata.managed_type_name.794,"aMS",@progbits,1
 	.type	.L.managed_type_name.794, @object
 .L.managed_type_name.794:
-	.asciz	"Java.Security.Cert.X509Certificate, Mono.Android"
-	.size	.L.managed_type_name.794, 49
+	.asciz	"Java.Security.Cert.Certificate, Mono.Android"
+	.size	.L.managed_type_name.794, 45
 	.section	.rodata.managed_type_name.795,"aMS",@progbits,1
 	.type	.L.managed_type_name.795, @object
 .L.managed_type_name.795:
-	.asciz	"Java.Security.GeneralSecurityException, Mono.Android"
-	.size	.L.managed_type_name.795, 53
+	.asciz	"Java.Security.Cert.Certificate, Mono.Android"
+	.size	.L.managed_type_name.795, 45
 	.section	.rodata.managed_type_name.796,"aMS",@progbits,1
 	.type	.L.managed_type_name.796, @object
 .L.managed_type_name.796:
-	.asciz	"Java.Security.IKeyInvoker, Mono.Android"
-	.size	.L.managed_type_name.796, 40
+	.asciz	"Java.Security.Cert.CertificateFactory, Mono.Android"
+	.size	.L.managed_type_name.796, 52
 	.section	.rodata.managed_type_name.797,"aMS",@progbits,1
 	.type	.L.managed_type_name.797, @object
 .L.managed_type_name.797:
-	.asciz	"Java.Security.IPrincipalInvoker, Mono.Android"
-	.size	.L.managed_type_name.797, 46
+	.asciz	"Java.Security.Cert.IX509ExtensionInvoker, Mono.Android"
+	.size	.L.managed_type_name.797, 55
 	.section	.rodata.managed_type_name.798,"aMS",@progbits,1
 	.type	.L.managed_type_name.798, @object
 .L.managed_type_name.798:
-	.asciz	"Java.Security.IPrivateKeyInvoker, Mono.Android"
-	.size	.L.managed_type_name.798, 47
+	.asciz	"Java.Security.Cert.X509Certificate, Mono.Android"
+	.size	.L.managed_type_name.798, 49
 	.section	.rodata.managed_type_name.799,"aMS",@progbits,1
 	.type	.L.managed_type_name.799, @object
 .L.managed_type_name.799:
-	.asciz	"Java.Security.IPublicKeyInvoker, Mono.Android"
-	.size	.L.managed_type_name.799, 46
+	.asciz	"Java.Security.Cert.X509Certificate, Mono.Android"
+	.size	.L.managed_type_name.799, 49
 	.section	.rodata.managed_type_name.800,"aMS",@progbits,1
 	.type	.L.managed_type_name.800, @object
 .L.managed_type_name.800:
-	.asciz	"Java.Security.InvalidAlgorithmParameterException, Mono.Android"
-	.size	.L.managed_type_name.800, 63
+	.asciz	"Java.Security.GeneralSecurityException, Mono.Android"
+	.size	.L.managed_type_name.800, 53
 	.section	.rodata.managed_type_name.801,"aMS",@progbits,1
 	.type	.L.managed_type_name.801, @object
 .L.managed_type_name.801:
-	.asciz	"Java.Security.InvalidKeyException, Mono.Android"
-	.size	.L.managed_type_name.801, 48
+	.asciz	"Java.Security.IKeyInvoker, Mono.Android"
+	.size	.L.managed_type_name.801, 40
 	.section	.rodata.managed_type_name.802,"aMS",@progbits,1
 	.type	.L.managed_type_name.802, @object
 .L.managed_type_name.802:
-	.asciz	"Java.Security.KeyException, Mono.Android"
-	.size	.L.managed_type_name.802, 41
+	.asciz	"Java.Security.IPrincipalInvoker, Mono.Android"
+	.size	.L.managed_type_name.802, 46
 	.section	.rodata.managed_type_name.803,"aMS",@progbits,1
 	.type	.L.managed_type_name.803, @object
 .L.managed_type_name.803:
-	.asciz	"Java.Security.KeyPair, Mono.Android"
-	.size	.L.managed_type_name.803, 36
+	.asciz	"Java.Security.IPrivateKeyInvoker, Mono.Android"
+	.size	.L.managed_type_name.803, 47
 	.section	.rodata.managed_type_name.804,"aMS",@progbits,1
 	.type	.L.managed_type_name.804, @object
 .L.managed_type_name.804:
-	.asciz	"Java.Security.KeyPairGenerator, Mono.Android"
-	.size	.L.managed_type_name.804, 45
+	.asciz	"Java.Security.IPublicKeyInvoker, Mono.Android"
+	.size	.L.managed_type_name.804, 46
 	.section	.rodata.managed_type_name.805,"aMS",@progbits,1
 	.type	.L.managed_type_name.805, @object
 .L.managed_type_name.805:
-	.asciz	"Java.Security.KeyPairGenerator, Mono.Android"
-	.size	.L.managed_type_name.805, 45
+	.asciz	"Java.Security.InvalidAlgorithmParameterException, Mono.Android"
+	.size	.L.managed_type_name.805, 63
 	.section	.rodata.managed_type_name.806,"aMS",@progbits,1
 	.type	.L.managed_type_name.806, @object
 .L.managed_type_name.806:
-	.asciz	"Java.Security.KeyPairGeneratorSpi, Mono.Android"
+	.asciz	"Java.Security.InvalidKeyException, Mono.Android"
 	.size	.L.managed_type_name.806, 48
 	.section	.rodata.managed_type_name.807,"aMS",@progbits,1
 	.type	.L.managed_type_name.807, @object
 .L.managed_type_name.807:
-	.asciz	"Java.Security.KeyPairGeneratorSpi, Mono.Android"
-	.size	.L.managed_type_name.807, 48
+	.asciz	"Java.Security.KeyException, Mono.Android"
+	.size	.L.managed_type_name.807, 41
 	.section	.rodata.managed_type_name.808,"aMS",@progbits,1
 	.type	.L.managed_type_name.808, @object
 .L.managed_type_name.808:
-	.asciz	"Java.Security.KeyStore+ILoadStoreParameterInvoker, Mono.Android"
-	.size	.L.managed_type_name.808, 64
+	.asciz	"Java.Security.KeyPair, Mono.Android"
+	.size	.L.managed_type_name.808, 36
 	.section	.rodata.managed_type_name.809,"aMS",@progbits,1
 	.type	.L.managed_type_name.809, @object
 .L.managed_type_name.809:
-	.asciz	"Java.Security.KeyStore+IProtectionParameterInvoker, Mono.Android"
-	.size	.L.managed_type_name.809, 65
+	.asciz	"Java.Security.KeyPairGenerator, Mono.Android"
+	.size	.L.managed_type_name.809, 45
 	.section	.rodata.managed_type_name.810,"aMS",@progbits,1
 	.type	.L.managed_type_name.810, @object
 .L.managed_type_name.810:
-	.asciz	"Java.Security.KeyStore, Mono.Android"
-	.size	.L.managed_type_name.810, 37
+	.asciz	"Java.Security.KeyPairGenerator, Mono.Android"
+	.size	.L.managed_type_name.810, 45
 	.section	.rodata.managed_type_name.811,"aMS",@progbits,1
 	.type	.L.managed_type_name.811, @object
 .L.managed_type_name.811:
-	.asciz	"Java.Security.SecureRandom, Mono.Android"
-	.size	.L.managed_type_name.811, 41
+	.asciz	"Java.Security.KeyPairGeneratorSpi, Mono.Android"
+	.size	.L.managed_type_name.811, 48
 	.section	.rodata.managed_type_name.812,"aMS",@progbits,1
 	.type	.L.managed_type_name.812, @object
 .L.managed_type_name.812:
-	.asciz	"Java.Security.Spec.IAlgorithmParameterSpecInvoker, Mono.Android"
-	.size	.L.managed_type_name.812, 64
+	.asciz	"Java.Security.KeyPairGeneratorSpi, Mono.Android"
+	.size	.L.managed_type_name.812, 48
 	.section	.rodata.managed_type_name.813,"aMS",@progbits,1
 	.type	.L.managed_type_name.813, @object
 .L.managed_type_name.813:
-	.asciz	"Java.Text.DecimalFormat, Mono.Android"
-	.size	.L.managed_type_name.813, 38
+	.asciz	"Java.Security.KeyStore+ILoadStoreParameterInvoker, Mono.Android"
+	.size	.L.managed_type_name.813, 64
 	.section	.rodata.managed_type_name.814,"aMS",@progbits,1
 	.type	.L.managed_type_name.814, @object
 .L.managed_type_name.814:
-	.asciz	"Java.Text.DecimalFormatSymbols, Mono.Android"
-	.size	.L.managed_type_name.814, 45
+	.asciz	"Java.Security.KeyStore+IProtectionParameterInvoker, Mono.Android"
+	.size	.L.managed_type_name.814, 65
 	.section	.rodata.managed_type_name.815,"aMS",@progbits,1
 	.type	.L.managed_type_name.815, @object
 .L.managed_type_name.815:
-	.asciz	"Java.Text.NumberFormat, Mono.Android"
+	.asciz	"Java.Security.KeyStore, Mono.Android"
 	.size	.L.managed_type_name.815, 37
 	.section	.rodata.managed_type_name.816,"aMS",@progbits,1
 	.type	.L.managed_type_name.816, @object
 .L.managed_type_name.816:
-	.asciz	"Java.Text.NumberFormat, Mono.Android"
-	.size	.L.managed_type_name.816, 37
+	.asciz	"Java.Security.SecureRandom, Mono.Android"
+	.size	.L.managed_type_name.816, 41
 	.section	.rodata.managed_type_name.817,"aMS",@progbits,1
 	.type	.L.managed_type_name.817, @object
 .L.managed_type_name.817:
-	.asciz	"Java.Text._Format, Mono.Android"
-	.size	.L.managed_type_name.817, 32
+	.asciz	"Java.Security.Spec.IAlgorithmParameterSpecInvoker, Mono.Android"
+	.size	.L.managed_type_name.817, 64
 	.section	.rodata.managed_type_name.818,"aMS",@progbits,1
 	.type	.L.managed_type_name.818, @object
 .L.managed_type_name.818:
-	.asciz	"Java.Text._Format, Mono.Android"
-	.size	.L.managed_type_name.818, 32
+	.asciz	"Java.Text.DecimalFormat, Mono.Android"
+	.size	.L.managed_type_name.818, 38
 	.section	.rodata.managed_type_name.819,"aMS",@progbits,1
 	.type	.L.managed_type_name.819, @object
 .L.managed_type_name.819:
-	.asciz	"Java.Util.Concurrent.IExecutorInvoker, Mono.Android"
-	.size	.L.managed_type_name.819, 52
+	.asciz	"Java.Text.DecimalFormatSymbols, Mono.Android"
+	.size	.L.managed_type_name.819, 45
 	.section	.rodata.managed_type_name.820,"aMS",@progbits,1
 	.type	.L.managed_type_name.820, @object
 .L.managed_type_name.820:
-	.asciz	"Java.Util.Concurrent.IFutureInvoker, Mono.Android"
-	.size	.L.managed_type_name.820, 50
+	.asciz	"Java.Text.NumberFormat, Mono.Android"
+	.size	.L.managed_type_name.820, 37
 	.section	.rodata.managed_type_name.821,"aMS",@progbits,1
 	.type	.L.managed_type_name.821, @object
 .L.managed_type_name.821:
-	.asciz	"Java.Util.Concurrent.TimeUnit, Mono.Android"
-	.size	.L.managed_type_name.821, 44
+	.asciz	"Java.Text.NumberFormat, Mono.Android"
+	.size	.L.managed_type_name.821, 37
 	.section	.rodata.managed_type_name.822,"aMS",@progbits,1
 	.type	.L.managed_type_name.822, @object
 .L.managed_type_name.822:
-	.asciz	"Java.Util.Date, Mono.Android"
-	.size	.L.managed_type_name.822, 29
+	.asciz	"Java.Text._Format, Mono.Android"
+	.size	.L.managed_type_name.822, 32
 	.section	.rodata.managed_type_name.823,"aMS",@progbits,1
 	.type	.L.managed_type_name.823, @object
 .L.managed_type_name.823:
-	.asciz	"Java.Util.IEnumerationInvoker, Mono.Android"
-	.size	.L.managed_type_name.823, 44
+	.asciz	"Java.Text._Format, Mono.Android"
+	.size	.L.managed_type_name.823, 32
 	.section	.rodata.managed_type_name.824,"aMS",@progbits,1
 	.type	.L.managed_type_name.824, @object
 .L.managed_type_name.824:
-	.asciz	"Java.Util.IIteratorInvoker, Mono.Android"
-	.size	.L.managed_type_name.824, 41
+	.asciz	"Java.Util.Concurrent.IExecutorInvoker, Mono.Android"
+	.size	.L.managed_type_name.824, 52
 	.section	.rodata.managed_type_name.825,"aMS",@progbits,1
 	.type	.L.managed_type_name.825, @object
 .L.managed_type_name.825:
-	.asciz	"Java.Util.Locale, Mono.Android"
-	.size	.L.managed_type_name.825, 31
+	.asciz	"Java.Util.Concurrent.IFutureInvoker, Mono.Android"
+	.size	.L.managed_type_name.825, 50
 	.section	.rodata.managed_type_name.826,"aMS",@progbits,1
 	.type	.L.managed_type_name.826, @object
 .L.managed_type_name.826:
-	.asciz	"Java.Util.Random, Mono.Android"
-	.size	.L.managed_type_name.826, 31
+	.asciz	"Java.Util.Concurrent.TimeUnit, Mono.Android"
+	.size	.L.managed_type_name.826, 44
 	.section	.rodata.managed_type_name.827,"aMS",@progbits,1
 	.type	.L.managed_type_name.827, @object
 .L.managed_type_name.827:
-	.asciz	"Javax.Crypto.AEADBadTagException, Mono.Android"
-	.size	.L.managed_type_name.827, 47
+	.asciz	"Java.Util.Date, Mono.Android"
+	.size	.L.managed_type_name.827, 29
 	.section	.rodata.managed_type_name.828,"aMS",@progbits,1
 	.type	.L.managed_type_name.828, @object
 .L.managed_type_name.828:
-	.asciz	"Javax.Crypto.BadPaddingException, Mono.Android"
-	.size	.L.managed_type_name.828, 47
+	.asciz	"Java.Util.IEnumerationInvoker, Mono.Android"
+	.size	.L.managed_type_name.828, 44
 	.section	.rodata.managed_type_name.829,"aMS",@progbits,1
 	.type	.L.managed_type_name.829, @object
 .L.managed_type_name.829:
-	.asciz	"Javax.Crypto.Cipher, Mono.Android"
-	.size	.L.managed_type_name.829, 34
+	.asciz	"Java.Util.IIteratorInvoker, Mono.Android"
+	.size	.L.managed_type_name.829, 41
 	.section	.rodata.managed_type_name.830,"aMS",@progbits,1
 	.type	.L.managed_type_name.830, @object
 .L.managed_type_name.830:
-	.asciz	"Javax.Crypto.ISecretKeyInvoker, Mono.Android"
-	.size	.L.managed_type_name.830, 45
+	.asciz	"Java.Util.Locale, Mono.Android"
+	.size	.L.managed_type_name.830, 31
 	.section	.rodata.managed_type_name.831,"aMS",@progbits,1
 	.type	.L.managed_type_name.831, @object
 .L.managed_type_name.831:
-	.asciz	"Javax.Crypto.IllegalBlockSizeException, Mono.Android"
-	.size	.L.managed_type_name.831, 53
+	.asciz	"Java.Util.Random, Mono.Android"
+	.size	.L.managed_type_name.831, 31
 	.section	.rodata.managed_type_name.832,"aMS",@progbits,1
 	.type	.L.managed_type_name.832, @object
 .L.managed_type_name.832:
-	.asciz	"Javax.Crypto.KeyGenerator, Mono.Android"
-	.size	.L.managed_type_name.832, 40
+	.asciz	"Javax.Crypto.AEADBadTagException, Mono.Android"
+	.size	.L.managed_type_name.832, 47
 	.section	.rodata.managed_type_name.833,"aMS",@progbits,1
 	.type	.L.managed_type_name.833, @object
 .L.managed_type_name.833:
-	.asciz	"Javax.Crypto.Spec.GCMParameterSpec, Mono.Android"
-	.size	.L.managed_type_name.833, 49
+	.asciz	"Javax.Crypto.BadPaddingException, Mono.Android"
+	.size	.L.managed_type_name.833, 47
 	.section	.rodata.managed_type_name.834,"aMS",@progbits,1
 	.type	.L.managed_type_name.834, @object
 .L.managed_type_name.834:
-	.asciz	"Javax.Crypto.Spec.IvParameterSpec, Mono.Android"
-	.size	.L.managed_type_name.834, 48
+	.asciz	"Javax.Crypto.Cipher, Mono.Android"
+	.size	.L.managed_type_name.834, 34
 	.section	.rodata.managed_type_name.835,"aMS",@progbits,1
 	.type	.L.managed_type_name.835, @object
 .L.managed_type_name.835:
-	.asciz	"Javax.Microedition.Khronos.Egl.EGLConfig, Mono.Android"
-	.size	.L.managed_type_name.835, 55
+	.asciz	"Javax.Crypto.ISecretKeyInvoker, Mono.Android"
+	.size	.L.managed_type_name.835, 45
 	.section	.rodata.managed_type_name.836,"aMS",@progbits,1
 	.type	.L.managed_type_name.836, @object
 .L.managed_type_name.836:
-	.asciz	"Javax.Microedition.Khronos.Egl.EGLConfig, Mono.Android"
-	.size	.L.managed_type_name.836, 55
+	.asciz	"Javax.Crypto.IllegalBlockSizeException, Mono.Android"
+	.size	.L.managed_type_name.836, 53
 	.section	.rodata.managed_type_name.837,"aMS",@progbits,1
 	.type	.L.managed_type_name.837, @object
 .L.managed_type_name.837:
-	.asciz	"Javax.Microedition.Khronos.Opengles.IGL10Invoker, Mono.Android"
-	.size	.L.managed_type_name.837, 63
+	.asciz	"Javax.Crypto.KeyGenerator, Mono.Android"
+	.size	.L.managed_type_name.837, 40
 	.section	.rodata.managed_type_name.838,"aMS",@progbits,1
 	.type	.L.managed_type_name.838, @object
 .L.managed_type_name.838:
-	.asciz	"Javax.Microedition.Khronos.Opengles.IGLInvoker, Mono.Android"
-	.size	.L.managed_type_name.838, 61
+	.asciz	"Javax.Crypto.Spec.GCMParameterSpec, Mono.Android"
+	.size	.L.managed_type_name.838, 49
 	.section	.rodata.managed_type_name.839,"aMS",@progbits,1
 	.type	.L.managed_type_name.839, @object
 .L.managed_type_name.839:
-	.asciz	"Javax.Net.SocketFactory, Mono.Android"
-	.size	.L.managed_type_name.839, 38
+	.asciz	"Javax.Crypto.Spec.IvParameterSpec, Mono.Android"
+	.size	.L.managed_type_name.839, 48
 	.section	.rodata.managed_type_name.840,"aMS",@progbits,1
 	.type	.L.managed_type_name.840, @object
 .L.managed_type_name.840:
-	.asciz	"Javax.Net.SocketFactory, Mono.Android"
-	.size	.L.managed_type_name.840, 38
+	.asciz	"Javax.Microedition.Khronos.Egl.EGLConfig, Mono.Android"
+	.size	.L.managed_type_name.840, 55
 	.section	.rodata.managed_type_name.841,"aMS",@progbits,1
 	.type	.L.managed_type_name.841, @object
 .L.managed_type_name.841:
-	.asciz	"Javax.Net.Ssl.HttpsURLConnection, Mono.Android"
-	.size	.L.managed_type_name.841, 47
+	.asciz	"Javax.Microedition.Khronos.Egl.EGLConfig, Mono.Android"
+	.size	.L.managed_type_name.841, 55
 	.section	.rodata.managed_type_name.842,"aMS",@progbits,1
 	.type	.L.managed_type_name.842, @object
 .L.managed_type_name.842:
-	.asciz	"Javax.Net.Ssl.HttpsURLConnection, Mono.Android"
-	.size	.L.managed_type_name.842, 47
+	.asciz	"Javax.Microedition.Khronos.Opengles.IGL10Invoker, Mono.Android"
+	.size	.L.managed_type_name.842, 63
 	.section	.rodata.managed_type_name.843,"aMS",@progbits,1
 	.type	.L.managed_type_name.843, @object
 .L.managed_type_name.843:
-	.asciz	"Javax.Net.Ssl.IHostnameVerifierInvoker, Mono.Android"
-	.size	.L.managed_type_name.843, 53
+	.asciz	"Javax.Microedition.Khronos.Opengles.IGLInvoker, Mono.Android"
+	.size	.L.managed_type_name.843, 61
 	.section	.rodata.managed_type_name.844,"aMS",@progbits,1
 	.type	.L.managed_type_name.844, @object
 .L.managed_type_name.844:
-	.asciz	"Javax.Net.Ssl.IKeyManagerInvoker, Mono.Android"
-	.size	.L.managed_type_name.844, 47
+	.asciz	"Javax.Net.SocketFactory, Mono.Android"
+	.size	.L.managed_type_name.844, 38
 	.section	.rodata.managed_type_name.845,"aMS",@progbits,1
 	.type	.L.managed_type_name.845, @object
 .L.managed_type_name.845:
-	.asciz	"Javax.Net.Ssl.ISSLSessionContextInvoker, Mono.Android"
-	.size	.L.managed_type_name.845, 54
+	.asciz	"Javax.Net.SocketFactory, Mono.Android"
+	.size	.L.managed_type_name.845, 38
 	.section	.rodata.managed_type_name.846,"aMS",@progbits,1
 	.type	.L.managed_type_name.846, @object
 .L.managed_type_name.846:
-	.asciz	"Javax.Net.Ssl.ISSLSessionInvoker, Mono.Android"
+	.asciz	"Javax.Net.Ssl.HttpsURLConnection, Mono.Android"
 	.size	.L.managed_type_name.846, 47
 	.section	.rodata.managed_type_name.847,"aMS",@progbits,1
 	.type	.L.managed_type_name.847, @object
 .L.managed_type_name.847:
-	.asciz	"Javax.Net.Ssl.ITrustManagerInvoker, Mono.Android"
-	.size	.L.managed_type_name.847, 49
+	.asciz	"Javax.Net.Ssl.HttpsURLConnection, Mono.Android"
+	.size	.L.managed_type_name.847, 47
 	.section	.rodata.managed_type_name.848,"aMS",@progbits,1
 	.type	.L.managed_type_name.848, @object
 .L.managed_type_name.848:
-	.asciz	"Javax.Net.Ssl.IX509TrustManagerInvoker, Mono.Android"
+	.asciz	"Javax.Net.Ssl.IHostnameVerifierInvoker, Mono.Android"
 	.size	.L.managed_type_name.848, 53
 	.section	.rodata.managed_type_name.849,"aMS",@progbits,1
 	.type	.L.managed_type_name.849, @object
 .L.managed_type_name.849:
-	.asciz	"Javax.Net.Ssl.KeyManagerFactory, Mono.Android"
-	.size	.L.managed_type_name.849, 46
+	.asciz	"Javax.Net.Ssl.IKeyManagerInvoker, Mono.Android"
+	.size	.L.managed_type_name.849, 47
 	.section	.rodata.managed_type_name.850,"aMS",@progbits,1
 	.type	.L.managed_type_name.850, @object
 .L.managed_type_name.850:
-	.asciz	"Javax.Net.Ssl.SSLContext, Mono.Android"
-	.size	.L.managed_type_name.850, 39
+	.asciz	"Javax.Net.Ssl.ISSLSessionContextInvoker, Mono.Android"
+	.size	.L.managed_type_name.850, 54
 	.section	.rodata.managed_type_name.851,"aMS",@progbits,1
 	.type	.L.managed_type_name.851, @object
 .L.managed_type_name.851:
-	.asciz	"Javax.Net.Ssl.SSLSocketFactory, Mono.Android"
-	.size	.L.managed_type_name.851, 45
+	.asciz	"Javax.Net.Ssl.ISSLSessionInvoker, Mono.Android"
+	.size	.L.managed_type_name.851, 47
 	.section	.rodata.managed_type_name.852,"aMS",@progbits,1
 	.type	.L.managed_type_name.852, @object
 .L.managed_type_name.852:
-	.asciz	"Javax.Net.Ssl.SSLSocketFactory, Mono.Android"
-	.size	.L.managed_type_name.852, 45
+	.asciz	"Javax.Net.Ssl.ITrustManagerInvoker, Mono.Android"
+	.size	.L.managed_type_name.852, 49
 	.section	.rodata.managed_type_name.853,"aMS",@progbits,1
 	.type	.L.managed_type_name.853, @object
 .L.managed_type_name.853:
-	.asciz	"Javax.Net.Ssl.TrustManagerFactory, Mono.Android"
-	.size	.L.managed_type_name.853, 48
+	.asciz	"Javax.Net.Ssl.IX509TrustManagerInvoker, Mono.Android"
+	.size	.L.managed_type_name.853, 53
 	.section	.rodata.managed_type_name.854,"aMS",@progbits,1
 	.type	.L.managed_type_name.854, @object
 .L.managed_type_name.854:
-	.asciz	"Javax.Security.Auth.X500.X500Principal, Mono.Android"
-	.size	.L.managed_type_name.854, 53
+	.asciz	"Javax.Net.Ssl.KeyManagerFactory, Mono.Android"
+	.size	.L.managed_type_name.854, 46
 	.section	.rodata.managed_type_name.855,"aMS",@progbits,1
 	.type	.L.managed_type_name.855, @object
 .L.managed_type_name.855:
-	.asciz	"Javax.Security.Cert.Certificate, Mono.Android"
-	.size	.L.managed_type_name.855, 46
+	.asciz	"Javax.Net.Ssl.SSLContext, Mono.Android"
+	.size	.L.managed_type_name.855, 39
 	.section	.rodata.managed_type_name.856,"aMS",@progbits,1
 	.type	.L.managed_type_name.856, @object
 .L.managed_type_name.856:
-	.asciz	"Javax.Security.Cert.Certificate, Mono.Android"
-	.size	.L.managed_type_name.856, 46
+	.asciz	"Javax.Net.Ssl.SSLSocketFactory, Mono.Android"
+	.size	.L.managed_type_name.856, 45
 	.section	.rodata.managed_type_name.857,"aMS",@progbits,1
 	.type	.L.managed_type_name.857, @object
 .L.managed_type_name.857:
-	.asciz	"Javax.Security.Cert.X509Certificate, Mono.Android"
-	.size	.L.managed_type_name.857, 50
+	.asciz	"Javax.Net.Ssl.SSLSocketFactory, Mono.Android"
+	.size	.L.managed_type_name.857, 45
 	.section	.rodata.managed_type_name.858,"aMS",@progbits,1
 	.type	.L.managed_type_name.858, @object
 .L.managed_type_name.858:
-	.asciz	"Javax.Security.Cert.X509Certificate, Mono.Android"
-	.size	.L.managed_type_name.858, 50
+	.asciz	"Javax.Net.Ssl.TrustManagerFactory, Mono.Android"
+	.size	.L.managed_type_name.858, 48
 	.section	.rodata.managed_type_name.859,"aMS",@progbits,1
 	.type	.L.managed_type_name.859, @object
 .L.managed_type_name.859:
-	.asciz	"Org.XmlPull.V1.IXmlPullParserInvoker, Mono.Android"
-	.size	.L.managed_type_name.859, 51
+	.asciz	"Javax.Security.Auth.X500.X500Principal, Mono.Android"
+	.size	.L.managed_type_name.859, 53
 	.section	.rodata.managed_type_name.860,"aMS",@progbits,1
 	.type	.L.managed_type_name.860, @object
 .L.managed_type_name.860:
-	.asciz	"Org.XmlPull.V1.XmlPullParserException, Mono.Android"
-	.size	.L.managed_type_name.860, 52
+	.asciz	"Javax.Security.Cert.Certificate, Mono.Android"
+	.size	.L.managed_type_name.860, 46
 	.section	.rodata.managed_type_name.861,"aMS",@progbits,1
 	.type	.L.managed_type_name.861, @object
 .L.managed_type_name.861:
-	.asciz	"PaladarApp.Droid.MainActivity, PaladarApp.Android"
-	.size	.L.managed_type_name.861, 50
+	.asciz	"Javax.Security.Cert.Certificate, Mono.Android"
+	.size	.L.managed_type_name.861, 46
 	.section	.rodata.managed_type_name.862,"aMS",@progbits,1
 	.type	.L.managed_type_name.862, @object
 .L.managed_type_name.862:
-	.asciz	"PaladarApp.Droid.SplashActivity, PaladarApp.Android"
-	.size	.L.managed_type_name.862, 52
+	.asciz	"Javax.Security.Cert.X509Certificate, Mono.Android"
+	.size	.L.managed_type_name.862, 50
 	.section	.rodata.managed_type_name.863,"aMS",@progbits,1
 	.type	.L.managed_type_name.863, @object
 .L.managed_type_name.863:
-	.asciz	"Xamarin.Android.Net.OldAndroidSSLSocketFactory, Mono.Android"
-	.size	.L.managed_type_name.863, 61
+	.asciz	"Javax.Security.Cert.X509Certificate, Mono.Android"
+	.size	.L.managed_type_name.863, 50
 	.section	.rodata.managed_type_name.864,"aMS",@progbits,1
 	.type	.L.managed_type_name.864, @object
 .L.managed_type_name.864:
-	.asciz	"Xamarin.Essentials.ActivityLifecycleContextListener, Xamarin.Essentials"
-	.size	.L.managed_type_name.864, 72
+	.asciz	"Org.XmlPull.V1.IXmlPullParserInvoker, Mono.Android"
+	.size	.L.managed_type_name.864, 51
 	.section	.rodata.managed_type_name.865,"aMS",@progbits,1
 	.type	.L.managed_type_name.865, @object
 .L.managed_type_name.865:
-	.asciz	"Xamarin.Forms.Platform.Android.AHorizontalScrollView, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.865, 85
+	.asciz	"Org.XmlPull.V1.XmlPullParserException, Mono.Android"
+	.size	.L.managed_type_name.865, 52
 	.section	.rodata.managed_type_name.866,"aMS",@progbits,1
 	.type	.L.managed_type_name.866, @object
 .L.managed_type_name.866:
-	.asciz	"Xamarin.Forms.Platform.Android.ActionSheetRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.866, 83
+	.asciz	"PaladarApp.Droid.MainActivity, PaladarApp.Android"
+	.size	.L.managed_type_name.866, 50
 	.section	.rodata.managed_type_name.867,"aMS",@progbits,1
 	.type	.L.managed_type_name.867, @object
 .L.managed_type_name.867:
-	.asciz	"Xamarin.Forms.Platform.Android.ActivityIndicatorRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.867, 89
+	.asciz	"PaladarApp.Droid.SplashActivity, PaladarApp.Android"
+	.size	.L.managed_type_name.867, 52
 	.section	.rodata.managed_type_name.868,"aMS",@progbits,1
 	.type	.L.managed_type_name.868, @object
 .L.managed_type_name.868:
-	.asciz	"Xamarin.Forms.Platform.Android.AndroidActivity, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.868, 79
+	.asciz	"Xamarin.Android.Net.OldAndroidSSLSocketFactory, Mono.Android"
+	.size	.L.managed_type_name.868, 61
 	.section	.rodata.managed_type_name.869,"aMS",@progbits,1
 	.type	.L.managed_type_name.869, @object
 .L.managed_type_name.869:
-	.asciz	"Xamarin.Forms.Platform.Android.AppCompat.ButtonRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.869, 88
+	.asciz	"Xamarin.Essentials.ActivityLifecycleContextListener, Xamarin.Essentials"
+	.size	.L.managed_type_name.869, 72
 	.section	.rodata.managed_type_name.870,"aMS",@progbits,1
 	.type	.L.managed_type_name.870, @object
 .L.managed_type_name.870:
-	.asciz	"Xamarin.Forms.Platform.Android.AppCompat.CarouselPageRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.870, 94
+	.asciz	"Xamarin.Forms.Platform.Android.AHorizontalScrollView, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.870, 85
 	.section	.rodata.managed_type_name.871,"aMS",@progbits,1
 	.type	.L.managed_type_name.871, @object
 .L.managed_type_name.871:
-	.asciz	"Xamarin.Forms.Platform.Android.AppCompat.FormsFragmentPagerAdapter`1, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.871, 101
+	.asciz	"Xamarin.Forms.Platform.Android.ActionSheetRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.871, 83
 	.section	.rodata.managed_type_name.872,"aMS",@progbits,1
 	.type	.L.managed_type_name.872, @object
 .L.managed_type_name.872:
-	.asciz	"Xamarin.Forms.Platform.Android.AppCompat.FormsViewPager, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.872, 88
+	.asciz	"Xamarin.Forms.Platform.Android.ActivityIndicatorRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.872, 89
 	.section	.rodata.managed_type_name.873,"aMS",@progbits,1
 	.type	.L.managed_type_name.873, @object
 .L.managed_type_name.873:
-	.asciz	"Xamarin.Forms.Platform.Android.AppCompat.FragmentContainer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.873, 91
+	.asciz	"Xamarin.Forms.Platform.Android.AndroidActivity, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.873, 79
 	.section	.rodata.managed_type_name.874,"aMS",@progbits,1
 	.type	.L.managed_type_name.874, @object
 .L.managed_type_name.874:
-	.asciz	"Xamarin.Forms.Platform.Android.AppCompat.FrameRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.874, 87
+	.asciz	"Xamarin.Forms.Platform.Android.AppCompat.ButtonRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.874, 88
 	.section	.rodata.managed_type_name.875,"aMS",@progbits,1
 	.type	.L.managed_type_name.875, @object
 .L.managed_type_name.875:
-	.asciz	"Xamarin.Forms.Platform.Android.AppCompat.MasterDetailContainer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.875, 95
+	.asciz	"Xamarin.Forms.Platform.Android.AppCompat.CarouselPageRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.875, 94
 	.section	.rodata.managed_type_name.876,"aMS",@progbits,1
 	.type	.L.managed_type_name.876, @object
 .L.managed_type_name.876:
-	.asciz	"Xamarin.Forms.Platform.Android.AppCompat.MasterDetailPageRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.876, 98
+	.asciz	"Xamarin.Forms.Platform.Android.AppCompat.FormsFragmentPagerAdapter`1, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.876, 101
 	.section	.rodata.managed_type_name.877,"aMS",@progbits,1
 	.type	.L.managed_type_name.877, @object
 .L.managed_type_name.877:
-	.asciz	"Xamarin.Forms.Platform.Android.AppCompat.NavigationPageRenderer+ClickListener, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.877, 110
+	.asciz	"Xamarin.Forms.Platform.Android.AppCompat.FormsViewPager, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.877, 88
 	.section	.rodata.managed_type_name.878,"aMS",@progbits,1
 	.type	.L.managed_type_name.878, @object
 .L.managed_type_name.878:
-	.asciz	"Xamarin.Forms.Platform.Android.AppCompat.NavigationPageRenderer+Container, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.878, 106
+	.asciz	"Xamarin.Forms.Platform.Android.AppCompat.FragmentContainer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.878, 91
 	.section	.rodata.managed_type_name.879,"aMS",@progbits,1
 	.type	.L.managed_type_name.879, @object
 .L.managed_type_name.879:
-	.asciz	"Xamarin.Forms.Platform.Android.AppCompat.NavigationPageRenderer+DrawerMultiplexedListener, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.879, 122
+	.asciz	"Xamarin.Forms.Platform.Android.AppCompat.FrameRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.879, 87
 	.section	.rodata.managed_type_name.880,"aMS",@progbits,1
 	.type	.L.managed_type_name.880, @object
 .L.managed_type_name.880:
-	.asciz	"Xamarin.Forms.Platform.Android.AppCompat.NavigationPageRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.880, 96
+	.asciz	"Xamarin.Forms.Platform.Android.AppCompat.MasterDetailContainer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.880, 95
 	.section	.rodata.managed_type_name.881,"aMS",@progbits,1
 	.type	.L.managed_type_name.881, @object
 .L.managed_type_name.881:
-	.asciz	"Xamarin.Forms.Platform.Android.AppCompat.PickerRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.881, 88
+	.asciz	"Xamarin.Forms.Platform.Android.AppCompat.MasterDetailPageRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.881, 98
 	.section	.rodata.managed_type_name.882,"aMS",@progbits,1
 	.type	.L.managed_type_name.882, @object
 .L.managed_type_name.882:
-	.asciz	"Xamarin.Forms.Platform.Android.AppCompat.PickerRendererBase`1, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.882, 94
+	.asciz	"Xamarin.Forms.Platform.Android.AppCompat.NavigationPageRenderer+ClickListener, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.882, 110
 	.section	.rodata.managed_type_name.883,"aMS",@progbits,1
 	.type	.L.managed_type_name.883, @object
 .L.managed_type_name.883:
-	.asciz	"Xamarin.Forms.Platform.Android.AppCompat.Platform+ModalContainer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.883, 97
+	.asciz	"Xamarin.Forms.Platform.Android.AppCompat.NavigationPageRenderer+Container, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.883, 106
 	.section	.rodata.managed_type_name.884,"aMS",@progbits,1
 	.type	.L.managed_type_name.884, @object
 .L.managed_type_name.884:
-	.asciz	"Xamarin.Forms.Platform.Android.AppCompat.ShellFragmentContainer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.884, 96
+	.asciz	"Xamarin.Forms.Platform.Android.AppCompat.NavigationPageRenderer+DrawerMultiplexedListener, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.884, 122
 	.section	.rodata.managed_type_name.885,"aMS",@progbits,1
 	.type	.L.managed_type_name.885, @object
 .L.managed_type_name.885:
-	.asciz	"Xamarin.Forms.Platform.Android.AppCompat.SwitchRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.885, 88
+	.asciz	"Xamarin.Forms.Platform.Android.AppCompat.NavigationPageRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.885, 96
 	.section	.rodata.managed_type_name.886,"aMS",@progbits,1
 	.type	.L.managed_type_name.886, @object
 .L.managed_type_name.886:
-	.asciz	"Xamarin.Forms.Platform.Android.AppCompat.TabbedPageRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.886, 92
+	.asciz	"Xamarin.Forms.Platform.Android.AppCompat.PickerRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.886, 88
 	.section	.rodata.managed_type_name.887,"aMS",@progbits,1
 	.type	.L.managed_type_name.887, @object
 .L.managed_type_name.887:
-	.asciz	"Xamarin.Forms.Platform.Android.AppCompat.ViewRenderer`2, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.887, 88
+	.asciz	"Xamarin.Forms.Platform.Android.AppCompat.PickerRendererBase`1, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.887, 94
 	.section	.rodata.managed_type_name.888,"aMS",@progbits,1
 	.type	.L.managed_type_name.888, @object
 .L.managed_type_name.888:
-	.asciz	"Xamarin.Forms.Platform.Android.BaseCellView, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.888, 76
+	.asciz	"Xamarin.Forms.Platform.Android.AppCompat.Platform+ModalContainer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.888, 97
 	.section	.rodata.managed_type_name.889,"aMS",@progbits,1
 	.type	.L.managed_type_name.889, @object
 .L.managed_type_name.889:
-	.asciz	"Xamarin.Forms.Platform.Android.BorderDrawable, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.889, 78
+	.asciz	"Xamarin.Forms.Platform.Android.AppCompat.ShellFragmentContainer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.889, 96
 	.section	.rodata.managed_type_name.890,"aMS",@progbits,1
 	.type	.L.managed_type_name.890, @object
 .L.managed_type_name.890:
-	.asciz	"Xamarin.Forms.Platform.Android.BoxRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.890, 75
+	.asciz	"Xamarin.Forms.Platform.Android.AppCompat.SwitchRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.890, 88
 	.section	.rodata.managed_type_name.891,"aMS",@progbits,1
 	.type	.L.managed_type_name.891, @object
 .L.managed_type_name.891:
-	.asciz	"Xamarin.Forms.Platform.Android.ButtonRenderer+ButtonClickListener, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.891, 98
+	.asciz	"Xamarin.Forms.Platform.Android.AppCompat.TabbedPageRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.891, 92
 	.section	.rodata.managed_type_name.892,"aMS",@progbits,1
 	.type	.L.managed_type_name.892, @object
 .L.managed_type_name.892:
-	.asciz	"Xamarin.Forms.Platform.Android.ButtonRenderer+ButtonTouchListener, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.892, 98
+	.asciz	"Xamarin.Forms.Platform.Android.AppCompat.ViewRenderer`2, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.892, 88
 	.section	.rodata.managed_type_name.893,"aMS",@progbits,1
 	.type	.L.managed_type_name.893, @object
 .L.managed_type_name.893:
-	.asciz	"Xamarin.Forms.Platform.Android.ButtonRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.893, 78
+	.asciz	"Xamarin.Forms.Platform.Android.BaseCellView, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.893, 76
 	.section	.rodata.managed_type_name.894,"aMS",@progbits,1
 	.type	.L.managed_type_name.894, @object
 .L.managed_type_name.894:
-	.asciz	"Xamarin.Forms.Platform.Android.CarouselPageAdapter, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.894, 83
+	.asciz	"Xamarin.Forms.Platform.Android.BorderDrawable, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.894, 78
 	.section	.rodata.managed_type_name.895,"aMS",@progbits,1
 	.type	.L.managed_type_name.895, @object
 .L.managed_type_name.895:
-	.asciz	"Xamarin.Forms.Platform.Android.CarouselPageRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.895, 84
+	.asciz	"Xamarin.Forms.Platform.Android.BoxRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.895, 75
 	.section	.rodata.managed_type_name.896,"aMS",@progbits,1
 	.type	.L.managed_type_name.896, @object
 .L.managed_type_name.896:
-	.asciz	"Xamarin.Forms.Platform.Android.CarouselSpacingItemDecoration, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.896, 93
+	.asciz	"Xamarin.Forms.Platform.Android.ButtonRenderer+ButtonClickListener, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.896, 98
 	.section	.rodata.managed_type_name.897,"aMS",@progbits,1
 	.type	.L.managed_type_name.897, @object
 .L.managed_type_name.897:
-	.asciz	"Xamarin.Forms.Platform.Android.CarouselViewRenderer+CarouselViewOnScrollListener, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.897, 113
+	.asciz	"Xamarin.Forms.Platform.Android.ButtonRenderer+ButtonTouchListener, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.897, 98
 	.section	.rodata.managed_type_name.898,"aMS",@progbits,1
 	.type	.L.managed_type_name.898, @object
 .L.managed_type_name.898:
-	.asciz	"Xamarin.Forms.Platform.Android.CarouselViewRenderer+CarouselViewwOnGlobalLayoutListener, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.898, 120
+	.asciz	"Xamarin.Forms.Platform.Android.ButtonRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.898, 78
 	.section	.rodata.managed_type_name.899,"aMS",@progbits,1
 	.type	.L.managed_type_name.899, @object
 .L.managed_type_name.899:
-	.asciz	"Xamarin.Forms.Platform.Android.CarouselViewRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.899, 84
+	.asciz	"Xamarin.Forms.Platform.Android.CarouselPageAdapter, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.899, 83
 	.section	.rodata.managed_type_name.900,"aMS",@progbits,1
 	.type	.L.managed_type_name.900, @object
 .L.managed_type_name.900:
-	.asciz	"Xamarin.Forms.Platform.Android.CellAdapter, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.900, 75
+	.asciz	"Xamarin.Forms.Platform.Android.CarouselPageRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.900, 84
 	.section	.rodata.managed_type_name.901,"aMS",@progbits,1
 	.type	.L.managed_type_name.901, @object
 .L.managed_type_name.901:
-	.asciz	"Xamarin.Forms.Platform.Android.CellRenderer+RendererHolder, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.901, 91
+	.asciz	"Xamarin.Forms.Platform.Android.CarouselSpacingItemDecoration, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.901, 93
 	.section	.rodata.managed_type_name.902,"aMS",@progbits,1
 	.type	.L.managed_type_name.902, @object
 .L.managed_type_name.902:
-	.asciz	"Xamarin.Forms.Platform.Android.CenterSnapHelper, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.902, 80
+	.asciz	"Xamarin.Forms.Platform.Android.CarouselViewRenderer+CarouselViewOnScrollListener, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.902, 113
 	.section	.rodata.managed_type_name.903,"aMS",@progbits,1
 	.type	.L.managed_type_name.903, @object
 .L.managed_type_name.903:
-	.asciz	"Xamarin.Forms.Platform.Android.CheckBoxDesignerRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.903, 88
+	.asciz	"Xamarin.Forms.Platform.Android.CarouselViewRenderer+CarouselViewwOnGlobalLayoutListener, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.903, 120
 	.section	.rodata.managed_type_name.904,"aMS",@progbits,1
 	.type	.L.managed_type_name.904, @object
 .L.managed_type_name.904:
-	.asciz	"Xamarin.Forms.Platform.Android.CheckBoxRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.904, 80
+	.asciz	"Xamarin.Forms.Platform.Android.CarouselViewRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.904, 84
 	.section	.rodata.managed_type_name.905,"aMS",@progbits,1
 	.type	.L.managed_type_name.905, @object
 .L.managed_type_name.905:
-	.asciz	"Xamarin.Forms.Platform.Android.CheckBoxRendererBase, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.905, 84
+	.asciz	"Xamarin.Forms.Platform.Android.CellAdapter, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.905, 75
 	.section	.rodata.managed_type_name.906,"aMS",@progbits,1
 	.type	.L.managed_type_name.906, @object
 .L.managed_type_name.906:
-	.asciz	"Xamarin.Forms.Platform.Android.CircularProgress, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.906, 80
+	.asciz	"Xamarin.Forms.Platform.Android.CellRenderer+RendererHolder, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.906, 91
 	.section	.rodata.managed_type_name.907,"aMS",@progbits,1
 	.type	.L.managed_type_name.907, @object
 .L.managed_type_name.907:
-	.asciz	"Xamarin.Forms.Platform.Android.CollectionView.RecyclerViewScrollListener`2, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.907, 107
+	.asciz	"Xamarin.Forms.Platform.Android.CenterSnapHelper, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.907, 80
 	.section	.rodata.managed_type_name.908,"aMS",@progbits,1
 	.type	.L.managed_type_name.908, @object
 .L.managed_type_name.908:
-	.asciz	"Xamarin.Forms.Platform.Android.CollectionViewRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.908, 86
+	.asciz	"Xamarin.Forms.Platform.Android.CheckBoxDesignerRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.908, 88
 	.section	.rodata.managed_type_name.909,"aMS",@progbits,1
 	.type	.L.managed_type_name.909, @object
 .L.managed_type_name.909:
-	.asciz	"Xamarin.Forms.Platform.Android.ColorChangeRevealDrawable, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.909, 89
+	.asciz	"Xamarin.Forms.Platform.Android.CheckBoxRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.909, 80
 	.section	.rodata.managed_type_name.910,"aMS",@progbits,1
 	.type	.L.managed_type_name.910, @object
 .L.managed_type_name.910:
-	.asciz	"Xamarin.Forms.Platform.Android.ConditionalFocusLayout, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.910, 86
+	.asciz	"Xamarin.Forms.Platform.Android.CheckBoxRendererBase, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.910, 84
 	.section	.rodata.managed_type_name.911,"aMS",@progbits,1
 	.type	.L.managed_type_name.911, @object
 .L.managed_type_name.911:
-	.asciz	"Xamarin.Forms.Platform.Android.ContainerView, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.911, 77
+	.asciz	"Xamarin.Forms.Platform.Android.CircularProgress, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.911, 80
 	.section	.rodata.managed_type_name.912,"aMS",@progbits,1
 	.type	.L.managed_type_name.912, @object
 .L.managed_type_name.912:
-	.asciz	"Xamarin.Forms.Platform.Android.CustomFrameLayout, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.912, 81
+	.asciz	"Xamarin.Forms.Platform.Android.CollectionView.RecyclerViewScrollListener`2, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.912, 107
 	.section	.rodata.managed_type_name.913,"aMS",@progbits,1
 	.type	.L.managed_type_name.913, @object
 .L.managed_type_name.913:
-	.asciz	"Xamarin.Forms.Platform.Android.DataChangeObserver, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.913, 82
+	.asciz	"Xamarin.Forms.Platform.Android.CollectionViewRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.913, 86
 	.section	.rodata.managed_type_name.914,"aMS",@progbits,1
 	.type	.L.managed_type_name.914, @object
 .L.managed_type_name.914:
-	.asciz	"Xamarin.Forms.Platform.Android.DatePickerRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.914, 82
+	.asciz	"Xamarin.Forms.Platform.Android.ColorChangeRevealDrawable, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.914, 89
 	.section	.rodata.managed_type_name.915,"aMS",@progbits,1
 	.type	.L.managed_type_name.915, @object
 .L.managed_type_name.915:
-	.asciz	"Xamarin.Forms.Platform.Android.DatePickerRendererBase`1, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.915, 88
+	.asciz	"Xamarin.Forms.Platform.Android.ConditionalFocusLayout, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.915, 86
 	.section	.rodata.managed_type_name.916,"aMS",@progbits,1
 	.type	.L.managed_type_name.916, @object
 .L.managed_type_name.916:
-	.asciz	"Xamarin.Forms.Platform.Android.EdgeSnapHelper, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.916, 78
+	.asciz	"Xamarin.Forms.Platform.Android.ContainerView, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.916, 77
 	.section	.rodata.managed_type_name.917,"aMS",@progbits,1
 	.type	.L.managed_type_name.917, @object
 .L.managed_type_name.917:
-	.asciz	"Xamarin.Forms.Platform.Android.EditorEditText, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.917, 78
+	.asciz	"Xamarin.Forms.Platform.Android.CustomFrameLayout, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.917, 81
 	.section	.rodata.managed_type_name.918,"aMS",@progbits,1
 	.type	.L.managed_type_name.918, @object
 .L.managed_type_name.918:
-	.asciz	"Xamarin.Forms.Platform.Android.EditorRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.918, 78
+	.asciz	"Xamarin.Forms.Platform.Android.DataChangeObserver, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.918, 82
 	.section	.rodata.managed_type_name.919,"aMS",@progbits,1
 	.type	.L.managed_type_name.919, @object
 .L.managed_type_name.919:
-	.asciz	"Xamarin.Forms.Platform.Android.EditorRendererBase`1, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.919, 84
+	.asciz	"Xamarin.Forms.Platform.Android.DatePickerRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.919, 82
 	.section	.rodata.managed_type_name.920,"aMS",@progbits,1
 	.type	.L.managed_type_name.920, @object
 .L.managed_type_name.920:
-	.asciz	"Xamarin.Forms.Platform.Android.EllipseRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.920, 79
+	.asciz	"Xamarin.Forms.Platform.Android.DatePickerRendererBase`1, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.920, 88
 	.section	.rodata.managed_type_name.921,"aMS",@progbits,1
 	.type	.L.managed_type_name.921, @object
 .L.managed_type_name.921:
-	.asciz	"Xamarin.Forms.Platform.Android.EllipseView, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.921, 75
+	.asciz	"Xamarin.Forms.Platform.Android.EdgeSnapHelper, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.921, 78
 	.section	.rodata.managed_type_name.922,"aMS",@progbits,1
 	.type	.L.managed_type_name.922, @object
 .L.managed_type_name.922:
-	.asciz	"Xamarin.Forms.Platform.Android.EmptyViewAdapter, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.922, 80
+	.asciz	"Xamarin.Forms.Platform.Android.EditorEditText, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.922, 78
 	.section	.rodata.managed_type_name.923,"aMS",@progbits,1
 	.type	.L.managed_type_name.923, @object
 .L.managed_type_name.923:
-	.asciz	"Xamarin.Forms.Platform.Android.EndSingleSnapHelper, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.923, 83
+	.asciz	"Xamarin.Forms.Platform.Android.EditorRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.923, 78
 	.section	.rodata.managed_type_name.924,"aMS",@progbits,1
 	.type	.L.managed_type_name.924, @object
 .L.managed_type_name.924:
-	.asciz	"Xamarin.Forms.Platform.Android.EndSnapHelper, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.924, 77
+	.asciz	"Xamarin.Forms.Platform.Android.EditorRendererBase`1, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.924, 84
 	.section	.rodata.managed_type_name.925,"aMS",@progbits,1
 	.type	.L.managed_type_name.925, @object
 .L.managed_type_name.925:
-	.asciz	"Xamarin.Forms.Platform.Android.EntryAccessibilityDelegate, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.925, 90
+	.asciz	"Xamarin.Forms.Platform.Android.EllipseRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.925, 79
 	.section	.rodata.managed_type_name.926,"aMS",@progbits,1
 	.type	.L.managed_type_name.926, @object
 .L.managed_type_name.926:
-	.asciz	"Xamarin.Forms.Platform.Android.EntryCellEditText, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.926, 81
+	.asciz	"Xamarin.Forms.Platform.Android.EllipseView, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.926, 75
 	.section	.rodata.managed_type_name.927,"aMS",@progbits,1
 	.type	.L.managed_type_name.927, @object
 .L.managed_type_name.927:
-	.asciz	"Xamarin.Forms.Platform.Android.EntryCellView, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.927, 77
+	.asciz	"Xamarin.Forms.Platform.Android.EmptyViewAdapter, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.927, 80
 	.section	.rodata.managed_type_name.928,"aMS",@progbits,1
 	.type	.L.managed_type_name.928, @object
 .L.managed_type_name.928:
-	.asciz	"Xamarin.Forms.Platform.Android.EntryEditText, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.928, 77
+	.asciz	"Xamarin.Forms.Platform.Android.EndSingleSnapHelper, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.928, 83
 	.section	.rodata.managed_type_name.929,"aMS",@progbits,1
 	.type	.L.managed_type_name.929, @object
 .L.managed_type_name.929:
-	.asciz	"Xamarin.Forms.Platform.Android.EntryRenderer, Xamarin.Forms.Platform.Android"
+	.asciz	"Xamarin.Forms.Platform.Android.EndSnapHelper, Xamarin.Forms.Platform.Android"
 	.size	.L.managed_type_name.929, 77
 	.section	.rodata.managed_type_name.930,"aMS",@progbits,1
 	.type	.L.managed_type_name.930, @object
 .L.managed_type_name.930:
-	.asciz	"Xamarin.Forms.Platform.Android.EntryRendererBase`1, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.930, 83
+	.asciz	"Xamarin.Forms.Platform.Android.EntryAccessibilityDelegate, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.930, 90
 	.section	.rodata.managed_type_name.931,"aMS",@progbits,1
 	.type	.L.managed_type_name.931, @object
 .L.managed_type_name.931:
-	.asciz	"Xamarin.Forms.Platform.Android.FastRenderers.ButtonRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.931, 92
+	.asciz	"Xamarin.Forms.Platform.Android.EntryCellEditText, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.931, 81
 	.section	.rodata.managed_type_name.932,"aMS",@progbits,1
 	.type	.L.managed_type_name.932, @object
 .L.managed_type_name.932:
-	.asciz	"Xamarin.Forms.Platform.Android.FastRenderers.FrameRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.932, 91
+	.asciz	"Xamarin.Forms.Platform.Android.EntryCellView, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.932, 77
 	.section	.rodata.managed_type_name.933,"aMS",@progbits,1
 	.type	.L.managed_type_name.933, @object
 .L.managed_type_name.933:
-	.asciz	"Xamarin.Forms.Platform.Android.FastRenderers.ImageRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.933, 91
+	.asciz	"Xamarin.Forms.Platform.Android.EntryEditText, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.933, 77
 	.section	.rodata.managed_type_name.934,"aMS",@progbits,1
 	.type	.L.managed_type_name.934, @object
 .L.managed_type_name.934:
-	.asciz	"Xamarin.Forms.Platform.Android.FastRenderers.LabelRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.934, 91
+	.asciz	"Xamarin.Forms.Platform.Android.EntryRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.934, 77
 	.section	.rodata.managed_type_name.935,"aMS",@progbits,1
 	.type	.L.managed_type_name.935, @object
 .L.managed_type_name.935:
-	.asciz	"Xamarin.Forms.Platform.Android.FormattedStringExtensions+FontSpan, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.935, 98
+	.asciz	"Xamarin.Forms.Platform.Android.EntryRendererBase`1, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.935, 83
 	.section	.rodata.managed_type_name.936,"aMS",@progbits,1
 	.type	.L.managed_type_name.936, @object
 .L.managed_type_name.936:
-	.asciz	"Xamarin.Forms.Platform.Android.FormattedStringExtensions+LineHeightSpan, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.936, 104
+	.asciz	"Xamarin.Forms.Platform.Android.FastRenderers.ButtonRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.936, 92
 	.section	.rodata.managed_type_name.937,"aMS",@progbits,1
 	.type	.L.managed_type_name.937, @object
 .L.managed_type_name.937:
-	.asciz	"Xamarin.Forms.Platform.Android.FormattedStringExtensions+TextDecorationSpan, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.937, 108
+	.asciz	"Xamarin.Forms.Platform.Android.FastRenderers.FrameRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.937, 91
 	.section	.rodata.managed_type_name.938,"aMS",@progbits,1
 	.type	.L.managed_type_name.938, @object
 .L.managed_type_name.938:
-	.asciz	"Xamarin.Forms.Platform.Android.FormsAnimationDrawable, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.938, 86
+	.asciz	"Xamarin.Forms.Platform.Android.FastRenderers.ImageRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.938, 91
 	.section	.rodata.managed_type_name.939,"aMS",@progbits,1
 	.type	.L.managed_type_name.939, @object
 .L.managed_type_name.939:
-	.asciz	"Xamarin.Forms.Platform.Android.FormsAppCompatActivity, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.939, 86
+	.asciz	"Xamarin.Forms.Platform.Android.FastRenderers.LabelRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.939, 91
 	.section	.rodata.managed_type_name.940,"aMS",@progbits,1
 	.type	.L.managed_type_name.940, @object
 .L.managed_type_name.940:
-	.asciz	"Xamarin.Forms.Platform.Android.FormsApplicationActivity, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.940, 88
+	.asciz	"Xamarin.Forms.Platform.Android.FormattedStringExtensions+FontSpan, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.940, 98
 	.section	.rodata.managed_type_name.941,"aMS",@progbits,1
 	.type	.L.managed_type_name.941, @object
 .L.managed_type_name.941:
-	.asciz	"Xamarin.Forms.Platform.Android.FormsEditText, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.941, 77
+	.asciz	"Xamarin.Forms.Platform.Android.FormattedStringExtensions+LineHeightSpan, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.941, 104
 	.section	.rodata.managed_type_name.942,"aMS",@progbits,1
 	.type	.L.managed_type_name.942, @object
 .L.managed_type_name.942:
-	.asciz	"Xamarin.Forms.Platform.Android.FormsEditTextBase, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.942, 81
+	.asciz	"Xamarin.Forms.Platform.Android.FormattedStringExtensions+TextDecorationSpan, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.942, 108
 	.section	.rodata.managed_type_name.943,"aMS",@progbits,1
 	.type	.L.managed_type_name.943, @object
 .L.managed_type_name.943:
-	.asciz	"Xamarin.Forms.Platform.Android.FormsImageView, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.943, 78
+	.asciz	"Xamarin.Forms.Platform.Android.FormsAnimationDrawable, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.943, 86
 	.section	.rodata.managed_type_name.944,"aMS",@progbits,1
 	.type	.L.managed_type_name.944, @object
 .L.managed_type_name.944:
-	.asciz	"Xamarin.Forms.Platform.Android.FormsSeekBar, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.944, 76
+	.asciz	"Xamarin.Forms.Platform.Android.FormsAppCompatActivity, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.944, 86
 	.section	.rodata.managed_type_name.945,"aMS",@progbits,1
 	.type	.L.managed_type_name.945, @object
 .L.managed_type_name.945:
-	.asciz	"Xamarin.Forms.Platform.Android.FormsTextView, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.945, 77
+	.asciz	"Xamarin.Forms.Platform.Android.FormsApplicationActivity, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.945, 88
 	.section	.rodata.managed_type_name.946,"aMS",@progbits,1
 	.type	.L.managed_type_name.946, @object
 .L.managed_type_name.946:
-	.asciz	"Xamarin.Forms.Platform.Android.FormsVideoView, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.946, 78
+	.asciz	"Xamarin.Forms.Platform.Android.FormsEditText, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.946, 77
 	.section	.rodata.managed_type_name.947,"aMS",@progbits,1
 	.type	.L.managed_type_name.947, @object
 .L.managed_type_name.947:
-	.asciz	"Xamarin.Forms.Platform.Android.FormsViewGroup, FormsViewGroup"
-	.size	.L.managed_type_name.947, 62
+	.asciz	"Xamarin.Forms.Platform.Android.FormsEditTextBase, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.947, 81
 	.section	.rodata.managed_type_name.948,"aMS",@progbits,1
 	.type	.L.managed_type_name.948, @object
 .L.managed_type_name.948:
-	.asciz	"Xamarin.Forms.Platform.Android.FormsWebChromeClient, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.948, 84
+	.asciz	"Xamarin.Forms.Platform.Android.FormsImageView, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.948, 78
 	.section	.rodata.managed_type_name.949,"aMS",@progbits,1
 	.type	.L.managed_type_name.949, @object
 .L.managed_type_name.949:
-	.asciz	"Xamarin.Forms.Platform.Android.FormsWebViewClient, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.949, 82
+	.asciz	"Xamarin.Forms.Platform.Android.FormsSeekBar, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.949, 76
 	.section	.rodata.managed_type_name.950,"aMS",@progbits,1
 	.type	.L.managed_type_name.950, @object
 .L.managed_type_name.950:
-	.asciz	"Xamarin.Forms.Platform.Android.FrameRenderer+FrameDrawable, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.950, 91
+	.asciz	"Xamarin.Forms.Platform.Android.FormsTextView, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.950, 77
 	.section	.rodata.managed_type_name.951,"aMS",@progbits,1
 	.type	.L.managed_type_name.951, @object
 .L.managed_type_name.951:
-	.asciz	"Xamarin.Forms.Platform.Android.FrameRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.951, 77
+	.asciz	"Xamarin.Forms.Platform.Android.FormsVideoView, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.951, 78
 	.section	.rodata.managed_type_name.952,"aMS",@progbits,1
 	.type	.L.managed_type_name.952, @object
 .L.managed_type_name.952:
-	.asciz	"Xamarin.Forms.Platform.Android.GenericAnimatorListener, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.952, 87
+	.asciz	"Xamarin.Forms.Platform.Android.FormsViewGroup, FormsViewGroup"
+	.size	.L.managed_type_name.952, 62
 	.section	.rodata.managed_type_name.953,"aMS",@progbits,1
 	.type	.L.managed_type_name.953, @object
 .L.managed_type_name.953:
-	.asciz	"Xamarin.Forms.Platform.Android.GenericGlobalLayoutListener, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.953, 91
+	.asciz	"Xamarin.Forms.Platform.Android.FormsWebChromeClient, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.953, 84
 	.section	.rodata.managed_type_name.954,"aMS",@progbits,1
 	.type	.L.managed_type_name.954, @object
 .L.managed_type_name.954:
-	.asciz	"Xamarin.Forms.Platform.Android.GenericMenuClickListener, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.954, 88
+	.asciz	"Xamarin.Forms.Platform.Android.FormsWebViewClient, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.954, 82
 	.section	.rodata.managed_type_name.955,"aMS",@progbits,1
 	.type	.L.managed_type_name.955, @object
 .L.managed_type_name.955:
-	.asciz	"Xamarin.Forms.Platform.Android.GestureManager+TapAndPanGestureDetector, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.955, 103
+	.asciz	"Xamarin.Forms.Platform.Android.FrameRenderer+FrameDrawable, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.955, 91
 	.section	.rodata.managed_type_name.956,"aMS",@progbits,1
 	.type	.L.managed_type_name.956, @object
 .L.managed_type_name.956:
-	.asciz	"Xamarin.Forms.Platform.Android.GridLayoutSpanSizeLookup, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.956, 88
+	.asciz	"Xamarin.Forms.Platform.Android.FrameRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.956, 77
 	.section	.rodata.managed_type_name.957,"aMS",@progbits,1
 	.type	.L.managed_type_name.957, @object
 .L.managed_type_name.957:
-	.asciz	"Xamarin.Forms.Platform.Android.GroupableItemsViewAdapter`2, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.957, 91
+	.asciz	"Xamarin.Forms.Platform.Android.GenericAnimatorListener, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.957, 87
 	.section	.rodata.managed_type_name.958,"aMS",@progbits,1
 	.type	.L.managed_type_name.958, @object
 .L.managed_type_name.958:
-	.asciz	"Xamarin.Forms.Platform.Android.GroupableItemsViewRenderer`3, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.958, 92
+	.asciz	"Xamarin.Forms.Platform.Android.GenericGlobalLayoutListener, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.958, 91
 	.section	.rodata.managed_type_name.959,"aMS",@progbits,1
 	.type	.L.managed_type_name.959, @object
 .L.managed_type_name.959:
-	.asciz	"Xamarin.Forms.Platform.Android.GroupedListViewAdapter, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.959, 86
+	.asciz	"Xamarin.Forms.Platform.Android.GenericMenuClickListener, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.959, 88
 	.section	.rodata.managed_type_name.960,"aMS",@progbits,1
 	.type	.L.managed_type_name.960, @object
 .L.managed_type_name.960:
-	.asciz	"Xamarin.Forms.Platform.Android.ImageButtonRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.960, 83
+	.asciz	"Xamarin.Forms.Platform.Android.GestureManager+TapAndPanGestureDetector, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.960, 103
 	.section	.rodata.managed_type_name.961,"aMS",@progbits,1
 	.type	.L.managed_type_name.961, @object
 .L.managed_type_name.961:
-	.asciz	"Xamarin.Forms.Platform.Android.ImageCache+CacheEntry, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.961, 85
+	.asciz	"Xamarin.Forms.Platform.Android.GridLayoutSpanSizeLookup, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.961, 88
 	.section	.rodata.managed_type_name.962,"aMS",@progbits,1
 	.type	.L.managed_type_name.962, @object
 .L.managed_type_name.962:
-	.asciz	"Xamarin.Forms.Platform.Android.ImageCache+FormsLruCache, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.962, 88
+	.asciz	"Xamarin.Forms.Platform.Android.GroupableItemsViewAdapter`2, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.962, 91
 	.section	.rodata.managed_type_name.963,"aMS",@progbits,1
 	.type	.L.managed_type_name.963, @object
 .L.managed_type_name.963:
-	.asciz	"Xamarin.Forms.Platform.Android.ImageRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.963, 77
+	.asciz	"Xamarin.Forms.Platform.Android.GroupableItemsViewRenderer`3, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.963, 92
 	.section	.rodata.managed_type_name.964,"aMS",@progbits,1
 	.type	.L.managed_type_name.964, @object
 .L.managed_type_name.964:
-	.asciz	"Xamarin.Forms.Platform.Android.IndicatorViewRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.964, 85
+	.asciz	"Xamarin.Forms.Platform.Android.GroupedListViewAdapter, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.964, 86
 	.section	.rodata.managed_type_name.965,"aMS",@progbits,1
 	.type	.L.managed_type_name.965, @object
 .L.managed_type_name.965:
-	.asciz	"Xamarin.Forms.Platform.Android.InnerGestureListener, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.965, 84
+	.asciz	"Xamarin.Forms.Platform.Android.ImageButtonRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.965, 83
 	.section	.rodata.managed_type_name.966,"aMS",@progbits,1
 	.type	.L.managed_type_name.966, @object
 .L.managed_type_name.966:
-	.asciz	"Xamarin.Forms.Platform.Android.InnerScaleListener, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.966, 82
+	.asciz	"Xamarin.Forms.Platform.Android.ImageCache+CacheEntry, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.966, 85
 	.section	.rodata.managed_type_name.967,"aMS",@progbits,1
 	.type	.L.managed_type_name.967, @object
 .L.managed_type_name.967:
-	.asciz	"Xamarin.Forms.Platform.Android.ItemContentView, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.967, 79
+	.asciz	"Xamarin.Forms.Platform.Android.ImageCache+FormsLruCache, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.967, 88
 	.section	.rodata.managed_type_name.968,"aMS",@progbits,1
 	.type	.L.managed_type_name.968, @object
 .L.managed_type_name.968:
-	.asciz	"Xamarin.Forms.Platform.Android.ItemsViewAdapter`2, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.968, 82
+	.asciz	"Xamarin.Forms.Platform.Android.ImageRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.968, 77
 	.section	.rodata.managed_type_name.969,"aMS",@progbits,1
 	.type	.L.managed_type_name.969, @object
 .L.managed_type_name.969:
-	.asciz	"Xamarin.Forms.Platform.Android.ItemsViewRenderer`3, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.969, 83
+	.asciz	"Xamarin.Forms.Platform.Android.IndicatorViewRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.969, 85
 	.section	.rodata.managed_type_name.970,"aMS",@progbits,1
 	.type	.L.managed_type_name.970, @object
 .L.managed_type_name.970:
-	.asciz	"Xamarin.Forms.Platform.Android.LabelRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.970, 77
+	.asciz	"Xamarin.Forms.Platform.Android.InnerGestureListener, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.970, 84
 	.section	.rodata.managed_type_name.971,"aMS",@progbits,1
 	.type	.L.managed_type_name.971, @object
 .L.managed_type_name.971:
-	.asciz	"Xamarin.Forms.Platform.Android.LineRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.971, 76
+	.asciz	"Xamarin.Forms.Platform.Android.InnerScaleListener, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.971, 82
 	.section	.rodata.managed_type_name.972,"aMS",@progbits,1
 	.type	.L.managed_type_name.972, @object
 .L.managed_type_name.972:
-	.asciz	"Xamarin.Forms.Platform.Android.LineView, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.972, 72
+	.asciz	"Xamarin.Forms.Platform.Android.ItemContentView, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.972, 79
 	.section	.rodata.managed_type_name.973,"aMS",@progbits,1
 	.type	.L.managed_type_name.973, @object
 .L.managed_type_name.973:
-	.asciz	"Xamarin.Forms.Platform.Android.ListViewAdapter, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.973, 79
+	.asciz	"Xamarin.Forms.Platform.Android.ItemsViewAdapter`2, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.973, 82
 	.section	.rodata.managed_type_name.974,"aMS",@progbits,1
 	.type	.L.managed_type_name.974, @object
 .L.managed_type_name.974:
-	.asciz	"Xamarin.Forms.Platform.Android.ListViewRenderer+Container, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.974, 90
+	.asciz	"Xamarin.Forms.Platform.Android.ItemsViewRenderer`3, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.974, 83
 	.section	.rodata.managed_type_name.975,"aMS",@progbits,1
 	.type	.L.managed_type_name.975, @object
 .L.managed_type_name.975:
-	.asciz	"Xamarin.Forms.Platform.Android.ListViewRenderer+ListViewScrollDetector, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.975, 103
+	.asciz	"Xamarin.Forms.Platform.Android.LabelRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.975, 77
 	.section	.rodata.managed_type_name.976,"aMS",@progbits,1
 	.type	.L.managed_type_name.976, @object
 .L.managed_type_name.976:
-	.asciz	"Xamarin.Forms.Platform.Android.ListViewRenderer+SwipeRefreshLayoutWithFixedNestedScrolling, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.976, 123
+	.asciz	"Xamarin.Forms.Platform.Android.LineRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.976, 76
 	.section	.rodata.managed_type_name.977,"aMS",@progbits,1
 	.type	.L.managed_type_name.977, @object
 .L.managed_type_name.977:
-	.asciz	"Xamarin.Forms.Platform.Android.ListViewRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.977, 80
+	.asciz	"Xamarin.Forms.Platform.Android.LineView, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.977, 72
 	.section	.rodata.managed_type_name.978,"aMS",@progbits,1
 	.type	.L.managed_type_name.978, @object
 .L.managed_type_name.978:
-	.asciz	"Xamarin.Forms.Platform.Android.LocalizedDigitsKeyListener, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.978, 90
+	.asciz	"Xamarin.Forms.Platform.Android.ListViewAdapter, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.978, 79
 	.section	.rodata.managed_type_name.979,"aMS",@progbits,1
 	.type	.L.managed_type_name.979, @object
 .L.managed_type_name.979:
-	.asciz	"Xamarin.Forms.Platform.Android.MasterDetailContainer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.979, 85
+	.asciz	"Xamarin.Forms.Platform.Android.ListViewRenderer+Container, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.979, 90
 	.section	.rodata.managed_type_name.980,"aMS",@progbits,1
 	.type	.L.managed_type_name.980, @object
 .L.managed_type_name.980:
-	.asciz	"Xamarin.Forms.Platform.Android.MasterDetailRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.980, 84
+	.asciz	"Xamarin.Forms.Platform.Android.ListViewRenderer+ListViewScrollDetector, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.980, 103
 	.section	.rodata.managed_type_name.981,"aMS",@progbits,1
 	.type	.L.managed_type_name.981, @object
 .L.managed_type_name.981:
-	.asciz	"Xamarin.Forms.Platform.Android.MediaElementRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.981, 84
+	.asciz	"Xamarin.Forms.Platform.Android.ListViewRenderer+SwipeRefreshLayoutWithFixedNestedScrolling, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.981, 123
 	.section	.rodata.managed_type_name.982,"aMS",@progbits,1
 	.type	.L.managed_type_name.982, @object
 .L.managed_type_name.982:
-	.asciz	"Xamarin.Forms.Platform.Android.NativeViewWrapperRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.982, 89
+	.asciz	"Xamarin.Forms.Platform.Android.ListViewRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.982, 80
 	.section	.rodata.managed_type_name.983,"aMS",@progbits,1
 	.type	.L.managed_type_name.983, @object
 .L.managed_type_name.983:
-	.asciz	"Xamarin.Forms.Platform.Android.NavigationRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.983, 82
+	.asciz	"Xamarin.Forms.Platform.Android.LocalizedDigitsKeyListener, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.983, 90
 	.section	.rodata.managed_type_name.984,"aMS",@progbits,1
 	.type	.L.managed_type_name.984, @object
 .L.managed_type_name.984:
-	.asciz	"Xamarin.Forms.Platform.Android.NongreedySnapHelper+InitialScrollListener, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.984, 105
+	.asciz	"Xamarin.Forms.Platform.Android.MasterDetailContainer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.984, 85
 	.section	.rodata.managed_type_name.985,"aMS",@progbits,1
 	.type	.L.managed_type_name.985, @object
 .L.managed_type_name.985:
-	.asciz	"Xamarin.Forms.Platform.Android.NongreedySnapHelper, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.985, 83
+	.asciz	"Xamarin.Forms.Platform.Android.MasterDetailRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.985, 84
 	.section	.rodata.managed_type_name.986,"aMS",@progbits,1
 	.type	.L.managed_type_name.986, @object
 .L.managed_type_name.986:
-	.asciz	"Xamarin.Forms.Platform.Android.ObjectJavaBox`1, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.986, 79
+	.asciz	"Xamarin.Forms.Platform.Android.MediaElementRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.986, 84
 	.section	.rodata.managed_type_name.987,"aMS",@progbits,1
 	.type	.L.managed_type_name.987, @object
 .L.managed_type_name.987:
-	.asciz	"Xamarin.Forms.Platform.Android.OpenGLViewRenderer+Renderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.987, 91
+	.asciz	"Xamarin.Forms.Platform.Android.NativeViewWrapperRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.987, 89
 	.section	.rodata.managed_type_name.988,"aMS",@progbits,1
 	.type	.L.managed_type_name.988, @object
 .L.managed_type_name.988:
-	.asciz	"Xamarin.Forms.Platform.Android.OpenGLViewRenderer, Xamarin.Forms.Platform.Android"
+	.asciz	"Xamarin.Forms.Platform.Android.NavigationRenderer, Xamarin.Forms.Platform.Android"
 	.size	.L.managed_type_name.988, 82
 	.section	.rodata.managed_type_name.989,"aMS",@progbits,1
 	.type	.L.managed_type_name.989, @object
 .L.managed_type_name.989:
-	.asciz	"Xamarin.Forms.Platform.Android.PageContainer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.989, 77
+	.asciz	"Xamarin.Forms.Platform.Android.NongreedySnapHelper+InitialScrollListener, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.989, 105
 	.section	.rodata.managed_type_name.990,"aMS",@progbits,1
 	.type	.L.managed_type_name.990, @object
 .L.managed_type_name.990:
-	.asciz	"Xamarin.Forms.Platform.Android.PageExtensions+EmbeddedFragment, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.990, 95
+	.asciz	"Xamarin.Forms.Platform.Android.NongreedySnapHelper, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.990, 83
 	.section	.rodata.managed_type_name.991,"aMS",@progbits,1
 	.type	.L.managed_type_name.991, @object
 .L.managed_type_name.991:
-	.asciz	"Xamarin.Forms.Platform.Android.PageExtensions+EmbeddedSupportFragment, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.991, 102
+	.asciz	"Xamarin.Forms.Platform.Android.ObjectJavaBox`1, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.991, 79
 	.section	.rodata.managed_type_name.992,"aMS",@progbits,1
 	.type	.L.managed_type_name.992, @object
 .L.managed_type_name.992:
-	.asciz	"Xamarin.Forms.Platform.Android.PageRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.992, 76
+	.asciz	"Xamarin.Forms.Platform.Android.OpenGLViewRenderer+Renderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.992, 91
 	.section	.rodata.managed_type_name.993,"aMS",@progbits,1
 	.type	.L.managed_type_name.993, @object
 .L.managed_type_name.993:
-	.asciz	"Xamarin.Forms.Platform.Android.PathRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.993, 76
+	.asciz	"Xamarin.Forms.Platform.Android.OpenGLViewRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.993, 82
 	.section	.rodata.managed_type_name.994,"aMS",@progbits,1
 	.type	.L.managed_type_name.994, @object
 .L.managed_type_name.994:
-	.asciz	"Xamarin.Forms.Platform.Android.PathView, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.994, 72
+	.asciz	"Xamarin.Forms.Platform.Android.PageContainer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.994, 77
 	.section	.rodata.managed_type_name.995,"aMS",@progbits,1
 	.type	.L.managed_type_name.995, @object
 .L.managed_type_name.995:
-	.asciz	"Xamarin.Forms.Platform.Android.PickerEditText, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.995, 78
+	.asciz	"Xamarin.Forms.Platform.Android.PageExtensions+EmbeddedFragment, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.995, 95
 	.section	.rodata.managed_type_name.996,"aMS",@progbits,1
 	.type	.L.managed_type_name.996, @object
 .L.managed_type_name.996:
-	.asciz	"Xamarin.Forms.Platform.Android.PickerManager+PickerListener, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.996, 92
+	.asciz	"Xamarin.Forms.Platform.Android.PageExtensions+EmbeddedSupportFragment, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.996, 102
 	.section	.rodata.managed_type_name.997,"aMS",@progbits,1
 	.type	.L.managed_type_name.997, @object
 .L.managed_type_name.997:
-	.asciz	"Xamarin.Forms.Platform.Android.PickerRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.997, 78
+	.asciz	"Xamarin.Forms.Platform.Android.PageRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.997, 76
 	.section	.rodata.managed_type_name.998,"aMS",@progbits,1
 	.type	.L.managed_type_name.998, @object
 .L.managed_type_name.998:
-	.asciz	"Xamarin.Forms.Platform.Android.Platform+DefaultRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.998, 88
+	.asciz	"Xamarin.Forms.Platform.Android.PathRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.998, 76
 	.section	.rodata.managed_type_name.999,"aMS",@progbits,1
 	.type	.L.managed_type_name.999, @object
 .L.managed_type_name.999:
-	.asciz	"Xamarin.Forms.Platform.Android.PlatformRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.999, 80
+	.asciz	"Xamarin.Forms.Platform.Android.PathView, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.999, 72
 	.section	.rodata.managed_type_name.1000,"aMS",@progbits,1
 	.type	.L.managed_type_name.1000, @object
 .L.managed_type_name.1000:
-	.asciz	"Xamarin.Forms.Platform.Android.PolygonRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1000, 79
+	.asciz	"Xamarin.Forms.Platform.Android.PickerEditText, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1000, 78
 	.section	.rodata.managed_type_name.1001,"aMS",@progbits,1
 	.type	.L.managed_type_name.1001, @object
 .L.managed_type_name.1001:
-	.asciz	"Xamarin.Forms.Platform.Android.PolygonView, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1001, 75
+	.asciz	"Xamarin.Forms.Platform.Android.PickerManager+PickerListener, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1001, 92
 	.section	.rodata.managed_type_name.1002,"aMS",@progbits,1
 	.type	.L.managed_type_name.1002, @object
 .L.managed_type_name.1002:
-	.asciz	"Xamarin.Forms.Platform.Android.PolylineRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1002, 80
+	.asciz	"Xamarin.Forms.Platform.Android.PickerRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1002, 78
 	.section	.rodata.managed_type_name.1003,"aMS",@progbits,1
 	.type	.L.managed_type_name.1003, @object
 .L.managed_type_name.1003:
-	.asciz	"Xamarin.Forms.Platform.Android.PolylineView, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1003, 76
+	.asciz	"Xamarin.Forms.Platform.Android.Platform+DefaultRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1003, 88
 	.section	.rodata.managed_type_name.1004,"aMS",@progbits,1
 	.type	.L.managed_type_name.1004, @object
 .L.managed_type_name.1004:
-	.asciz	"Xamarin.Forms.Platform.Android.PositionalSmoothScroller, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1004, 88
+	.asciz	"Xamarin.Forms.Platform.Android.PlatformRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1004, 80
 	.section	.rodata.managed_type_name.1005,"aMS",@progbits,1
 	.type	.L.managed_type_name.1005, @object
 .L.managed_type_name.1005:
-	.asciz	"Xamarin.Forms.Platform.Android.PowerSaveModeBroadcastReceiver, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1005, 94
+	.asciz	"Xamarin.Forms.Platform.Android.PolygonRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1005, 79
 	.section	.rodata.managed_type_name.1006,"aMS",@progbits,1
 	.type	.L.managed_type_name.1006, @object
 .L.managed_type_name.1006:
-	.asciz	"Xamarin.Forms.Platform.Android.ProgressBarRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1006, 83
+	.asciz	"Xamarin.Forms.Platform.Android.PolygonView, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1006, 75
 	.section	.rodata.managed_type_name.1007,"aMS",@progbits,1
 	.type	.L.managed_type_name.1007, @object
 .L.managed_type_name.1007:
-	.asciz	"Xamarin.Forms.Platform.Android.RadioButtonRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1007, 83
+	.asciz	"Xamarin.Forms.Platform.Android.PolylineRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1007, 80
 	.section	.rodata.managed_type_name.1008,"aMS",@progbits,1
 	.type	.L.managed_type_name.1008, @object
 .L.managed_type_name.1008:
-	.asciz	"Xamarin.Forms.Platform.Android.RectView, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1008, 72
+	.asciz	"Xamarin.Forms.Platform.Android.PolylineView, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1008, 76
 	.section	.rodata.managed_type_name.1009,"aMS",@progbits,1
 	.type	.L.managed_type_name.1009, @object
 .L.managed_type_name.1009:
-	.asciz	"Xamarin.Forms.Platform.Android.RectangleRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1009, 81
+	.asciz	"Xamarin.Forms.Platform.Android.PositionalSmoothScroller, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1009, 88
 	.section	.rodata.managed_type_name.1010,"aMS",@progbits,1
 	.type	.L.managed_type_name.1010, @object
 .L.managed_type_name.1010:
-	.asciz	"Xamarin.Forms.Platform.Android.RefreshViewRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1010, 83
+	.asciz	"Xamarin.Forms.Platform.Android.PowerSaveModeBroadcastReceiver, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1010, 94
 	.section	.rodata.managed_type_name.1011,"aMS",@progbits,1
 	.type	.L.managed_type_name.1011, @object
 .L.managed_type_name.1011:
-	.asciz	"Xamarin.Forms.Platform.Android.ScrollHelper, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1011, 76
+	.asciz	"Xamarin.Forms.Platform.Android.ProgressBarRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1011, 83
 	.section	.rodata.managed_type_name.1012,"aMS",@progbits,1
 	.type	.L.managed_type_name.1012, @object
 .L.managed_type_name.1012:
-	.asciz	"Xamarin.Forms.Platform.Android.ScrollLayoutManager, Xamarin.Forms.Platform.Android"
+	.asciz	"Xamarin.Forms.Platform.Android.RadioButtonRenderer, Xamarin.Forms.Platform.Android"
 	.size	.L.managed_type_name.1012, 83
 	.section	.rodata.managed_type_name.1013,"aMS",@progbits,1
 	.type	.L.managed_type_name.1013, @object
 .L.managed_type_name.1013:
-	.asciz	"Xamarin.Forms.Platform.Android.ScrollViewContainer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1013, 83
+	.asciz	"Xamarin.Forms.Platform.Android.RectView, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1013, 72
 	.section	.rodata.managed_type_name.1014,"aMS",@progbits,1
 	.type	.L.managed_type_name.1014, @object
 .L.managed_type_name.1014:
-	.asciz	"Xamarin.Forms.Platform.Android.ScrollViewRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1014, 82
+	.asciz	"Xamarin.Forms.Platform.Android.RectangleRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1014, 81
 	.section	.rodata.managed_type_name.1015,"aMS",@progbits,1
 	.type	.L.managed_type_name.1015, @object
 .L.managed_type_name.1015:
-	.asciz	"Xamarin.Forms.Platform.Android.SearchBarRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1015, 81
+	.asciz	"Xamarin.Forms.Platform.Android.RefreshViewRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1015, 83
 	.section	.rodata.managed_type_name.1016,"aMS",@progbits,1
 	.type	.L.managed_type_name.1016, @object
 .L.managed_type_name.1016:
-	.asciz	"Xamarin.Forms.Platform.Android.SelectableItemsViewAdapter`2, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1016, 92
+	.asciz	"Xamarin.Forms.Platform.Android.ScrollHelper, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1016, 76
 	.section	.rodata.managed_type_name.1017,"aMS",@progbits,1
 	.type	.L.managed_type_name.1017, @object
 .L.managed_type_name.1017:
-	.asciz	"Xamarin.Forms.Platform.Android.SelectableItemsViewRenderer`3, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1017, 93
+	.asciz	"Xamarin.Forms.Platform.Android.ScrollLayoutManager, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1017, 83
 	.section	.rodata.managed_type_name.1018,"aMS",@progbits,1
 	.type	.L.managed_type_name.1018, @object
 .L.managed_type_name.1018:
-	.asciz	"Xamarin.Forms.Platform.Android.SelectableViewHolder, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1018, 84
+	.asciz	"Xamarin.Forms.Platform.Android.ScrollViewContainer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1018, 83
 	.section	.rodata.managed_type_name.1019,"aMS",@progbits,1
 	.type	.L.managed_type_name.1019, @object
 .L.managed_type_name.1019:
-	.asciz	"Xamarin.Forms.Platform.Android.ShapeRenderer`2, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1019, 79
+	.asciz	"Xamarin.Forms.Platform.Android.ScrollViewRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1019, 82
 	.section	.rodata.managed_type_name.1020,"aMS",@progbits,1
 	.type	.L.managed_type_name.1020, @object
 .L.managed_type_name.1020:
-	.asciz	"Xamarin.Forms.Platform.Android.ShapeView, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1020, 73
+	.asciz	"Xamarin.Forms.Platform.Android.SearchBarRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1020, 81
 	.section	.rodata.managed_type_name.1021,"aMS",@progbits,1
 	.type	.L.managed_type_name.1021, @object
 .L.managed_type_name.1021:
-	.asciz	"Xamarin.Forms.Platform.Android.ShellContentFragment, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1021, 84
+	.asciz	"Xamarin.Forms.Platform.Android.SelectableItemsViewAdapter`2, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1021, 92
 	.section	.rodata.managed_type_name.1022,"aMS",@progbits,1
 	.type	.L.managed_type_name.1022, @object
 .L.managed_type_name.1022:
-	.asciz	"Xamarin.Forms.Platform.Android.ShellFlyoutRecyclerAdapter+ElementViewHolder, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1022, 108
+	.asciz	"Xamarin.Forms.Platform.Android.SelectableItemsViewRenderer`3, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1022, 93
 	.section	.rodata.managed_type_name.1023,"aMS",@progbits,1
 	.type	.L.managed_type_name.1023, @object
 .L.managed_type_name.1023:
-	.asciz	"Xamarin.Forms.Platform.Android.ShellFlyoutRecyclerAdapter+LinearLayoutWithFocus, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1023, 112
+	.asciz	"Xamarin.Forms.Platform.Android.SelectableViewHolder, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1023, 84
 	.section	.rodata.managed_type_name.1024,"aMS",@progbits,1
 	.type	.L.managed_type_name.1024, @object
 .L.managed_type_name.1024:
-	.asciz	"Xamarin.Forms.Platform.Android.ShellFlyoutRecyclerAdapter, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1024, 90
+	.asciz	"Xamarin.Forms.Platform.Android.ShapeRenderer`2, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1024, 79
 	.section	.rodata.managed_type_name.1025,"aMS",@progbits,1
 	.type	.L.managed_type_name.1025, @object
 .L.managed_type_name.1025:
-	.asciz	"Xamarin.Forms.Platform.Android.ShellFlyoutRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1025, 83
+	.asciz	"Xamarin.Forms.Platform.Android.ShapeView, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1025, 73
 	.section	.rodata.managed_type_name.1026,"aMS",@progbits,1
 	.type	.L.managed_type_name.1026, @object
 .L.managed_type_name.1026:
-	.asciz	"Xamarin.Forms.Platform.Android.ShellFlyoutTemplatedContentRenderer+HeaderContainer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1026, 115
+	.asciz	"Xamarin.Forms.Platform.Android.ShellContentFragment, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1026, 84
 	.section	.rodata.managed_type_name.1027,"aMS",@progbits,1
 	.type	.L.managed_type_name.1027, @object
 .L.managed_type_name.1027:
-	.asciz	"Xamarin.Forms.Platform.Android.ShellFlyoutTemplatedContentRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1027, 99
+	.asciz	"Xamarin.Forms.Platform.Android.ShellFlyoutRecyclerAdapter+ElementViewHolder, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1027, 108
 	.section	.rodata.managed_type_name.1028,"aMS",@progbits,1
 	.type	.L.managed_type_name.1028, @object
 .L.managed_type_name.1028:
-	.asciz	"Xamarin.Forms.Platform.Android.ShellFragmentPagerAdapter, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1028, 89
+	.asciz	"Xamarin.Forms.Platform.Android.ShellFlyoutRecyclerAdapter+LinearLayoutWithFocus, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1028, 112
 	.section	.rodata.managed_type_name.1029,"aMS",@progbits,1
 	.type	.L.managed_type_name.1029, @object
 .L.managed_type_name.1029:
-	.asciz	"Xamarin.Forms.Platform.Android.ShellItemRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1029, 81
+	.asciz	"Xamarin.Forms.Platform.Android.ShellFlyoutRecyclerAdapter, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1029, 90
 	.section	.rodata.managed_type_name.1030,"aMS",@progbits,1
 	.type	.L.managed_type_name.1030, @object
 .L.managed_type_name.1030:
-	.asciz	"Xamarin.Forms.Platform.Android.ShellItemRendererBase, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1030, 85
+	.asciz	"Xamarin.Forms.Platform.Android.ShellFlyoutRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1030, 83
 	.section	.rodata.managed_type_name.1031,"aMS",@progbits,1
 	.type	.L.managed_type_name.1031, @object
 .L.managed_type_name.1031:
-	.asciz	"Xamarin.Forms.Platform.Android.ShellPageContainer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1031, 82
+	.asciz	"Xamarin.Forms.Platform.Android.ShellFlyoutTemplatedContentRenderer+HeaderContainer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1031, 115
 	.section	.rodata.managed_type_name.1032,"aMS",@progbits,1
 	.type	.L.managed_type_name.1032, @object
 .L.managed_type_name.1032:
-	.asciz	"Xamarin.Forms.Platform.Android.ShellRenderer+SplitDrawable, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1032, 91
+	.asciz	"Xamarin.Forms.Platform.Android.ShellFlyoutTemplatedContentRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1032, 99
 	.section	.rodata.managed_type_name.1033,"aMS",@progbits,1
 	.type	.L.managed_type_name.1033, @object
 .L.managed_type_name.1033:
-	.asciz	"Xamarin.Forms.Platform.Android.ShellSearchView+ClipDrawableWrapper, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1033, 99
+	.asciz	"Xamarin.Forms.Platform.Android.ShellFragmentPagerAdapter, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1033, 89
 	.section	.rodata.managed_type_name.1034,"aMS",@progbits,1
 	.type	.L.managed_type_name.1034, @object
 .L.managed_type_name.1034:
-	.asciz	"Xamarin.Forms.Platform.Android.ShellSearchView, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1034, 79
+	.asciz	"Xamarin.Forms.Platform.Android.ShellItemRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1034, 81
 	.section	.rodata.managed_type_name.1035,"aMS",@progbits,1
 	.type	.L.managed_type_name.1035, @object
 .L.managed_type_name.1035:
-	.asciz	"Xamarin.Forms.Platform.Android.ShellSearchViewAdapter+CustomFilter, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1035, 99
+	.asciz	"Xamarin.Forms.Platform.Android.ShellItemRendererBase, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1035, 85
 	.section	.rodata.managed_type_name.1036,"aMS",@progbits,1
 	.type	.L.managed_type_name.1036, @object
 .L.managed_type_name.1036:
-	.asciz	"Xamarin.Forms.Platform.Android.ShellSearchViewAdapter+ObjectWrapper, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1036, 100
+	.asciz	"Xamarin.Forms.Platform.Android.ShellPageContainer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1036, 82
 	.section	.rodata.managed_type_name.1037,"aMS",@progbits,1
 	.type	.L.managed_type_name.1037, @object
 .L.managed_type_name.1037:
-	.asciz	"Xamarin.Forms.Platform.Android.ShellSearchViewAdapter, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1037, 86
+	.asciz	"Xamarin.Forms.Platform.Android.ShellRenderer+SplitDrawable, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1037, 91
 	.section	.rodata.managed_type_name.1038,"aMS",@progbits,1
 	.type	.L.managed_type_name.1038, @object
 .L.managed_type_name.1038:
-	.asciz	"Xamarin.Forms.Platform.Android.ShellSectionRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1038, 84
+	.asciz	"Xamarin.Forms.Platform.Android.ShellSearchView+ClipDrawableWrapper, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1038, 99
 	.section	.rodata.managed_type_name.1039,"aMS",@progbits,1
 	.type	.L.managed_type_name.1039, @object
 .L.managed_type_name.1039:
-	.asciz	"Xamarin.Forms.Platform.Android.ShellToolbarTracker+FlyoutIconDrawerDrawable, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1039, 108
+	.asciz	"Xamarin.Forms.Platform.Android.ShellSearchView, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1039, 79
 	.section	.rodata.managed_type_name.1040,"aMS",@progbits,1
 	.type	.L.managed_type_name.1040, @object
 .L.managed_type_name.1040:
-	.asciz	"Xamarin.Forms.Platform.Android.ShellToolbarTracker, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1040, 83
+	.asciz	"Xamarin.Forms.Platform.Android.ShellSearchViewAdapter+CustomFilter, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1040, 99
 	.section	.rodata.managed_type_name.1041,"aMS",@progbits,1
 	.type	.L.managed_type_name.1041, @object
 .L.managed_type_name.1041:
-	.asciz	"Xamarin.Forms.Platform.Android.SimpleViewHolder, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1041, 80
+	.asciz	"Xamarin.Forms.Platform.Android.ShellSearchViewAdapter+ObjectWrapper, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1041, 100
 	.section	.rodata.managed_type_name.1042,"aMS",@progbits,1
 	.type	.L.managed_type_name.1042, @object
 .L.managed_type_name.1042:
-	.asciz	"Xamarin.Forms.Platform.Android.SingleSnapHelper, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1042, 80
+	.asciz	"Xamarin.Forms.Platform.Android.ShellSearchViewAdapter, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1042, 86
 	.section	.rodata.managed_type_name.1043,"aMS",@progbits,1
 	.type	.L.managed_type_name.1043, @object
 .L.managed_type_name.1043:
-	.asciz	"Xamarin.Forms.Platform.Android.SizedItemContentView, Xamarin.Forms.Platform.Android"
+	.asciz	"Xamarin.Forms.Platform.Android.ShellSectionRenderer, Xamarin.Forms.Platform.Android"
 	.size	.L.managed_type_name.1043, 84
 	.section	.rodata.managed_type_name.1044,"aMS",@progbits,1
 	.type	.L.managed_type_name.1044, @object
 .L.managed_type_name.1044:
-	.asciz	"Xamarin.Forms.Platform.Android.SliderRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1044, 78
+	.asciz	"Xamarin.Forms.Platform.Android.ShellToolbarTracker+FlyoutIconDrawerDrawable, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1044, 108
 	.section	.rodata.managed_type_name.1045,"aMS",@progbits,1
 	.type	.L.managed_type_name.1045, @object
 .L.managed_type_name.1045:
-	.asciz	"Xamarin.Forms.Platform.Android.SpacingItemDecoration, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1045, 85
+	.asciz	"Xamarin.Forms.Platform.Android.ShellToolbarTracker, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1045, 83
 	.section	.rodata.managed_type_name.1046,"aMS",@progbits,1
 	.type	.L.managed_type_name.1046, @object
 .L.managed_type_name.1046:
-	.asciz	"Xamarin.Forms.Platform.Android.StartSingleSnapHelper, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1046, 85
+	.asciz	"Xamarin.Forms.Platform.Android.SimpleViewHolder, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1046, 80
 	.section	.rodata.managed_type_name.1047,"aMS",@progbits,1
 	.type	.L.managed_type_name.1047, @object
 .L.managed_type_name.1047:
-	.asciz	"Xamarin.Forms.Platform.Android.StartSnapHelper, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1047, 79
+	.asciz	"Xamarin.Forms.Platform.Android.SingleSnapHelper, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1047, 80
 	.section	.rodata.managed_type_name.1048,"aMS",@progbits,1
 	.type	.L.managed_type_name.1048, @object
 .L.managed_type_name.1048:
-	.asciz	"Xamarin.Forms.Platform.Android.StepperRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1048, 79
+	.asciz	"Xamarin.Forms.Platform.Android.SizedItemContentView, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1048, 84
 	.section	.rodata.managed_type_name.1049,"aMS",@progbits,1
 	.type	.L.managed_type_name.1049, @object
 .L.managed_type_name.1049:
-	.asciz	"Xamarin.Forms.Platform.Android.StepperRendererManager+StepperListener, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1049, 102
+	.asciz	"Xamarin.Forms.Platform.Android.SliderRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1049, 78
 	.section	.rodata.managed_type_name.1050,"aMS",@progbits,1
 	.type	.L.managed_type_name.1050, @object
 .L.managed_type_name.1050:
-	.asciz	"Xamarin.Forms.Platform.Android.StructuredItemsViewAdapter`2, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1050, 92
+	.asciz	"Xamarin.Forms.Platform.Android.SpacingItemDecoration, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1050, 85
 	.section	.rodata.managed_type_name.1051,"aMS",@progbits,1
 	.type	.L.managed_type_name.1051, @object
 .L.managed_type_name.1051:
-	.asciz	"Xamarin.Forms.Platform.Android.StructuredItemsViewRenderer`3, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1051, 93
+	.asciz	"Xamarin.Forms.Platform.Android.StartSingleSnapHelper, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1051, 85
 	.section	.rodata.managed_type_name.1052,"aMS",@progbits,1
 	.type	.L.managed_type_name.1052, @object
 .L.managed_type_name.1052:
-	.asciz	"Xamarin.Forms.Platform.Android.SwipeViewRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1052, 81
+	.asciz	"Xamarin.Forms.Platform.Android.StartSnapHelper, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1052, 79
 	.section	.rodata.managed_type_name.1053,"aMS",@progbits,1
 	.type	.L.managed_type_name.1053, @object
 .L.managed_type_name.1053:
-	.asciz	"Xamarin.Forms.Platform.Android.SwitchCellView, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1053, 78
+	.asciz	"Xamarin.Forms.Platform.Android.StepperRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1053, 79
 	.section	.rodata.managed_type_name.1054,"aMS",@progbits,1
 	.type	.L.managed_type_name.1054, @object
 .L.managed_type_name.1054:
-	.asciz	"Xamarin.Forms.Platform.Android.SwitchRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1054, 78
+	.asciz	"Xamarin.Forms.Platform.Android.StepperRendererManager+StepperListener, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1054, 102
 	.section	.rodata.managed_type_name.1055,"aMS",@progbits,1
 	.type	.L.managed_type_name.1055, @object
 .L.managed_type_name.1055:
-	.asciz	"Xamarin.Forms.Platform.Android.TabbedRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1055, 78
+	.asciz	"Xamarin.Forms.Platform.Android.StructuredItemsViewAdapter`2, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1055, 92
 	.section	.rodata.managed_type_name.1056,"aMS",@progbits,1
 	.type	.L.managed_type_name.1056, @object
 .L.managed_type_name.1056:
-	.asciz	"Xamarin.Forms.Platform.Android.TableViewModelRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1056, 86
+	.asciz	"Xamarin.Forms.Platform.Android.StructuredItemsViewRenderer`3, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1056, 93
 	.section	.rodata.managed_type_name.1057,"aMS",@progbits,1
 	.type	.L.managed_type_name.1057, @object
 .L.managed_type_name.1057:
-	.asciz	"Xamarin.Forms.Platform.Android.TableViewRenderer, Xamarin.Forms.Platform.Android"
+	.asciz	"Xamarin.Forms.Platform.Android.SwipeViewRenderer, Xamarin.Forms.Platform.Android"
 	.size	.L.managed_type_name.1057, 81
 	.section	.rodata.managed_type_name.1058,"aMS",@progbits,1
 	.type	.L.managed_type_name.1058, @object
 .L.managed_type_name.1058:
-	.asciz	"Xamarin.Forms.Platform.Android.TemplatedItemViewHolder, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1058, 87
+	.asciz	"Xamarin.Forms.Platform.Android.SwitchCellView, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1058, 78
 	.section	.rodata.managed_type_name.1059,"aMS",@progbits,1
 	.type	.L.managed_type_name.1059, @object
 .L.managed_type_name.1059:
-	.asciz	"Xamarin.Forms.Platform.Android.TextCellRenderer+TextCellView, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1059, 93
+	.asciz	"Xamarin.Forms.Platform.Android.SwitchRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1059, 78
 	.section	.rodata.managed_type_name.1060,"aMS",@progbits,1
 	.type	.L.managed_type_name.1060, @object
 .L.managed_type_name.1060:
-	.asciz	"Xamarin.Forms.Platform.Android.TextViewHolder, Xamarin.Forms.Platform.Android"
+	.asciz	"Xamarin.Forms.Platform.Android.TabbedRenderer, Xamarin.Forms.Platform.Android"
 	.size	.L.managed_type_name.1060, 78
 	.section	.rodata.managed_type_name.1061,"aMS",@progbits,1
 	.type	.L.managed_type_name.1061, @object
 .L.managed_type_name.1061:
-	.asciz	"Xamarin.Forms.Platform.Android.TimePickerRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1061, 82
+	.asciz	"Xamarin.Forms.Platform.Android.TableViewModelRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1061, 86
 	.section	.rodata.managed_type_name.1062,"aMS",@progbits,1
 	.type	.L.managed_type_name.1062, @object
 .L.managed_type_name.1062:
-	.asciz	"Xamarin.Forms.Platform.Android.TimePickerRendererBase`1, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1062, 88
+	.asciz	"Xamarin.Forms.Platform.Android.TableViewRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1062, 81
 	.section	.rodata.managed_type_name.1063,"aMS",@progbits,1
 	.type	.L.managed_type_name.1063, @object
 .L.managed_type_name.1063:
-	.asciz	"Xamarin.Forms.Platform.Android.ViewCellRenderer+ViewCellContainer+LongPressGestureListener, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1063, 123
+	.asciz	"Xamarin.Forms.Platform.Android.TemplatedItemViewHolder, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1063, 87
 	.section	.rodata.managed_type_name.1064,"aMS",@progbits,1
 	.type	.L.managed_type_name.1064, @object
 .L.managed_type_name.1064:
-	.asciz	"Xamarin.Forms.Platform.Android.ViewCellRenderer+ViewCellContainer+TapGestureListener, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1064, 117
+	.asciz	"Xamarin.Forms.Platform.Android.TextCellRenderer+TextCellView, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1064, 93
 	.section	.rodata.managed_type_name.1065,"aMS",@progbits,1
 	.type	.L.managed_type_name.1065, @object
 .L.managed_type_name.1065:
-	.asciz	"Xamarin.Forms.Platform.Android.ViewCellRenderer+ViewCellContainer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1065, 98
+	.asciz	"Xamarin.Forms.Platform.Android.TextViewHolder, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1065, 78
 	.section	.rodata.managed_type_name.1066,"aMS",@progbits,1
 	.type	.L.managed_type_name.1066, @object
 .L.managed_type_name.1066:
-	.asciz	"Xamarin.Forms.Platform.Android.ViewRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1066, 76
+	.asciz	"Xamarin.Forms.Platform.Android.TimePickerRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1066, 82
 	.section	.rodata.managed_type_name.1067,"aMS",@progbits,1
 	.type	.L.managed_type_name.1067, @object
 .L.managed_type_name.1067:
-	.asciz	"Xamarin.Forms.Platform.Android.ViewRenderer`2, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1067, 78
+	.asciz	"Xamarin.Forms.Platform.Android.TimePickerRendererBase`1, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1067, 88
 	.section	.rodata.managed_type_name.1068,"aMS",@progbits,1
 	.type	.L.managed_type_name.1068, @object
 .L.managed_type_name.1068:
-	.asciz	"Xamarin.Forms.Platform.Android.VisualElementRenderer`1, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1068, 87
+	.asciz	"Xamarin.Forms.Platform.Android.ViewCellRenderer+ViewCellContainer+LongPressGestureListener, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1068, 123
 	.section	.rodata.managed_type_name.1069,"aMS",@progbits,1
 	.type	.L.managed_type_name.1069, @object
 .L.managed_type_name.1069:
-	.asciz	"Xamarin.Forms.Platform.Android.VisualElementTracker+AttachTracker, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1069, 98
+	.asciz	"Xamarin.Forms.Platform.Android.ViewCellRenderer+ViewCellContainer+TapGestureListener, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1069, 117
 	.section	.rodata.managed_type_name.1070,"aMS",@progbits,1
 	.type	.L.managed_type_name.1070, @object
 .L.managed_type_name.1070:
-	.asciz	"Xamarin.Forms.Platform.Android.WebViewRenderer+JavascriptResult, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1070, 96
+	.asciz	"Xamarin.Forms.Platform.Android.ViewCellRenderer+ViewCellContainer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1070, 98
 	.section	.rodata.managed_type_name.1071,"aMS",@progbits,1
 	.type	.L.managed_type_name.1071, @object
 .L.managed_type_name.1071:
+	.asciz	"Xamarin.Forms.Platform.Android.ViewRenderer, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1071, 76
+	.section	.rodata.managed_type_name.1072,"aMS",@progbits,1
+	.type	.L.managed_type_name.1072, @object
+.L.managed_type_name.1072:
+	.asciz	"Xamarin.Forms.Platform.Android.ViewRenderer`2, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1072, 78
+	.section	.rodata.managed_type_name.1073,"aMS",@progbits,1
+	.type	.L.managed_type_name.1073, @object
+.L.managed_type_name.1073:
+	.asciz	"Xamarin.Forms.Platform.Android.VisualElementRenderer`1, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1073, 87
+	.section	.rodata.managed_type_name.1074,"aMS",@progbits,1
+	.type	.L.managed_type_name.1074, @object
+.L.managed_type_name.1074:
+	.asciz	"Xamarin.Forms.Platform.Android.VisualElementTracker+AttachTracker, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1074, 98
+	.section	.rodata.managed_type_name.1075,"aMS",@progbits,1
+	.type	.L.managed_type_name.1075, @object
+.L.managed_type_name.1075:
+	.asciz	"Xamarin.Forms.Platform.Android.WebViewRenderer+JavascriptResult, Xamarin.Forms.Platform.Android"
+	.size	.L.managed_type_name.1075, 96
+	.section	.rodata.managed_type_name.1076,"aMS",@progbits,1
+	.type	.L.managed_type_name.1076, @object
+.L.managed_type_name.1076:
 	.asciz	"Xamarin.Forms.Platform.Android.WebViewRenderer, Xamarin.Forms.Platform.Android"
-	.size	.L.managed_type_name.1071, 79
+	.size	.L.managed_type_name.1076, 79
 	/* Managed type names: END */

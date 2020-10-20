@@ -15,7 +15,7 @@ namespace PaladarApp.Conexiones
             try
             {
                 Producto[] productos;
-                var URLWebAPI = "https://paladarmobile.somee.com/api/Productoes";
+                var URLWebAPI = "https://paladarweb.somee.com/Api/api/Productoes";
                 using (var Client = new System.Net.Http.HttpClient())
                 {
                     var JSON = Client.GetStringAsync(URLWebAPI);
@@ -34,7 +34,7 @@ namespace PaladarApp.Conexiones
             try
             {
                 Categorias[] categoria;
-                var URLWebAPI = "https://paladarmobile.somee.com/api/Categorias";
+                var URLWebAPI = "https://paladarweb.somee.com/Api/api/Categorias";
                 using (var Client = new System.Net.Http.HttpClient())
                 {
                     var JSON = Client.GetStringAsync(URLWebAPI);
@@ -59,7 +59,7 @@ namespace PaladarApp.Conexiones
                 StringContent content = new StringContent(jsonObj.ToString(), Encoding.UTF8, "application/json");
                 var request = new HttpRequestMessage()
                 {
-                    RequestUri = new Uri("https://paladarmobile.somee.com/api/Login"),
+                    RequestUri = new Uri("https://paladarweb.somee.com/Api/api/Login"),
                     Method = HttpMethod.Post,
                     Content = content
                 };
@@ -86,7 +86,7 @@ namespace PaladarApp.Conexiones
                 StringContent content = new StringContent(jsonObj.ToString(), Encoding.UTF8, "application/json");
                 var request = new HttpRequestMessage()
                 {
-                    RequestUri = new Uri("https://paladarmobile.somee.com/api/Clientes"),
+                    RequestUri = new Uri("https://paladarweb.somee.com/Api/api/Clientes"),
                     Method = HttpMethod.Post,
                     Content = content
                 };
@@ -109,7 +109,7 @@ namespace PaladarApp.Conexiones
                 StringContent content = new StringContent(jsonObj.ToString(), Encoding.UTF8, "application/json");
                 var request = new HttpRequestMessage()
                 {
-                    RequestUri = new Uri("https://paladarmobile.somee.com/api/Lineas"),
+                    RequestUri = new Uri("https://paladarweb.somee.com/Api/api/Lineas"),
                     Method = HttpMethod.Post,
                     Content = content
                 };
@@ -138,7 +138,7 @@ namespace PaladarApp.Conexiones
                 StringContent content = new StringContent(jsonObj.ToString(), Encoding.UTF8, "application/json");
                 var request = new HttpRequestMessage()
                 {
-                    RequestUri = new Uri("https://paladarmobile.somee.com/api/Cabeceras"),
+                    RequestUri = new Uri("https://paladarweb.somee.com/Api/api/Cabeceras"),
                     Method = HttpMethod.Post,
                     Content = content
                 };
@@ -158,7 +158,7 @@ namespace PaladarApp.Conexiones
                 StringContent content = new StringContent(jsonObj.ToString(), Encoding.UTF8, "application/json");
                 var request = new HttpRequestMessage()
                 {
-                    RequestUri = new Uri("https://paladarmobile.somee.com/api/Lineas/"+iD+""),
+                    RequestUri = new Uri("https://paladarweb.somee.com/Api/api/Lineas/" + iD+""),
                     Method = HttpMethod.Delete,
                     Content = content
 
@@ -181,7 +181,7 @@ namespace PaladarApp.Conexiones
                 StringContent content = new StringContent(jsonObj.ToString(), Encoding.UTF8, "application/json");
                 var request = new HttpRequestMessage()
                 {
-                    RequestUri = new Uri("https://paladarmobile.somee.com/api/Pagos"),
+                    RequestUri = new Uri("https://paladarweb.somee.com/Api/api/Pagos"),
                     Method = HttpMethod.Post,
                     Content = content
                 };
