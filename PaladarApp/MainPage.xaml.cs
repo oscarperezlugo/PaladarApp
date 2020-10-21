@@ -103,6 +103,10 @@ namespace PaladarApp
         {
             CurrentPage = Carrito;
         }
+        private void mapaClicked(object sender, EventArgs e)
+        {
+            CurrentPage = Mapa;
+        }
         private async void OpenWhatsApp(object sender, EventArgs e)
         {
             try
@@ -172,6 +176,7 @@ namespace PaladarApp
                         usuario.Text = ""+userlogin.nombre+" "+userlogin.apellido+"";
                         usuario2.Text = "" + userlogin.nombre + " " + userlogin.apellido + "";
                         usuario3.Text = "" + userlogin.nombre + " " + userlogin.apellido + "";
+                        usuario4.Text = "" + userlogin.nombre + " " + userlogin.apellido + "";
                         clientefactura.Text = "" + userlogin.nombre + " " + userlogin.apellido + "";
                         IDCLIENTE = userlogin.guid;
                         DIRECCIONLOG = userlogin.direccion;
@@ -368,6 +373,7 @@ namespace PaladarApp
                 }
                 indicador.Text = " " + M + " ";
                 indicador2.Text = " " + M + " ";
+                indicador3.Text = " " + M + " ";
                 FacturaFinal.ItemsSource = Lineas;
                 Dialogs.ShowLoading("Producto Agregado");
                 await Task.Delay(1000);
@@ -527,6 +533,7 @@ namespace PaladarApp
             totalcinco.Text = "0";
             indicador.Text = " " + M + " ";
             indicador2.Text = " " + M + " ";
+            indicador3.Text = " " + M + " ";
             STATUS = null;
             METODO = null;
             TIPOVENTA = null;
@@ -534,19 +541,28 @@ namespace PaladarApp
             Lineas.Clear();
             CurrentPage = ListaDolares;
         }
-        private void FacturaFinal_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        private async void FacturaFinal_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-            var obj = (Lineas)e.SelectedItem;
-            decimal preciomedio = Decimal.Parse(obj.Precio.ToString());
-            decimal preciofinal = Decimal.Parse(totalcuatro.Text);
-            decimal preciomedioD = Decimal.Parse(obj.Dolares.ToString());
-            decimal preciofinalD = Decimal.Parse(totalcinco.Text);
-            decimal resta = preciofinal - preciomedio;
-            decimal restaD = preciofinalD - preciomedioD;
-            totalrestar = resta;
-            totalrestarD = restaD;
-            rowsend = obj.Row;
-            DeleteClicked();
+            string pregunta = await DisplayActionSheet("¿ESTA SEGURO DE ELIMINAR ESTE ITEM?", "SI", "NO");
+            if (pregunta == "SI")
+            {
+                var obj = (Lineas)e.SelectedItem;
+                decimal preciomedio = Decimal.Parse(obj.Precio.ToString());
+                decimal preciofinal = Decimal.Parse(totalcuatro.Text);
+                decimal preciomedioD = Decimal.Parse(obj.Dolares.ToString());
+                decimal preciofinalD = Decimal.Parse(totalcinco.Text);
+                decimal resta = preciofinal - preciomedio;
+                decimal restaD = preciofinalD - preciomedioD;
+                totalrestar = resta;
+                totalrestarD = restaD;
+                rowsend = obj.Row;
+                DeleteClicked();
+            }
+            else
+            {
+                CurrentPage = Carrito;
+            }
+            
 
         }
 
@@ -565,6 +581,7 @@ namespace PaladarApp
             M = M - 1;
             indicador.Text = " " + M + " ";
             indicador2.Text = " " + M + " ";
+            indicador3.Text = " " + M + " ";
             Dialogs.ShowLoading("Producto Eliminado");
             await Task.Delay(1000);
             FacturaFinal.ItemsSource = Lineas;
