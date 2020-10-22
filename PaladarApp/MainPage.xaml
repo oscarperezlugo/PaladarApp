@@ -247,7 +247,7 @@
                                             <Grid.RowDefinitions>
                                                 <RowDefinition Height="*"/>
                                             </Grid.RowDefinitions>
-                                            <Label Text="&#xf056;" FontFamily="{StaticResource FontAwesomeSolid}"  TextColor="Red"/>
+                                            <Label Text="&#xf056;" FontFamily="{StaticResource FontAwesomeSolid}"  TextColor="Red" VerticalOptions="Center" HorizontalOptions="End"/>
                                             <Label Text="{Binding Cantidad}" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center"/>
                                             <Label Text="{Binding Producto}" Grid.Column="2" VerticalOptions="Center" HorizontalOptions="Center"/>
                                             <Label Text="{Binding Dolares, StringFormat='{0:F2}'}" Grid.Column="3" VerticalOptions="Center" HorizontalOptions="End"/>
@@ -298,6 +298,7 @@
                 <Image Source="Paladar.png" Grid.Column="0" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Start"/>
                 <Button Text="&#xf07a;" Grid.Row="0" Grid.Column="2" TextColor="Black" HorizontalOptions="End" VerticalOptions="Center" FontFamily="{StaticResource FontAwesomeSolid}" BackgroundColor="Transparent" Clicked="CarritoClicked"/>
                 <Button x:Name="usuario3" Grid.Row="0" Grid.Column="1" FontSize="Small" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Transparent"/>
+                <Label x:Name="indicador4" Grid.Row="0" Grid.Column="2" TextColor="White" FontAttributes="Bold" FontSize="Micro" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Red" TranslationX="10"/>
                 <SearchBar x:Name="SearchBar3" Placeholder="Hoy estoy buscando..."  PlaceholderColor="Gray" BackgroundColor="White" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="1" />
                 <Label Text="Bodegón" FontSize="Large" VerticalOptions="Center" HorizontalOptions="Start" TextColor="Black" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="3" FontAttributes="Bold"/>
             </Grid>
@@ -486,7 +487,7 @@
             <ScrollView>
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="1200"/>
+                        <RowDefinition Height="800"/>
                     </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>

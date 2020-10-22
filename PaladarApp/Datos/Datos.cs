@@ -4,8 +4,10 @@ using System.Text;
 
 namespace PaladarApp.Datos
 {
-    public class Datos
+    public class Cantidad
     {
+        public string TagDesc { get; set; }
+        public int CantidadDesc { get; set; }
     }
     public class Login
     {

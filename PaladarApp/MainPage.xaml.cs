@@ -328,22 +328,7 @@ namespace PaladarApp
                     Cabecera cabecera = new Cabecera();
                     cabecera.iDVenta = System.Guid.NewGuid();
                     VENTA = cabecera.iDVenta;
-                }
-                Lineas lineas = new Lineas();
-                lineas.Producto = id;
-                lineas.Precio = Decimal.Parse(totalsum.ToString());
-                lineas.Cantidad = cant;
-                lineas.iDVenta = VENTA;
-                try
-                {
-
-                    Lineas lienar = repositorio.postLinea(lineas).Result;
-                    lineaid = lienar.Row;
-
-                }
-                catch
-                {
-                }
+                }                               
                 var linea = new Lineas()
                 {
                     Dolares = preciod,
@@ -374,6 +359,7 @@ namespace PaladarApp
                 indicador.Text = " " + M + " ";
                 indicador2.Text = " " + M + " ";
                 indicador3.Text = " " + M + " ";
+                indicador4.Text = " " + M + " ";
                 FacturaFinal.ItemsSource = Lineas;
                 Dialogs.ShowLoading("Producto Agregado");
                 await Task.Delay(1000);
@@ -484,11 +470,11 @@ namespace PaladarApp
             else if (metodo == "EN LOCAL")
             {
                 
-                    await DisplayAlert("Gracias por su Compra", "lo estamos esperando, procesaremos su pedido", "OK");
-                    STATUS = "Pago por cobrar en local";
-                    METODO = metodo;
-                    TIPOVENTA = "PICKUP";
-                    DIRECCION = "EN LOCAL";
+                await DisplayAlert("Gracias por su Compra", "lo estamos esperando, procesaremos su pedido", "OK");
+                STATUS = "Pago por cobrar en local";
+                METODO = metodo;
+                TIPOVENTA = "PICKUP";
+                DIRECCION = "EN LOCAL";
                 RESULTADO = "EFECTIVO TARJETA EN EL LOCAL";
                 
             }
@@ -519,11 +505,43 @@ namespace PaladarApp
             {
 
                 Pagos pagosr = repositorio.postPagos(pagos).Result;
-                Dialogs.ShowLoading("Gracias "+NOMBRE+", por preferirnos");
-                await Task.Delay(2000);
-                Dialogs.HideLoading();
+                
             }
             catch { }
+
+            for (int i = 0; i < Lineas.Count; i++) 
+            {
+                Cantidad cantidad = new Cantidad();
+                string Productotest = Lineas[i].Producto;
+                cantidad.CantidadDesc = Int16.Parse(Lineas[i].Cantidad.ToString());
+                cantidad.TagDesc = Productotest.Replace(" ", string.Empty).ToLower().ToString();
+                try
+                {
+                    Cantidad cantidadr = repositorio.postCantidad(cantidad).Result;
+
+                }
+                catch { }
+            }
+            for(int j = 0; j < Lineas.Count; j++)
+            {
+                Lineas lineas = new Lineas();
+                lineas.Producto = Lineas[j].Producto;
+                lineas.Precio = Decimal.Parse(Lineas[j].Precio.ToString());
+                lineas.Cantidad = Double.Parse(Lineas[j].Cantidad.ToString());
+                lineas.iDVenta = VENTA;
+                try
+                {
+
+                    Lineas lienar = repositorio.postLinea(lineas).Result;
+                    
+
+                }
+                catch
+                {
+                }
+            }
+
+
             VENTA = null;
             totaldolares = 0;
             total = 0;
@@ -534,11 +552,15 @@ namespace PaladarApp
             indicador.Text = " " + M + " ";
             indicador2.Text = " " + M + " ";
             indicador3.Text = " " + M + " ";
+            indicador4.Text = " " + M + " ";
             STATUS = null;
             METODO = null;
             TIPOVENTA = null;
             DIRECCION = null;
             Lineas.Clear();
+            Dialogs.ShowLoading("Gracias " + NOMBRE + ", por preferirnos");
+            await Task.Delay(2000);
+            Dialogs.HideLoading();
             CurrentPage = ListaDolares;
         }
         private async void FacturaFinal_ItemSelected(object sender, SelectedItemChangedEventArgs e)
@@ -582,6 +604,7 @@ namespace PaladarApp
             indicador.Text = " " + M + " ";
             indicador2.Text = " " + M + " ";
             indicador3.Text = " " + M + " ";
+            indicador4.Text = " " + M + " ";
             Dialogs.ShowLoading("Producto Eliminado");
             await Task.Delay(1000);
             FacturaFinal.ItemsSource = Lineas;

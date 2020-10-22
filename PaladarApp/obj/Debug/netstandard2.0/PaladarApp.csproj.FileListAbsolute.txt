@@ -25,3 +25,4 @@ C:\Users\oscar\source\repos\PaladarApp\PaladarApp\obj\Debug\netstandard2.0\XamlC
 C:\Users\oscar\source\repos\PaladarApp\PaladarApp\obj\Debug\netstandard2.0\PaladarApp.dll
 C:\Users\oscar\source\repos\PaladarApp\PaladarApp\obj\Debug\netstandard2.0\ref\PaladarApp.dll
 C:\Users\oscar\source\repos\PaladarApp\PaladarApp\obj\Debug\netstandard2.0\PaladarApp.pdb
+C:\Users\oscar\source\repos\PaladarApp\PaladarApp\obj\Debug\netstandard2.0\PaladarApp.csprojAssemblyReference.cache

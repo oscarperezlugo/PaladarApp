@@ -181,13 +181,34 @@ namespace PaladarApp.Conexiones
                 StringContent content = new StringContent(jsonObj.ToString(), Encoding.UTF8, "application/json");
                 var request = new HttpRequestMessage()
                 {
-                    RequestUri = new Uri("https://paladarweb.somee.com/Api/api/Pagos"),
+                    RequestUri = new Uri("https://paladarweb.somee.com/Api/api/Cantidad"),
                     Method = HttpMethod.Post,
                     Content = content
                 };
                 var response = await client.SendAsync(request).ConfigureAwait(false);
                 string dataResult = response.Content.ReadAsStringAsync().Result;
                 Pagos result = JsonConvert.DeserializeObject<Pagos>(dataResult);
+                return result;
+            }
+        }
+        public async Task<Cantidad> postCantidad(Cantidad cantidad)
+        {
+            Cantidad cantidadr = new Cantidad();
+            cantidadr.TagDesc = cantidad.TagDesc;
+            cantidadr.CantidadDesc = cantidad.CantidadDesc;
+            var jsonObj = JsonConvert.SerializeObject(cantidadr);
+            using (HttpClient client = new HttpClient())
+            {
+                StringContent content = new StringContent(jsonObj.ToString(), Encoding.UTF8, "application/json");
+                var request = new HttpRequestMessage()
+                {
+                    RequestUri = new Uri("https://paladarweb.somee.com/Api/api/Cantidad"),
+                    Method = HttpMethod.Post,
+                    Content = content
+                };
+                var response = await client.SendAsync(request).ConfigureAwait(false);
+                string dataResult = response.Content.ReadAsStringAsync().Result;
+                Cantidad result = JsonConvert.DeserializeObject<Cantidad>(dataResult);
                 return result;
             }
         }
