@@ -321,8 +321,7 @@ namespace PaladarApp
                 string montoind2 = totalfinal2.ToString("0.00");
                 totalcuatro.Text = "" + montoind + "";
                 totalcinco.Text = montoind2.ToString();
-                N = N + 1;
-                Repositorio repositorio = new Repositorio();
+                N = N + 1;                
                 if (N == 1)
                 {
                     Cabecera cabecera = new Cabecera();
@@ -375,10 +374,10 @@ namespace PaladarApp
         private async void FinalizarClicked(object sender, EventArgs e)
         {
             Repositorio repositorio = new Repositorio();
-            string metodo = await DisplayActionSheet("SELECCIONES METODO DE PAGO", "Cancelar", null, "PAGO MOVIL", "ZELLE", "PAYPAL", "EN LOCAL");
+            string metodo = await DisplayActionSheet("SELECCIONES METODO DE PAGO", "Cancelar", null, "PAGO MOVIL", "ZELLE", "TRANSFERENCIA", "EN LOCAL");
             if (metodo == "ZELLE") 
             {
-                string resultado = await DisplayPromptAsync("INSERTE EL NOMBRE AFILIADO", "CORREO");
+                string resultado = await DisplayPromptAsync("Zelle, bodegonpaladarvalencia@gmail.com, Jose Brito", "CORREO Y NOMBRE AFILIADO");
                 RESULTADO = resultado;
                 if (resultado != null)
                 {
@@ -404,12 +403,106 @@ namespace PaladarApp
                     {
                         await DisplayAlert("Gracias por su Compra", "lo estamos esperando, procesaremos su pedido", "OK");
                     }
-                    
+                    Cabecera cabecera = new Cabecera();
+                    cabecera.iDCliente = IDCLIENTE;
+                    cabecera.iDVenta = VENTA;
+                    cabecera.FechaVenta = FECHA;
+                    Decimal totaldolares = Decimal.Parse(totalcinco.Text);
+                    cabecera.SubTotal = totaldolares;
+                    Decimal total = Decimal.Parse(totalcuatro.Text);
+                    cabecera.Monto = total;
+                    cabecera.Lineas = N;
+                    cabecera.Status = STATUS;
+                    cabecera.Metodo = METODO;
+                    cabecera.TipoVenta = TIPOVENTA;
+                    cabecera.Direccion = DIRECCION;
+                    try
+                    {
+
+                        Cabecera cabecerar = repositorio.postCabecera(cabecera).Result;
+                    }
+                    catch { }
+                    Pagos pagos = new Pagos();
+                    pagos.iDVenta = VENTA;
+                    pagos.Metodo = METODO;
+                    pagos.Correo = RESULTADO;
+                    try
+                    {
+
+                        Pagos pagosr = repositorio.postPagos(pagos).Result;
+
+                    }
+                    catch { }
+
+                    for (int i = 0; i < Lineas.Count; i++)
+                    {
+                        Cantidad cantidad = new Cantidad();
+                        string Productotest = Lineas[i].Producto;
+                        cantidad.CantidadDesc = Int16.Parse(Lineas[i].Cantidad.ToString());
+                        cantidad.TagDesc = Productotest.Replace(" ", string.Empty).ToLower().ToString();
+                        try
+                        {
+                            Cantidad cantidadr = repositorio.postCantidad(cantidad).Result;
+
+                        }
+                        catch { }
+                    }
+                    for (int j = 0; j < Lineas.Count; j++)
+                    {
+                        Lineas lineas = new Lineas();
+                        lineas.Producto = Lineas[j].Producto;
+                        lineas.Precio = Decimal.Parse(Lineas[j].Precio.ToString());
+                        lineas.Cantidad = Double.Parse(Lineas[j].Cantidad.ToString());
+                        lineas.iDVenta = VENTA;
+                        try
+                        {
+
+                            Lineas lienar = repositorio.postLinea(lineas).Result;
+
+
+                        }
+                        catch
+                        {
+                        }
+                    }
+
+
+                    VENTA = null;
+                    totaldolares = 0;
+                    total = 0;
+                    N = 0;
+                    M = 0;
+                    totalcuatro.Text = "0";
+                    totalcinco.Text = "0";
+                    indicador.Text = " " + M + " ";
+                    indicador2.Text = " " + M + " ";
+                    indicador3.Text = " " + M + " ";
+                    indicador4.Text = " " + M + " ";
+                    STATUS = null;
+                    METODO = null;
+                    TIPOVENTA = null;
+                    DIRECCION = null;
+                    Lineas.Clear();
+                    Dialogs.ShowLoading("Gracias " + NOMBRE + ", por preferirnos");
+                    await Task.Delay(2000);
+                    Dialogs.HideLoading();
+                    CurrentPage = ListaDolares;
+
                 }
+                else if (resultado == "cancel")
+                {
+                    CurrentPage = Carrito;
+                }
+                else
+                {
+                    await DisplayAlert("POR FAVOR", "Recuerde ingresar los datos para procesar su pedido", "OK");
+                    CurrentPage = Carrito;
+                }
+                
             }
-            else if (metodo == "PAYPAL")
+            else if (metodo == "TRANSFERENCIA")
             {
-                string resultado = await DisplayPromptAsync("INSERTE EL CORREO AFILIADO", "CORREO");
+                string resultado = await DisplayPromptAsync("Banesco, Inversiones MGJA CA, J-412143620, 01340467474671099991", "DATOS TRANSFERENCIA");
                 RESULTADO = resultado;
                 if (resultado != null)
                 {
@@ -435,11 +528,104 @@ namespace PaladarApp
                     {
                         await DisplayAlert("Gracias por su Compra", "lo estamos esperando, procesaremos su pedido", "OK");
                     }
+                    Cabecera cabecera = new Cabecera();
+                    cabecera.iDCliente = IDCLIENTE;
+                    cabecera.iDVenta = VENTA;
+                    cabecera.FechaVenta = FECHA;
+                    Decimal totaldolares = Decimal.Parse(totalcinco.Text);
+                    cabecera.SubTotal = totaldolares;
+                    Decimal total = Decimal.Parse(totalcuatro.Text);
+                    cabecera.Monto = total;
+                    cabecera.Lineas = N;
+                    cabecera.Status = STATUS;
+                    cabecera.Metodo = METODO;
+                    cabecera.TipoVenta = TIPOVENTA;
+                    cabecera.Direccion = DIRECCION;
+                    try
+                    {
+
+                        Cabecera cabecerar = repositorio.postCabecera(cabecera).Result;
+                    }
+                    catch { }
+                    Pagos pagos = new Pagos();
+                    pagos.iDVenta = VENTA;
+                    pagos.Metodo = METODO;
+                    pagos.Correo = RESULTADO;
+                    try
+                    {
+
+                        Pagos pagosr = repositorio.postPagos(pagos).Result;
+
+                    }
+                    catch { }
+
+                    for (int i = 0; i < Lineas.Count; i++)
+                    {
+                        Cantidad cantidad = new Cantidad();
+                        string Productotest = Lineas[i].Producto;
+                        cantidad.CantidadDesc = Int16.Parse(Lineas[i].Cantidad.ToString());
+                        cantidad.TagDesc = Productotest.Replace(" ", string.Empty).ToLower().ToString();
+                        try
+                        {
+                            Cantidad cantidadr = repositorio.postCantidad(cantidad).Result;
+
+                        }
+                        catch { }
+                    }
+                    for (int j = 0; j < Lineas.Count; j++)
+                    {
+                        Lineas lineas = new Lineas();
+                        lineas.Producto = Lineas[j].Producto;
+                        lineas.Precio = Decimal.Parse(Lineas[j].Precio.ToString());
+                        lineas.Cantidad = Double.Parse(Lineas[j].Cantidad.ToString());
+                        lineas.iDVenta = VENTA;
+                        try
+                        {
+
+                            Lineas lienar = repositorio.postLinea(lineas).Result;
+
+
+                        }
+                        catch
+                        {
+                        }
+                    }
+
+
+                    VENTA = null;
+                    totaldolares = 0;
+                    total = 0;
+                    N = 0;
+                    M = 0;
+                    totalcuatro.Text = "0";
+                    totalcinco.Text = "0";
+                    indicador.Text = " " + M + " ";
+                    indicador2.Text = " " + M + " ";
+                    indicador3.Text = " " + M + " ";
+                    indicador4.Text = " " + M + " ";
+                    STATUS = null;
+                    METODO = null;
+                    TIPOVENTA = null;
+                    DIRECCION = null;
+                    Lineas.Clear();
+                    Dialogs.ShowLoading("Gracias " + NOMBRE + ", por preferirnos");
+                    await Task.Delay(2000);
+                    Dialogs.HideLoading();
+                    CurrentPage = ListaDolares;
+                }
+                else if (resultado == "cancel")
+                {
+                    CurrentPage = Carrito;
+                }
+                else
+                {
+                    await DisplayAlert("POR FAVOR", "Recuerde ingresar los datos para procesar su pedido", "OK");
+                    CurrentPage = Carrito;
                 }
             }
             else if (metodo == "PAGO MOVIL")
             {
-                string resultado = await DisplayPromptAsync("INSERTE EL TELEFONO AFILIADO", "NUMERO");
+                string resultado = await DisplayPromptAsync("PagoMovil Bodegon Paladar, Banesco, J-412143620, 0412-4108175", "NUMERO DE PAGOMOVIL");
                 RESULTADO = resultado;
                 if (resultado != null)
                 {
@@ -465,6 +651,99 @@ namespace PaladarApp
                     {
                         await DisplayAlert("Gracias por su Compra", "lo estamos esperando, procesaremos su pedido", "OK");
                     }
+                    Cabecera cabecera = new Cabecera();
+                    cabecera.iDCliente = IDCLIENTE;
+                    cabecera.iDVenta = VENTA;
+                    cabecera.FechaVenta = FECHA;
+                    Decimal totaldolares = Decimal.Parse(totalcinco.Text);
+                    cabecera.SubTotal = totaldolares;
+                    Decimal total = Decimal.Parse(totalcuatro.Text);
+                    cabecera.Monto = total;
+                    cabecera.Lineas = N;
+                    cabecera.Status = STATUS;
+                    cabecera.Metodo = METODO;
+                    cabecera.TipoVenta = TIPOVENTA;
+                    cabecera.Direccion = DIRECCION;
+                    try
+                    {
+
+                        Cabecera cabecerar = repositorio.postCabecera(cabecera).Result;
+                    }
+                    catch { }
+                    Pagos pagos = new Pagos();
+                    pagos.iDVenta = VENTA;
+                    pagos.Metodo = METODO;
+                    pagos.Correo = RESULTADO;
+                    try
+                    {
+
+                        Pagos pagosr = repositorio.postPagos(pagos).Result;
+
+                    }
+                    catch { }
+
+                    for (int i = 0; i < Lineas.Count; i++)
+                    {
+                        Cantidad cantidad = new Cantidad();
+                        string Productotest = Lineas[i].Producto;
+                        cantidad.CantidadDesc = Int16.Parse(Lineas[i].Cantidad.ToString());
+                        cantidad.TagDesc = Productotest.Replace(" ", string.Empty).ToLower().ToString();
+                        try
+                        {
+                            Cantidad cantidadr = repositorio.postCantidad(cantidad).Result;
+
+                        }
+                        catch { }
+                    }
+                    for (int j = 0; j < Lineas.Count; j++)
+                    {
+                        Lineas lineas = new Lineas();
+                        lineas.Producto = Lineas[j].Producto;
+                        lineas.Precio = Decimal.Parse(Lineas[j].Precio.ToString());
+                        lineas.Cantidad = Double.Parse(Lineas[j].Cantidad.ToString());
+                        lineas.iDVenta = VENTA;
+                        try
+                        {
+
+                            Lineas lienar = repositorio.postLinea(lineas).Result;
+
+
+                        }
+                        catch
+                        {
+                        }
+                    }
+
+
+                    VENTA = null;
+                    totaldolares = 0;
+                    total = 0;
+                    N = 0;
+                    M = 0;
+                    totalcuatro.Text = "0";
+                    totalcinco.Text = "0";
+                    indicador.Text = " " + M + " ";
+                    indicador2.Text = " " + M + " ";
+                    indicador3.Text = " " + M + " ";
+                    indicador4.Text = " " + M + " ";
+                    STATUS = null;
+                    METODO = null;
+                    TIPOVENTA = null;
+                    DIRECCION = null;
+                    Lineas.Clear();
+                    Dialogs.ShowLoading("Gracias " + NOMBRE + ", por preferirnos");
+                    await Task.Delay(2000);
+                    Dialogs.HideLoading();
+                    CurrentPage = ListaDolares;
+                }
+                else if (resultado == "cancel")
+                {
+                    CurrentPage = Carrito;
+                }
+                else
+                {
+                    await DisplayAlert("POR FAVOR", "Recuerde ingresar los datos para procesar su pedido", "OK");
+                    CurrentPage = Carrito;
                 }
             }
             else if (metodo == "EN LOCAL")
@@ -476,92 +755,93 @@ namespace PaladarApp
                 TIPOVENTA = "PICKUP";
                 DIRECCION = "EN LOCAL";
                 RESULTADO = "EFECTIVO TARJETA EN EL LOCAL";
-                
-            }
-            Cabecera cabecera = new Cabecera();
-            cabecera.iDCliente = IDCLIENTE;
-            cabecera.iDVenta = VENTA;
-            cabecera.FechaVenta = FECHA;
-            Decimal totaldolares = Decimal.Parse(totalcinco.Text);
-            cabecera.SubTotal = totaldolares;
-            Decimal total = Decimal.Parse(totalcuatro.Text);
-            cabecera.Monto = total;
-            cabecera.Lineas = N;
-            cabecera.Status = STATUS;
-            cabecera.Metodo = METODO;
-            cabecera.TipoVenta = TIPOVENTA;
-            cabecera.Direccion = DIRECCION;
-            try
-            {
-                
-                Cabecera cabecerar = repositorio.postCabecera(cabecera).Result;                
-            }
-            catch { }
-            Pagos pagos = new Pagos();
-            pagos.iDVenta = VENTA;
-            pagos.Metodo = METODO;
-            pagos.Correo = RESULTADO;
-            try
-            {
-
-                Pagos pagosr = repositorio.postPagos(pagos).Result;
-                
-            }
-            catch { }
-
-            for (int i = 0; i < Lineas.Count; i++) 
-            {
-                Cantidad cantidad = new Cantidad();
-                string Productotest = Lineas[i].Producto;
-                cantidad.CantidadDesc = Int16.Parse(Lineas[i].Cantidad.ToString());
-                cantidad.TagDesc = Productotest.Replace(" ", string.Empty).ToLower().ToString();
+                Cabecera cabecera = new Cabecera();
+                cabecera.iDCliente = IDCLIENTE;
+                cabecera.iDVenta = VENTA;
+                cabecera.FechaVenta = FECHA;
+                Decimal totaldolares = Decimal.Parse(totalcinco.Text);
+                cabecera.SubTotal = totaldolares;
+                Decimal total = Decimal.Parse(totalcuatro.Text);
+                cabecera.Monto = total;
+                cabecera.Lineas = N;
+                cabecera.Status = STATUS;
+                cabecera.Metodo = METODO;
+                cabecera.TipoVenta = TIPOVENTA;
+                cabecera.Direccion = DIRECCION;
                 try
                 {
-                    Cantidad cantidadr = repositorio.postCantidad(cantidad).Result;
+
+                    Cabecera cabecerar = repositorio.postCabecera(cabecera).Result;
+                }
+                catch { }
+                Pagos pagos = new Pagos();
+                pagos.iDVenta = VENTA;
+                pagos.Metodo = METODO;
+                pagos.Correo = RESULTADO;
+                try
+                {
+
+                    Pagos pagosr = repositorio.postPagos(pagos).Result;
 
                 }
                 catch { }
-            }
-            for(int j = 0; j < Lineas.Count; j++)
-            {
-                Lineas lineas = new Lineas();
-                lineas.Producto = Lineas[j].Producto;
-                lineas.Precio = Decimal.Parse(Lineas[j].Precio.ToString());
-                lineas.Cantidad = Double.Parse(Lineas[j].Cantidad.ToString());
-                lineas.iDVenta = VENTA;
-                try
+
+                for (int i = 0; i < Lineas.Count; i++)
                 {
+                    Cantidad cantidad = new Cantidad();
+                    string Productotest = Lineas[i].Producto;
+                    cantidad.CantidadDesc = Int16.Parse(Lineas[i].Cantidad.ToString());
+                    cantidad.TagDesc = Productotest.Replace(" ", string.Empty).ToLower().ToString();
+                    try
+                    {
+                        Cantidad cantidadr = repositorio.postCantidad(cantidad).Result;
 
-                    Lineas lienar = repositorio.postLinea(lineas).Result;
-                    
-
+                    }
+                    catch { }
                 }
-                catch
+                for (int j = 0; j < Lineas.Count; j++)
                 {
+                    Lineas lineas = new Lineas();
+                    lineas.Producto = Lineas[j].Producto;
+                    lineas.Precio = Decimal.Parse(Lineas[j].Precio.ToString());
+                    lineas.Cantidad = Double.Parse(Lineas[j].Cantidad.ToString());
+                    lineas.iDVenta = VENTA;
+                    try
+                    {
+
+                        Lineas lienar = repositorio.postLinea(lineas).Result;
+
+
+                    }
+                    catch
+                    {
+                    }
                 }
+
+
+                VENTA = null;
+                totaldolares = 0;
+                total = 0;
+                N = 0;
+                M = 0;
+                totalcuatro.Text = "0";
+                totalcinco.Text = "0";
+                indicador.Text = " " + M + " ";
+                indicador2.Text = " " + M + " ";
+                indicador3.Text = " " + M + " ";
+                indicador4.Text = " " + M + " ";
+                STATUS = null;
+                METODO = null;
+                TIPOVENTA = null;
+                DIRECCION = null;
+                Lineas.Clear();
+                Dialogs.ShowLoading("Gracias " + NOMBRE + ", por preferirnos");
+                await Task.Delay(2000);
+                Dialogs.HideLoading();
+                CurrentPage = ListaDolares;
+
             }
-
-
-            VENTA = null;
-            totaldolares = 0;
-            total = 0;
-            N = 0;
-            M = 0;
-            totalcuatro.Text = "0";
-            totalcinco.Text = "0";
-            indicador.Text = " " + M + " ";
-            indicador2.Text = " " + M + " ";
-            indicador3.Text = " " + M + " ";
-            indicador4.Text = " " + M + " ";
-            STATUS = null;
-            METODO = null;
-            TIPOVENTA = null;
-            DIRECCION = null;
-            Lineas.Clear();
-            Dialogs.ShowLoading("Gracias " + NOMBRE + ", por preferirnos");
-            await Task.Delay(2000);
-            Dialogs.HideLoading();
-            CurrentPage = ListaDolares;
+            
         }
         private async void FacturaFinal_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
@@ -595,12 +875,9 @@ namespace PaladarApp
             var linea = FacturaFinal.SelectedItem;
             Lineas.Remove((Lineas)linea);                                                          
             totalcuatro.Text = "" + totalrestar + "";
-            totalcinco.Text = totalrestarD.ToString();
-            Repositorio repositorio = new Repositorio();
-            Lineas lineasend = new Lineas();
-            lineasend.Row = rowsend;            
-            Lineas linearec = repositorio.deleteLinea(lineasend).Result;
+            totalcinco.Text = totalrestarD.ToString();            
             M = M - 1;
+            N = N - 1;
             indicador.Text = " " + M + " ";
             indicador2.Text = " " + M + " ";
             indicador3.Text = " " + M + " ";

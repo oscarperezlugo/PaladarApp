@@ -181,7 +181,7 @@ namespace PaladarApp.Conexiones
                 StringContent content = new StringContent(jsonObj.ToString(), Encoding.UTF8, "application/json");
                 var request = new HttpRequestMessage()
                 {
-                    RequestUri = new Uri("https://paladarweb.somee.com/Api/api/Cantidad"),
+                    RequestUri = new Uri("https://paladarweb.somee.com/Api/api/Pagos"),
                     Method = HttpMethod.Post,
                     Content = content
                 };
